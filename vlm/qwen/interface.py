@@ -1,76 +1,81 @@
 import os
 from typing import Any
 
-from openai import OpenAI
+from dashscope import MultiModalConversation
 from pathlib import Path
 
 from vlm.service import VLMInterface
 from vlm.model import *
+from .utils import *
 
 
 class QwenVLWebInterface(VLMInterface):
+    """
+    使用 DashScope MultiModalConversation 的 Qwen-VL 实现。
+    支持本地 file:// 路径和远程 URL 视频输入。
+    只负责“看视频 + 输出文本”，不在这里解析 timeline / tags / beats。
+    """
+
     def __init__(
         self,
-        api_key: str | None = None,
-        model: str = 'qwen3-vl-plus',
-        base_url: str = 'https://dashscope.aliyuncs.com/compatible-mode/v1'
+        api_key: Optional[str] = None,
+        model: str = "qwen2.5-vl-72b-instruct",
     ):
-        self._client = OpenAI(
-            api_key=api_key or os.getenv("DASHSCOPE_API_KEY"),
-            base_url=base_url
-        )
+        # 优先用参数，其次 DASHSCOPE_API_KEY / QWEN_API_KEY
+        self._api_key = api_key or os.getenv("DASHSCOPE_API_KEY") or os.getenv("QWEN_API_KEY")
+        if not self._api_key:
+            raise EnvironmentError("缺少 DashScope API Key，请设置 DASHSCOPE_API_KEY 或 QWEN_API_KEY")
         self._model = model
-    
+
     def get_backend_name(self) -> str:
         return self._model
 
     def analyze(self, video: VideoInput, options: AnalysisOptions) -> VLMResult:
         """
-        使用阿里云 DashScope 的 OpenAI 兼容接口调用 Qwen-VL 模型。
-
+        使用 DashScope MultiModalConversation 调用 Qwen-VL。
         支持：
-        - video.url: 远程视频地址
-        - video.path: 本地视频路径，会转成 file:// 形式传给 Qwen
-
-        不做的事：
-        - 不在这里解析时间线 / 标签 / 节拍，只返回 raw_text 和 extra，
-          timeline/tags/beats 由上层 Agent 在需要时从 raw_text 里二次解析。
+        - video.url: 远程 URL
+        - video.path: 本地文件（转成 file:// 形式）
         """
 
-        # 1. 解析视频输入 → 统一成一个 media_url
-        media_url: str | None = None
-
+        # 1. 解析视频输入 → file:// 或 URL
         if video.url:
-            media_url = video.url
+            video_source = video.url
         elif video.path:
             abs_path = Path(video.path).expanduser().absolute()
-            media_url = f"file://{abs_path}"
+            video_source = f"file://{abs_path}"
         else:
             raise ValueError("VideoInput 必须至少提供 url 或 path 之一。")
-        
+
         fps = int(video.fps or 1)
 
-        # 2. 构造任务 prompt
+        # 2. 构造任务 prompt（只管结构/标签/QA/检测）
         if options.prompt is not None:
             base_prompt = options.prompt
         else:
-            if options.task == TaskType.CAPTION:
-                base_prompt = "Generate a detailed caption for this video."
-            elif options.task == TaskType.QA:
-                base_prompt = "Answer questions about the content of this video."
+            if options.task == TaskType.QA:
+                base_prompt = (
+                    "你是一个严格的“视频解读助手”，只能基于画面和声音回答问题，"
+                    "禁止臆测看不见的内容。"
+                )
             elif options.task == TaskType.TAGGING:
                 base_prompt = (
-                    "Generate concise tags describing the content and style of this video."
+                    "请生成简洁的标签，描述视频的内容、场景、色彩风格、镜头运动和情绪。"
+                    "使用短语，每行一个标签。"
                 )
             elif options.task == TaskType.STRUCTURE:
                 base_prompt = (
-                    "Analyze the high-level structure of this video. "
-                    "Identify segments such as intro, hook, verse, chorus, drop, and outro."
+                    "请分析视频的时间结构，把视频划分为若干片段。"
+                    "对每个片段给出：start_time（秒）、end_time（秒）、description（中文描述）、mood（情绪）。"
+                    "请严格输出一个 JSON 对象，包含 segments 数组。"
                 )
             elif options.task == TaskType.DETECTION:
-                base_prompt = "Describe important objects and events that appear in this video."
+                base_prompt = (
+                    "请描述视频中出现的重要人物、物体和关键事件。"
+                    "如果可以，请大致指出它们出现在视频中的时间范围（用秒表示）。"
+                )
             else:
-                base_prompt = "Analyze the content of this video."
+                raise NotImplementedError(f"Task {options.task} 不由 QwenVLWebInterface 支持。")
 
         # 语言控制
         lang = (options.language or "").lower()
@@ -81,65 +86,69 @@ class QwenVLWebInterface(VLMInterface):
 
         # 时间线提示
         if options.need_timeline:
-            base_prompt += (
-                " If possible, also roughly indicate the time ranges of key segments in seconds."
-            )
+            base_prompt += " 请尽量明确给出以秒为单位的时间范围。"
 
-        user_content: list[dict[str, Any]] = [
-            {'text': base_prompt},
-            {'video': media_url, "fps": fps},
-        ]
-
+        # 3. 构造 DashScope MultiModalConversation 消息
         messages = [
             {
                 "role": "user",
-                "content": user_content,
+                "content": [
+                    {
+                        "video": video_source,
+                        "fps": fps,
+                    },
+                    {
+                        "text": base_prompt,
+                    },
+                ],
             }
         ]
 
-        # 4. 调用接口
-        completion = self._client.chat.completions.create(
+        # 4. 调用 DashScope
+        response = MultiModalConversation.call(
+            api_key=self._api_key,
             model=self._model,
             messages=messages,
-            max_tokens=options.max_tokens,
-            temperature=options.temperature,
         )
 
-        # 5. 解析返回内容（兼容多种 content 形式）
-        msg = completion.choices[0].message
-        content = msg.content
+        # 5. 解析返回内容（尽量稳妥）
+        output = response.get("output", {}) or {}
+        choices = output.get("choices", []) or []
+        if not choices:
+            raise ValueError(f"DashScope 返回中没有 choices，原始响应: {response}")
 
-        answer_text: str
+        msg = choices[0].get("message", {}) or {}
+        content = msg.get("content")
 
-        # 兼容：Qwen 可能直接返回 string，也可能是 list[{"type": "text", "text": "..."}]
-        if isinstance(content, str):
-            answer_text = content
-        elif isinstance(content, list):
-            texts: list[str] = []
+        if isinstance(content, list):
+            # 常见格式：[{ "text": "..." }]
+            text_piece = ""
             for part in content:
-                if isinstance(part, dict):
-                    t = part.get("text")
-                else:
-                    # openai-python v1 里可能是对象，有 .text 属性
-                    t = getattr(part, "text", None)
-                if t:
-                    texts.append(t)
-            answer_text = "\n".join(texts) if texts else ""
+                if isinstance(part, dict) and "text" in part:
+                    text_piece = part["text"]
+                    break
+            answer_text = text_piece
+        elif isinstance(content, dict) and "text" in content:
+            answer_text = content["text"]
+        elif isinstance(content, str):
+            answer_text = content
         else:
-            # 最兜底
             answer_text = str(content)
+        
+        timeline = []   
+        if options.task == TaskType.STRUCTURE:
+            timeline = parse_timeline_from_structure(answer_text)
 
-        # 6. 封装为统一结果
         return VLMResult(
             raw_text=answer_text,
-            timeline=[],
+            timeline=timeline,
             tags=[],
             beats=[],
             extra={
                 "backend": self._model,
                 "task": options.task.value,
-                "usage": getattr(completion, "usage", None),
-                "video_metadata": video.metadata,
-                "media_url": media_url,
+                "video_metadata": {**video.metadata, "fps": fps},
+                "video_source": video_source,
+                "raw_response": response,
             },
         )

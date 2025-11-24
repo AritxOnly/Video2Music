@@ -34,9 +34,9 @@ def main():
     parser.add_argument(
         "--task",
         type=str,
-        default="caption",
+        default="structure",
         choices=[t.value for t in TaskType],
-        help="任务类型: caption / qa / tagging / structure / detection",
+        help="任务类型: qa / tagging / structure / detection",
     )
 
     parser.add_argument(
@@ -101,6 +101,10 @@ def main():
     # 7. 处理输出
     print("\n=== 模型输出（raw_text） ===")
     print(result.raw_text)
+    
+    print("\n=== parse后输出 ===")
+    for seg in result.timeline:
+        print(seg.start_sec, seg.end_sec, seg.label, seg.description)
 
     if args.output:
         import json

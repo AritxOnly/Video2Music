@@ -6,7 +6,6 @@ from typing import List, Dict, Any, Optional
 
 
 class TaskType(str, Enum):
-    CAPTION = "caption"              # 视频字幕 / 描述
     QA = "qa"                        # 问答
     TAGGING = "tagging"              # 标签、分类
     STRUCTURE = "structure"          # 结构分析（分段、Hook、高潮等）
