@@ -112,3 +112,6 @@ htmlcov/
 secrets/
 *.key
 *.pem
+
+# Output files
+z___outputs

@@ -5,6 +5,7 @@ from .model import (
     TimelineEvent,
     BeatInfo,
     VLMResult,
+    vlm_result_to_dict,
 )
 
 from .interface import VLMInterface

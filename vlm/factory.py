@@ -2,6 +2,7 @@ from typing import Literal
 
 from .interface import VLMInterface
 from .qwen.interface import QwenVLWebInterface
+from .sample.interface import SampleVLMOutputInterface
 # from .openai.interface import OpenAIVLInterface
 # from .local.interface import LocalVLInterface
 
@@ -14,5 +15,7 @@ def get_vlm(name: VLMBuiltinName, **kwargs) -> VLMInterface:
     """
     if name == "qwen-web":
         return QwenVLWebInterface(**kwargs)
+    if name == "sample":
+        return SampleVLMOutputInterface(**kwargs)
 
     raise ValueError(f"Unknown VLM backend: {name}")

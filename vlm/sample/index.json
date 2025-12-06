@@ -1,0 +1,232 @@
+{
+  "structure": {
+    "raw_text": "```json\n{\n  \"segments\": [\n    {\n      \"start_time\": 0.0,\n      \"end_time\": 25.0,\n      \"description\": \"视频开始展示了一段文字说明，介绍了影片的制作标准和当前版本的修改情况。\",\n      \"mood\": \"中性、信息传达\"\n    },\n    {\n      \"start_time\": 25.0,\n      \"end_time\": 45.0,\n      \"description\": \"火箭在夜晚发射升空，伴随着巨大的烟雾和光芒，逐渐消失在夜空中。\",\n      \"mood\": \"激动、壮观\"\n    },\n    {\n      \"start_time\": 45.0,\n      \"end_time\": 60.0,\n      \"description\": \"画面切换到OPPO的标志，随后展示了月亮在云层中移动的景象。\",\n      \"mood\": \"宁静、神秘\"\n    },\n    {\n      \"start_time\": 60.0,\n      \"end_time\": 80.0,\n      \"description\": \"镜头转向一片广阔的自然景观，天空中有白云飘过，地面上覆盖着低矮的植被。\",\n      \"mood\": \"平静、开阔\"\n    },\n    {\n      \"start_time\": 80.0,\n      \"end_time\": 100.0,\n      \"description\": \"一只黑色的鸟栖息在树枝上，接着镜头切换到地面上的一具蜥蜴骨架。\",\n      \"mood\": \"沉思、生命与死亡\"\n    },\n    {\n      \"start_time\": 100.0,\n      \"end_time\": 120.0,\n      \"description\": \"蜥蜴在树上爬行，然后镜头拉远，展示了一个被树木环绕的岛屿。\",\n      \"mood\": \"探索、自然之美\"\n    },\n    {\n      \"start_time\": 120.0,\n      \"end_time\": 140.0,\n      \"description\": \"镜头从高空俯瞰山脉，展现了壮丽的雪山和云海。\",\n      \"mood\": \"宏伟、敬畏\"\n    },\n    {\n      \"start_time\": 140.0,\n      \"end_time\": 160.0,\n      \"description\": \"镜头缓缓下降，展示了一片郁郁葱葱的森林，阳光透过树叶洒下斑驳的光影。\",\n      \"mood\": \"宁静、和谐\"\n    },\n    {\n      \"start_time\": 160.0,\n      \"end_time\": 180.0,\n      \"description\": \"镜头聚焦于一朵鲜艳的花朵，一只蜂鸟飞来采蜜。\",\n      \"mood\": \"生动、自然的互动\"\n    },\n    {\n      \"start_time\": 180.0,\n      \"end_time\": 200.0,\n      \"description\": \"镜头切换到一只乌龟在水中游动，背景是模糊的绿色植物。\",\n      \"mood\": \"平和、悠闲\"\n    },\n    {\n      \"start_time\": 200.0,\n      \"end_time\": 220.0,\n      \"description\": \"镜头转向一片茂密的森林，阳光穿透树叶，形成美丽的光束。\",\n      \"mood\": \"神秘、生机勃勃\"\n    },\n    {\n      \"start_time\": 220.0,\n      \"end_time\": 240.0,\n      \"description\": \"夕阳西下，天空被染成金黄色，山峦的轮廓在余晖中若隐若现。\",\n      \"mood\": \"温暖、宁静\"\n    },\n    {\n      \"start_time\": 240.0,\n      \"end_time\": 260.0,\n      \"description\": \"镜头回到海滩，一只乌龟在沙滩上缓慢爬行，最终进入海浪中。\",\n      \"mood\": \"自由、回归自然\"\n    },\n    {\n      \"start_time\": 260.0,\n      \"end_time\": 280.0,\n      \"description\": \"海浪拍打着岩石，激起白色的浪花，展现出大海的力量。\",\n      \"mood\": \"力量、不屈不挠\"\n    },\n    {\n      \"start_time\": 280.0,\n      \"end_time\": 300.0,\n      \"description\": \"水下世界，一群鱼儿在珊瑚礁间穿梭，一条鳐鱼优雅地游过。\",\n      \"mood\": \"神秘、宁静\"\n    },\n    {\n      \"start_time\": 300.0,\n      \"end_time\": 320.0,\n      \"description\": \"鲨鱼在深海中游弋，周围的小鱼群随着它的移动而散开。\",\n      \"mood\": \"紧张、危险\"\n    },\n    {\n      \"start_time\": 320.0,\n      \"end_time\": 340.0,\n      \"description\": \"海面波涛汹涌，浪花不断拍打着海岸线。\",\n      \"mood\": \"力量、自然的威严\"\n    },\n    {\n      \"start_time\": 340.0,\n      \"end_time\": 360.0,\n      \"description\": \"一只海鬣蜥在岩石上晒太阳，随后跳入海中游泳。\",\n      \"mood\": \"悠闲、适应环境\"\n    },\n    {\n      \"start_time\": 360.0,\n      \"end_time\": 380.0,\n      \"description\": \"海鬣蜥在沙滩上休息，另一只海鬣蜥靠近并与它互动。\",\n      \"mood\": \"和谐、社交\"\n    },\n    {\n      \"start_time\": 380.0,\n      \"end_time\": 400.0,\n      \"description\": \"海鬣蜥在浅水中游泳，享受着清凉的海水。\",\n      \"mood\": \"自由、享受\"\n    },\n    {\n      \"start_time\": 400.0,\n      \"end_time\": 420.0,\n      \"description\": \"视频以“THE ORIGIN”字样结束，暗示了生命的起源和自然的循环。\",\n      \"mood\": \"深刻、反思\"\n    }\n  ]\n}\n```",
+    "timeline": [
+      {
+        "start_sec": 0.0,
+        "end_sec": 25.0,
+        "label": "中性、信息传达",
+        "description": "视频开始展示了一段文字说明，介绍了影片的制作标准和当前版本的修改情况。"
+      },
+      {
+        "start_sec": 25.0,
+        "end_sec": 45.0,
+        "label": "激动、壮观",
+        "description": "火箭在夜晚发射升空，伴随着巨大的烟雾和光芒，逐渐消失在夜空中。"
+      },
+      {
+        "start_sec": 45.0,
+        "end_sec": 60.0,
+        "label": "宁静、神秘",
+        "description": "画面切换到OPPO的标志，随后展示了月亮在云层中移动的景象。"
+      },
+      {
+        "start_sec": 60.0,
+        "end_sec": 80.0,
+        "label": "平静、开阔",
+        "description": "镜头转向一片广阔的自然景观，天空中有白云飘过，地面上覆盖着低矮的植被。"
+      },
+      {
+        "start_sec": 80.0,
+        "end_sec": 100.0,
+        "label": "沉思、生命与死亡",
+        "description": "一只黑色的鸟栖息在树枝上，接着镜头切换到地面上的一具蜥蜴骨架。"
+      },
+      {
+        "start_sec": 100.0,
+        "end_sec": 120.0,
+        "label": "探索、自然之美",
+        "description": "蜥蜴在树上爬行，然后镜头拉远，展示了一个被树木环绕的岛屿。"
+      },
+      {
+        "start_sec": 120.0,
+        "end_sec": 140.0,
+        "label": "宏伟、敬畏",
+        "description": "镜头从高空俯瞰山脉，展现了壮丽的雪山和云海。"
+      },
+      {
+        "start_sec": 140.0,
+        "end_sec": 160.0,
+        "label": "宁静、和谐",
+        "description": "镜头缓缓下降，展示了一片郁郁葱葱的森林，阳光透过树叶洒下斑驳的光影。"
+      },
+      {
+        "start_sec": 160.0,
+        "end_sec": 180.0,
+        "label": "生动、自然的互动",
+        "description": "镜头聚焦于一朵鲜艳的花朵，一只蜂鸟飞来采蜜。"
+      },
+      {
+        "start_sec": 180.0,
+        "end_sec": 200.0,
+        "label": "平和、悠闲",
+        "description": "镜头切换到一只乌龟在水中游动，背景是模糊的绿色植物。"
+      },
+      {
+        "start_sec": 200.0,
+        "end_sec": 220.0,
+        "label": "神秘、生机勃勃",
+        "description": "镜头转向一片茂密的森林，阳光穿透树叶，形成美丽的光束。"
+      },
+      {
+        "start_sec": 220.0,
+        "end_sec": 240.0,
+        "label": "温暖、宁静",
+        "description": "夕阳西下，天空被染成金黄色，山峦的轮廓在余晖中若隐若现。"
+      },
+      {
+        "start_sec": 240.0,
+        "end_sec": 260.0,
+        "label": "自由、回归自然",
+        "description": "镜头回到海滩，一只乌龟在沙滩上缓慢爬行，最终进入海浪中。"
+      },
+      {
+        "start_sec": 260.0,
+        "end_sec": 280.0,
+        "label": "力量、不屈不挠",
+        "description": "海浪拍打着岩石，激起白色的浪花，展现出大海的力量。"
+      },
+      {
+        "start_sec": 280.0,
+        "end_sec": 300.0,
+        "label": "神秘、宁静",
+        "description": "水下世界，一群鱼儿在珊瑚礁间穿梭，一条鳐鱼优雅地游过。"
+      },
+      {
+        "start_sec": 300.0,
+        "end_sec": 320.0,
+        "label": "紧张、危险",
+        "description": "鲨鱼在深海中游弋，周围的小鱼群随着它的移动而散开。"
+      },
+      {
+        "start_sec": 320.0,
+        "end_sec": 340.0,
+        "label": "力量、自然的威严",
+        "description": "海面波涛汹涌，浪花不断拍打着海岸线。"
+      },
+      {
+        "start_sec": 340.0,
+        "end_sec": 360.0,
+        "label": "悠闲、适应环境",
+        "description": "一只海鬣蜥在岩石上晒太阳，随后跳入海中游泳。"
+      },
+      {
+        "start_sec": 360.0,
+        "end_sec": 380.0,
+        "label": "和谐、社交",
+        "description": "海鬣蜥在沙滩上休息，另一只海鬣蜥靠近并与它互动。"
+      },
+      {
+        "start_sec": 380.0,
+        "end_sec": 400.0,
+        "label": "自由、享受",
+        "description": "海鬣蜥在浅水中游泳，享受着清凉的海水。"
+      },
+      {
+        "start_sec": 400.0,
+        "end_sec": 420.0,
+        "label": "深刻、反思",
+        "description": "视频以“THE ORIGIN”字样结束，暗示了生命的起源和自然的循环。"
+      }
+    ],
+    "tags": [],
+    "beats": [],
+    "extra": {
+      "backend": "qwen2.5-vl-72b-instruct",
+      "task": "structure",
+      "video_metadata": {
+        "fps": 1
+      },
+      "video_source": "file:///Users/aritxonly/Codes/Agent/Video2Music/z___test/sample_clip_long.mp4",
+      "raw_response": {
+        "status_code": 200,
+        "request_id": "21fad903-17cd-422a-a9a8-a21f3df94786",
+        "code": "",
+        "message": "",
+        "output": {
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "message": {}
+            }
+          ],
+          "audio": null
+        },
+        "usage": {
+          "input_tokens": 64316,
+          "output_tokens": 1323,
+          "characters": 0
+        }
+      }
+    }
+  },
+  "tagging": {
+    "raw_text": "火箭发射\n夜景\n黑白影像\n烟雾弥漫\nOPPO标志\n日出景象\n云层环绕\n荒野景观\n蓝色天空\n白色云朵\n鸟栖树枝\n蜥蜴爬行\n自然生态\n山脉全景\n雪峰壮丽\n森林茂密\n绿色植被\n蜂鸟采蜜\n乌龟静卧\n岩石海岸\n海浪拍打\n水下世界\n鱼类游动\n宁静海滩\n夕阳西下\n金色光辉\n乌龟漫步\n波涛汹涌\n海底探险\n海洋生物\n自然和谐\n生命起源\n电影片尾\n字幕滚动",
+    "timeline": [],
+    "tags": [
+      "火箭发射",
+      "夜景",
+      "黑白影像",
+      "烟雾弥漫",
+      "OPPO标志",
+      "日出景象",
+      "云层环绕",
+      "荒野景观",
+      "蓝色天空",
+      "白色云朵",
+      "鸟栖树枝",
+      "蜥蜴爬行",
+      "自然生态",
+      "山脉全景",
+      "雪峰壮丽",
+      "森林茂密",
+      "绿色植被",
+      "蜂鸟采蜜",
+      "乌龟静卧",
+      "岩石海岸",
+      "海浪拍打",
+      "水下世界",
+      "鱼类游动",
+      "宁静海滩",
+      "夕阳西下",
+      "金色光辉",
+      "乌龟漫步",
+      "波涛汹涌",
+      "海底探险",
+      "海洋生物",
+      "自然和谐",
+      "生命起源",
+      "电影片尾",
+      "字幕滚动"
+    ],
+    "beats": [],
+    "extra": {
+      "backend": "qwen2.5-vl-72b-instruct",
+      "task": "tagging",
+      "video_metadata": {
+        "fps": 1
+      },
+      "video_source": "file:///Users/aritxonly/Codes/Agent/Video2Music/z___test/sample_clip_long.mp4",
+      "raw_response": {
+        "status_code": 200,
+        "request_id": "cd4d2ee5-3733-4203-b678-5f69a4f78ff1",
+        "code": "",
+        "message": "",
+        "output": {
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "message": {}
+            }
+          ],
+          "audio": null
+        },
+        "usage": {
+          "input_tokens": 63848,
+          "output_tokens": 128,
+          "characters": 0
+        }
+      }
+    }
+  }
+}

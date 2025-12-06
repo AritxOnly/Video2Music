@@ -1,7 +1,7 @@
 [
   {
     "id": "lofi_01",
-    "path": "assets/music/lofi_01.mp3",
+    "path": "../assets/music/lofi_01.mp3",
     "style": "lofi",
     "mood": "calm",
     "energy": 0.3,
@@ -9,7 +9,7 @@
   },
   {
     "id": "edm_01",
-    "path": "assets/music/edm_01.mp3",
+    "path": "../assets/music/edm_01.mp3",
     "style": "edm",
     "mood": "excited",
     "energy": 0.8,

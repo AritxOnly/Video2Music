@@ -1,0 +1,115 @@
+@startuml
+title Video2Music Pipeline (current implementation)
+
+skinparam rectangle {
+  BackgroundColor white
+  BorderColor #333333
+  RoundCorner 10
+}
+skinparam node {
+  BackgroundColor white
+  BorderColor #333333
+  RoundCorner 10
+}
+skinparam ArrowColor #555555
+skinparam ArrowThickness 1.2
+skinparam shadowing false
+left to right direction
+
+' ===== 输入与基础路径处理 =====
+rectangle "Input & Path Normalize" as Input {
+  node "Video File\n(video_path)" as VideoFile
+  node "Tracks JSON\n(tracks_json)" as TracksJson
+  node "Output Path\n(output_path)" as OutputPath
+}
+
+' ===== VLM 分析阶段 =====
+rectangle "VLM Analysis" as VLM {
+  node "get_vlm(backend, api_key)" as GetVLM
+  node "VideoInput(path)" as VInput
+
+  rectangle "Prompt / Instruction Design\n(可选)" as Prompt {
+    note as NPrompt
+    - 语言: lang (zh / en)
+    - 结构分析指令:
+      · 输出场景分段
+      · 标记情绪/张力
+      · 需要时间线 need_timeline
+    - 标注指令:
+      · 标签粒度/风格
+      · 场景/对象/动作
+    end note
+  }
+
+  node "vlm.analyze(..., task=STRUCTURE,\nneed_timeline=True,\nlanguage=lang)" as StructTask
+  node "vlm.analyze(..., task=TAGGING,\nlanguage=lang)" as TagTask
+}
+
+' ===== 语义汇总阶段 =====
+rectangle "Video Semantics" as Sem {
+  node "build_from_vlm(struct_res, tag_res)" as BuildSem
+  note right of BuildSem
+  输出 VideoSemantics:
+  - segments: 时间片段 + 场景/情绪
+  - global attributes: 风格、氛围
+  end note
+}
+
+' ===== 音乐库与编排阶段 =====
+rectangle "Music Generation & Arrangement (mgen)" as MGen {
+  node "JsonMusicLibrary(tracks_json_abs)" as Lib
+  node "SimpleRuleArranger()" as Arranger
+  node "MGenOptions(\n preferred_style=music_style,\n global_gain_db=-6.0,\n crossfade_sec=0.3\n)" as MOpts
+
+  node "arranger.arrange(\n timeline=semantics.segments,\n library=lib,\n options=mopts\n)" as ArrangePlans
+
+  note right of ArrangePlans
+  输出 plans:
+  - 每个 segment 对应的轨道选择
+  - 曲式/段落结构
+  - crossfade / gain 参数
+  end note
+}
+
+' ===== 渲染阶段 =====
+rectangle "Rendering (FFmpeg)" as Render {
+  node "track_map = {id → track}\nlib.list_tracks(style=music_style)" as TrackMap
+  node "render_with_bgm(\n video_path=video_abs,\n plans=plans,\n track_map=track_map,\n output_path=output_abs\n)" as Renderer
+}
+
+' ===== 输出 =====
+rectangle "Output" as Out {
+  node "video_out (带 BGM 的视频)" as VideoOut
+  node "semantics, plans\n(用于调试/可视化)" as MetaOut
+}
+
+' ===== 连接关系 =====
+VideoFile --> VInput
+TracksJson --> Lib
+OutputPath --> Renderer
+
+VInput --> StructTask
+VInput --> TagTask
+GetVLM --> StructTask
+GetVLM --> TagTask
+
+Prompt -[dotted]-> StructTask
+Prompt -[dotted]-> TagTask
+
+StructTask --> BuildSem
+TagTask --> BuildSem
+
+BuildSem --> ArrangePlans
+Lib --> ArrangePlans
+MOpts --> ArrangePlans
+
+ArrangePlans --> TrackMap
+ArrangePlans --> Renderer
+TrackMap --> Renderer
+VideoFile --> Renderer
+
+Renderer --> VideoOut
+BuildSem --> MetaOut
+ArrangePlans --> MetaOut
+
+@enduml

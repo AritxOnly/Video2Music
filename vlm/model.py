@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import List, Dict, Any, Optional
-
+from dataclasses import asdict
 
 class TaskType(str, Enum):
     QA = "qa"                        # 问答
@@ -56,3 +56,10 @@ class VLMResult:
     tags: List[str] = field(default_factory=list)
     beats: List[BeatInfo] = field(default_factory=list)
     extra: Dict[str, Any] = field(default_factory=dict)  # e.g. logprobs, model_name, cost
+    
+def vlm_result_to_dict(r: VLMResult) -> dict:
+    """
+    把 VLMResult（含内部 TimelineEvent / BeatInfo）转成纯 dict，
+    方便 json.dump。
+    """
+    return asdict(r)
