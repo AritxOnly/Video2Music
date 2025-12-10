@@ -15,6 +15,9 @@ def get_vlm(name: VLMBuiltinName, **kwargs) -> VLMInterface:
     """
     if name == "qwen-web":
         return QwenVLWebInterface(**kwargs)
+    if name == "qwen-seg-web":
+        from .qwen_seg.interface import QwenVLSegmentWebInterface
+        return QwenVLSegmentWebInterface(**kwargs)
     if name == "sample":
         return SampleVLMOutputInterface(**kwargs)
 

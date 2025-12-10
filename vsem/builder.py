@@ -1,147 +1,182 @@
-import json
-from typing import List, Any
+from typing import List, Dict, Any, Tuple, Callable
+import math
+import os
 
-from vlm.model import VLMResult, TimelineEvent
-from .model import VideoSemantics, SegmentSemantics
+# === 依赖引入 ===
+from vsem.model import VideoSemantics, SegmentSemantics
+from vlm.model import TimelineEvent
+
+# 尝试引入 sentence_transformers，如果没安装也不影响字典法运行
+try:
+    from sentence_transformers import SentenceTransformer, util
+    HAS_AI_BACKEND = True
+except ImportError:
+    HAS_AI_BACKEND = False
+
+# ==========================================
+# 策略 A: 基于 Russell 环状模型的字典规则 (Baseline)
+# ==========================================
+MOOD_VECTORS = {
+    # High Energy
+    "紧张": (-0.6, 0.8), "激动": (0.7, 0.8), "壮观": (0.5, 0.7),
+    "力量": (0.3, 0.8), "危险": (-0.8, 0.9), "热烈": (0.8, 0.8),
+    # Low Energy
+    "宁静": (0.6, -0.6), "安静": (0.5, -0.7), "忧伤": (-0.6, -0.5),
+    "悲伤": (-0.7, -0.4), "平和": (0.7, -0.6), "悠闲": (0.6, -0.5),
+    "沉思": (0.0, -0.4), "平静": (0.65, -0.6), # 补充
+    # Mid Energy
+    "神秘": (-0.1, 0.1), "快乐": (0.9, 0.5), "中性": (0.0, 0.0),
+}
+DEFAULT_VECTOR = (0.0, 0.0)
+
+def _get_mood_vector_rule(mood_str: str) -> Tuple[float, float]:
+    if not mood_str: return DEFAULT_VECTOR
+    if mood_str in MOOD_VECTORS: return MOOD_VECTORS[mood_str]
+    for key, vec in MOOD_VECTORS.items():
+        if key in mood_str: return vec
+    return DEFAULT_VECTOR
+
+def _calculate_distance_rule(mood_a: str, mood_b: str) -> float:
+    v1 = _get_mood_vector_rule(mood_a)
+    v2 = _get_mood_vector_rule(mood_b)
+    return math.sqrt((v1[0] - v2[0])**2 + (v1[1] - v2[1])**2)
 
 
-def _from_timeline_event(ev: TimelineEvent) -> SegmentSemantics:
-    mood = (ev.label or "").strip() if hasattr(ev, "label") else ""
-    # 尝试从 description 抽一条简短 activity
-    desc = (ev.description or "").strip() if hasattr(ev, "description") else ""
-    activity = desc
-    if "，" in activity or "。" in activity:
-        # 只取第一句 / 第一小段
-        activity = activity.replace("。", "。|").replace("，", "，|").split("|")[0]
+# ==========================================
+# 策略 B: 基于 Embedding 的语义计算 (Advanced)
+# ==========================================
+_embed_model = None
 
-    return SegmentSemantics(
-        start_sec=float(getattr(ev, "start_sec", 0.0)),
-        end_sec=float(getattr(ev, "end_sec", 0.0)),
-        mood=mood,
-        activity=activity or mood,
-        tags=[],
-        text_summary=desc or mood,
-        extra={
-            "timeline_label": mood,
-            "timeline_desc": desc,
-        },
+def _load_ai_model():
+    global _embed_model
+    if _embed_model is None:
+        if not HAS_AI_BACKEND:
+            raise ImportError("需要安装 sentence-transformers 才能使用 AI 策略: pip install sentence-transformers")
+        print(">>> [LazyLoad] Loading Embedding Model (bge-small-zh)...")
+        _embed_model = SentenceTransformer('BAAI/bge-small-zh-v1.5')
+    return _embed_model
+
+def _calculate_distance_ai(mood_a: str, mood_b: str) -> float:
+    model = _load_ai_model()
+    if not mood_a or not mood_b: return 1.0
+    
+    emb1 = model.encode(mood_a, convert_to_tensor=True)
+    emb2 = model.encode(mood_b, convert_to_tensor=True)
+    
+    # Distance = 1 - Similarity
+    return 1.0 - util.cos_sim(emb1, emb2).item()    # 计算他们的余弦相似度
+
+
+# ==========================================
+# 核心融合逻辑
+# ==========================================
+
+def assemble_video_semantics(
+    events: List[TimelineEvent], 
+    global_tags: List[str] = None,
+    strategy: str = "ai"  # 可选: "ai" 或 "rule"
+) -> VideoSemantics:
+    """
+    [Pipeline V2.1] 上下文融合算法
+    :param strategy: 'ai' (使用语义模型) 或 'rule' (使用字典查表)
+    """
+    if not events:
+        return VideoSemantics(global_tags=[], segments=[])
+    if global_tags is None: global_tags = []
+
+    # === 策略选择 ===
+    calc_func: Callable[[str, str], float]
+    threshold: float
+    
+    if strategy == "ai":
+        calc_func = _calculate_distance_ai
+        threshold = 0.30  # AI 语义距离阈值 (建议 0.25-0.35)
+        print(f"    [Fusion-AI] Strategy: Embedding Similarity (Th={threshold})")
+    else:
+        calc_func = _calculate_distance_rule
+        threshold = 0.60  # 规则欧氏距离阈值 (建议 0.5-0.8)
+        print(f"    [Fusion-Rule] Strategy: Russell Circumplex Dictionary (Th={threshold})")
+
+    merged_segments: List[SegmentSemantics] = []
+    
+    # 初始化第一个片段
+    current_fusion = _init_fusion_block(events[0])
+
+    for i in range(1, len(events)):
+        current_event = events[i]
+        last_mood = current_fusion["moods"][-1]
+        
+        # 调用选定的距离函数
+        dist = calc_func(last_mood, current_event.label)
+        
+        if dist < threshold:
+            # === MERGE ===
+            # print(f"      Merge: '{last_mood}' + '{current_event.label}' (Dist={dist:.3f})")
+            _extend_fusion_block(current_fusion, current_event)
+        else:
+            # === CUT ===
+            print(f"      CUT: '{last_mood}' // '{current_event.label}' (Dist={dist:.3f} > {threshold})")
+            merged_segments.append(_finalize_segment(current_fusion))
+            current_fusion = _init_fusion_block(current_event)
+
+    merged_segments.append(_finalize_segment(current_fusion))
+    
+    print(f"    [Fusion] Result: {len(events)} raw -> {len(merged_segments)} coherent movements.")
+
+    return VideoSemantics(
+        global_tags=list(set(global_tags)),
+        segments=merged_segments,
+        extra={"fusion_strategy": strategy}
     )
 
 
-def _from_raw_json(raw_text: str) -> List[SegmentSemantics]:
-    """
-    兜底：如果 timeline 为空，再尝试从 raw_text 里 parse JSON。
-    兼容几种常见字段名：start/start_sec、end/end_sec、label/mood/description/tags...
-    """
-    segments: List[SegmentSemantics] = []
-    if not raw_text:
-        return segments
+# === 辅助工具函数 ===
 
-    try:
-        data: Any = json.loads(raw_text)
-    except Exception:
-        return segments
+def _init_fusion_block(event: TimelineEvent) -> Dict[str, Any]:
+    return {
+        "start": event.start_sec,
+        "end": event.end_sec,
+        "moods": [event.label],
+        "activities": [event.extra.get("activity", "")],
+        "tags": event.extra.get("tags", []),
+        "descriptions": [event.description]
+    }
 
-    if isinstance(data, dict) and "segments" in data:
-        raw_segments = data["segments"]
-    elif isinstance(data, list):
-        raw_segments = data
-    else:
-        return segments
+def _extend_fusion_block(block: Dict[str, Any], event: TimelineEvent):
+    block["end"] = event.end_sec
+    block["moods"].append(event.label)
+    
+    act = event.extra.get("activity", "")
+    if act: block["activities"].append(act)
+    
+    ts = event.extra.get("tags", [])
+    if ts: block["tags"].extend(ts)
+    
+    if event.description:
+        block["descriptions"].append(event.description)
 
-    for item in raw_segments:
-        if not isinstance(item, dict):
-            continue
-
-        start = float(
-            item.get("start_sec")
-            or item.get("start")
-            or 0.0
-        )
-        end = float(
-            item.get("end_sec")
-            or item.get("end")
-            or 0.0
-        )
-        if end <= start:
-            continue
-
-        mood = (
-            item.get("mood")
-            or item.get("label")
-            or ""
-        )
-        desc = (
-            item.get("description")
-            or item.get("summary")
-            or ""
-        )
-        activity = (
-            item.get("activity")
-            or item.get("action")
-            or desc
-            or mood
-        )
-
-        tags = item.get("tags") or []
-        if isinstance(tags, str):
-            # "tag1, tag2, tag3" 这种
-            tags = [
-                t.strip()
-                for t in tags.replace("，", ",").split(",")
-                if t.strip()
-            ]
-
-        seg = SegmentSemantics(
-            start_sec=start,
-            end_sec=end,
-            mood=str(mood),
-            activity=str(activity),
-            tags=list(tags),
-            text_summary=str(desc or activity or mood),
-            extra={"raw": item},
-        )
-        segments.append(seg)
-
-    return segments
-
-
-def build_from_vlm(
-    structure_result: VLMResult,
-    tagging_result: VLMResult | None = None,
-) -> VideoSemantics:
-    """
-    统一入口：
-    1. 优先用 structure_result.timeline 里的 TimelineEvent
-    2. 若 timeline 为空，再尝试从 raw_text 解析 JSON
-    3. tagging_result.raw_text 按行拆成 global_tags
-    """
-    segments: List[SegmentSemantics] = []
-
-    # 1) 优先使用结构化时间线
-    timeline = getattr(structure_result, "timeline", None) or []
-    for ev in timeline:
-        segments.append(_from_timeline_event(ev))
-
-    # 2) 如果 timeline 为空，再从 raw_text JSON 兜底
-    if not segments:
-        segments = _from_raw_json(structure_result.raw_text or "")
-
-    # 3) Tagging 的 raw_text：按行拆 tag
-    global_tags: List[str] = []
-    raw_tags_text = ""
-    if tagging_result is not None and tagging_result.raw_text:
-        raw_tags_text = tagging_result.raw_text
-        for line in tagging_result.raw_text.splitlines():
-            t = line.strip("-• \t")
-            if t:
-                global_tags.append(t)
-
-    return VideoSemantics(
-        global_tags=global_tags,
-        segments=segments,
-        extra={
-            "raw_structure": structure_result.raw_text or "",
-            "raw_tags": raw_tags_text,
-        },
+def _finalize_segment(fusion_data: Dict[str, Any]) -> SegmentSemantics:
+    # 投票选出代表 Mood
+    mood_counts = {}
+    for m in fusion_data["moods"]:
+        mood_counts[m] = mood_counts.get(m, 0) + 1
+    representative_mood = max(mood_counts, key=mood_counts.get)
+    
+    # 摘要合并
+    full_desc = " ".join(fusion_data["descriptions"])
+    summary = full_desc[:50] + "..." if len(full_desc) > 50 else full_desc
+    
+    # 动作和标签去重
+    unique_acts = sorted(list(set(fusion_data["activities"])))
+    combined_activity = ", ".join(unique_acts)
+    unique_tags = list(set(fusion_data["tags"]))
+    
+    return SegmentSemantics(
+        start_sec=fusion_data["start"],
+        end_sec=fusion_data["end"],
+        mood=representative_mood,
+        activity=combined_activity,
+        tags=unique_tags,
+        text_summary=summary,
+        extra={"sub_event_count": len(fusion_data["moods"])}
     )

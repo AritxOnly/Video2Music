@@ -12,6 +12,9 @@ from .interface import VLMInterface
 
 # 各个后端实现
 from .qwen.interface import QwenVLWebInterface
+from .qwen_seg.interface import QwenVLSegmentWebInterface
+
+from .utils.sampler import global_sampler
 
 __all__ = [
     # 模型基础类型
@@ -27,6 +30,9 @@ __all__ = [
     "QwenVLWebInterface",
     # "OpenAIVLInterface",
     # "LocalVLInterface",
+    "QwenVLSegmentWebInterface",
+    # 工具函数
+    "global_sampler",
 ]
 
 from .factory import get_vlm, VLMBuiltinName

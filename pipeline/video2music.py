@@ -1,130 +1,179 @@
 from __future__ import annotations
 from pathlib import Path
-from typing import Optional, Dict, Any
-import cv2  # 需要用到opencv读取fps
+from typing import Optional, Dict, List, Any
+import cv2
+import json
+from dataclasses import asdict
 
-from vlm import get_vlm, VideoInput, AnalysisOptions, TaskType
-from vsem.builder import build_from_vlm
-from vsem.model import VideoSemantics
+from vlm import (
+    VideoInput, AnalysisOptions, TaskType,
+    get_vlm, global_sampler, TimelineEvent
+)
+from vsem import assemble_video_semantics
 from mgen import JsonMusicLibrary, SimpleRuleArranger, MGenOptions
-from render.ffmpeg_renderer import render_with_bgm
+from render import render_with_bgm
 from clip import detect_shot_changes, cut_video, generate_timeline
 
-def get_video_meta(video_path: str):
-    """辅助函数：获取视频 FPS 和总时长"""
+def get_video_frame_data(video_path: str) -> tuple[float, float]:
+    """辅助工具：获取视频FPS"""
     cap = cv2.VideoCapture(video_path)
-    if not cap.isOpened():
-        raise ValueError(f"Cannot open video: {video_path}")
+    if not cap.isOpened(): return 30.0
     fps = cap.get(cv2.CAP_PROP_FPS)
-    frame_count = cap.get(cv2.CAP_PROP_FRAME_COUNT)
+    total_frames = cap.get(cv2.CAP_PROP_FRAME_COUNT)
     cap.release()
-    return fps, frame_count
+    return (fps if fps > 0 else 30.0, total_frames)
+
+def _save_cache(events: List[TimelineEvent], path: Path):
+    """将 TimelineEvent 列表序列化为 JSON 保存"""
+    print(f"    [Cache] Saving VLM results to {path.name}...")
+    data = [asdict(e) for e in events]
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+def _load_cache(path: Path) -> List[TimelineEvent]:
+    """从 JSON 加载 TimelineEvent 列表"""
+    print(f"    [Cache] Loading VLM results from {path.name}...")
+    with open(path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    # 重建 Dataclass 对象
+    events = []
+    for item in data:
+        # 兼容性处理：如果 JSON 里没有 extra，给个默认空字典
+        if 'extra' not in item: item['extra'] = {}
+        events.append(TimelineEvent(**item))
+    return events
 
 def run_video2music(
-    backend: str,
+    backend: str, 
     api_key: str,
     video_path: str,
     tracks_json: str,
     output_path: str,
     lang: str = "zh",
     music_style: Optional[str] = None,
+    # === 新增参数 ===
+    fusion_strategy: str = "ai",  # "ai" or "rule"
+    use_cache: bool = False       # 是否使用缓存
 ) -> Dict[str, Any]:
     
-    # 0. 路径与元数据准备
+    # 0. 准备路径
     video_abs = str(Path(video_path).expanduser().absolute())
     tracks_json_abs = str(Path(tracks_json).expanduser().absolute())
     output_abs = str(Path(output_path).expanduser().absolute())
     
-    fps, _ = get_video_meta(video_abs)
-    print(f">>> Meta: Video FPS is {fps}")
-
-    # 1. 物理层：检测与切分
-    print(">>> Step 1: Detecting shot changes...")
-    shot_changes = detect_shot_changes(video_path=video_abs)
+    # 定义缓存文件路径: output.mp4 -> output.mp4.cache.json
+    cache_path = Path(output_abs + ".cache.json")
     
-    # 【关键改进】先生成全局时间线注册表
-    # 这份 timeline 是我们的“绝对真理”，包含了准确的 start_sec, end_sec 和预期的 filename
-    global_timeline_registry = generate_timeline(shot_changes, fps)
-    
-    print(">>> Step 2: Cutting video based on registry...")
-    output_dir = Path(output_abs).parent / "temp_clips"
-    output_dir.mkdir(parents=True, exist_ok=True)
-    
-    # 注意：你需要确保 cut_video 内部生成的命名逻辑和 generate_timeline 里的 f"clip_{i}.mp4" 是一致的
-    # 如果 cut_video 还没改，建议传入 global_timeline_registry 让它照着生成
-    cut_video(video_path=video_abs, shot_changes=shot_changes, output_dir=output_dir)
+    print(f"\n====== Video2Music Agent Pipeline V2.1 (Frozen Mode Supported) ======")
+    print(f"Input: {video_abs}")
+    print(f"Strategy: {fusion_strategy.upper()} | Cache Mode: {use_cache}")
 
-    # 2. 语义层：VLM 分析
-    vlm = get_vlm(backend, api_key=api_key)
-    all_segment_semantics = []
+    collected_events = []
 
-    print(f">>> Step 3: Analyzing {len(global_timeline_registry)} segments...")
-    
-    # 【关键改进】不再遍历文件夹，而是遍历注册表
-    for event in global_timeline_registry:
-        # 从注册表中获取预期文件名和绝对时间
-        clip_filename = event["filename"]  # e.g., "clip_0.mp4"
-        abs_start = event["start_sec"]
-        abs_end = event["end_sec"]
+    # === 核心逻辑：缓存判断 ===
+    if use_cache and cache_path.exists():
+        print(f"\n>>> [FROZEN MODE] Skipping Step 1-3 (CV & VLM), loading from cache...")
+        collected_events = _load_cache(cache_path)
+        print(f"    Loaded {len(collected_events)} events from disk.")
         
-        clip_file_path = output_dir / clip_filename
+    else:
+        # === 没命中缓存，老老实实跑全流程 ===
         
-        if not clip_file_path.exists():
-            print(f"[Warn] Missing clip file: {clip_filename}, skipping...")
-            continue
+        # 1. [CV层] 生成时间线注册表
+        print("\n>>> Step 1: CV Analysis (Shot Detection)...")
+        fps, total = get_video_frame_data(video_abs)
+        shot_changes = detect_shot_changes(video_path=video_abs)
+        registry = generate_timeline(shot_changes, fps, total_frames=int(total))
+        print(f"    Detected {len(registry)} shots.")
 
-        # 2.1 VLM 视觉分析
-        vinput = VideoInput(path=str(clip_file_path))
-        # 针对短片段，可能不再需要 need_timeline=True，除非你要做片段内的动作精细定位
-        # 但为了获取 mood/tags，Structure 和 Tagging 依然必要
-        struct_res = vlm.analyze(vinput, AnalysisOptions(task=TaskType.STRUCTURE, language=lang))
-        tag_res = vlm.analyze(vinput, AnalysisOptions(task=TaskType.TAGGING, language=lang))
+        # 2. [物理层] 切割视频
+        print("\n>>> Step 2: Physical Cutting...")
+        temp_clips_dir = Path(output_abs).parent / "temp_clips_processing"
+        temp_clips_dir.mkdir(parents=True, exist_ok=True)
+        cut_video(video_path=video_abs, shot_changes=shot_changes, output_dir=temp_clips_dir)
 
-        # 2.2 构建语义对象
-        semantics_obj = build_from_vlm(struct_res, tag_res)
+        # 3. [语义层] 分段 VLM 分析
+        print("\n>>> Step 3: Semantic Analysis (Segment VLM)...")
         
-        # 2.3 【核心逻辑】时间戳对齐
-        # 我们不仅是 append，而是要用注册表的绝对时间“校准”VLM的分析结果
-        # 这里假设 semantics_obj.segments 里的片段是对当前 clip 的描述
-        # 我们把它们强行映射到全局时间轴上
+        # 强制使用我们写好的 Segment Interface
+        vlm_segment_runner = get_vlm(name='qwen-seg-web', api_key=api_key)
         
-        for seg in semantics_obj.segments:
-            # 这里的逻辑取决于：你是把整个 clip 当作一个原子事件，还是 clip 里还有细分事件？
-            # 方案 A：如果 clip 很短（比如镜头切换），通常只有一个主事件
-            seg.start_sec = abs_start
-            seg.end_sec = abs_end
+        for i, item in enumerate(registry):
+            clip_filename = item["filename"]
+            abs_start = item["start_sec"]
+            abs_end = item["end_sec"]
+            clip_path = temp_clips_dir / clip_filename
             
-            # 方案 B：如果 VLM 返回了相对时间（比如 clip 的第 1s 发生爆炸），则：
-            # seg.start_sec = abs_start + vlm_relative_start 
-            
-            # 将“注册表”里的一些元数据也可以塞进去 (optional)
-            seg.extra['shot_label'] = event['label'] 
-            
-            all_segment_semantics.append(seg)
-            
-        print(f"    - Analyzed {clip_filename}: Global {abs_start:.2f}s -> {abs_end:.2f}s | Mood: {semantics_obj.segments[0].mood if semantics_obj.segments else 'N/A'}")
+            if not clip_path.exists():
+                continue
 
-    # 3. 聚合层：语义融合 (即将进行的步骤)
-    # 目前先简单聚合
-    global_semantics = VideoSemantics(
-        global_tags=[], 
-        segments=all_segment_semantics
-    )
+            print(f"    [{i+1}/{len(registry)}] Analyzing {clip_filename} ({abs_start:.1f}s - {abs_end:.1f}s)...")
 
-    # 4. 编排与渲染 (保持不变)
-    print(">>> Step 4: Arranging & Rendering...")
+            # 构造输入
+            vinput = VideoInput(path=str(clip_path))
+            res = vlm_segment_runner.analyze(
+                vinput, 
+                AnalysisOptions(task=TaskType.TAGGING, language=lang, need_timeline=False)
+            )
+            
+            if res.timeline:
+                vlm_event = res.timeline[0] 
+                # 注入绝对时间与元数据
+                vlm_event.start_sec = abs_start
+                vlm_event.end_sec = abs_end
+                vlm_event.extra['shot_id'] = i
+                vlm_event.extra['original_filename'] = clip_filename
+                
+                collected_events.append(vlm_event)
+                activity = vlm_event.extra.get('activity', 'N/A')
+                print(f"      -> Mood: {vlm_event.label} | Activity: {activity}")
+
+        # 清理图片
+        global_sampler.cleanup()
+        
+        # === 保存缓存 ===
+        if collected_events:
+            _save_cache(collected_events, cache_path)
+
+    # 4. [聚合层] 上下文组装 (支持策略切换)
+    print(f"\n>>> Step 4: Context Assembly (Strategy: {fusion_strategy})...")
+    # 这里透传 strategy 参数给 vsem
+    video_semantics = assemble_video_semantics(collected_events, strategy=fusion_strategy)
+
+    # 5. [生成层] 音乐编排
+    print("\n>>> Step 5: Music Arrangement...")
     lib = JsonMusicLibrary(tracks_json_abs)
     arranger = SimpleRuleArranger()
-    mopts = MGenOptions(preferred_style=music_style, global_gain_db=-6.0, crossfade_sec=0.3)
+    mopts = MGenOptions(preferred_style=music_style, global_gain_db=-6.0, crossfade_sec=0.5)
 
-    plans = arranger.arrange(timeline=global_semantics.segments, library=lib, options=mopts)
+    plans = arranger.arrange(timeline=video_semantics.segments, library=lib, options=mopts)
+    print(f"    Generated {len(plans)} music cues.")
+
+    # 6. [渲染层] 合成
+    print("\n>>> Step 6: Rendering Final Video...")
     
-    track_map = {t.id: t for t in lib.list_tracks(style=music_style) or lib.list_tracks()}
-    render_with_bgm(video_path=video_abs, plans=plans, track_map=track_map, output_path=output_abs)
+    with open(tracks_json_abs, 'r') as f:
+        raw_tracks = json.load(f)
+    
+    from collections import namedtuple
+    SimpleTrack = namedtuple('SimpleTrack', ['id', 'filepath'])
+    
+    track_map = {}
+    for t in raw_tracks:
+        track_map[t['id']] = SimpleTrack(id=t['id'], filepath=t['filepath'])
+    
+    render_with_bgm(
+        video_path=video_abs,
+        plans=plans,
+        track_map=track_map,
+        output_path=output_abs,
+    )
 
+    print(f"\n====== Done! Output saved to: {output_abs} ======")
+    
     return {
-        "semantics": global_semantics,
+        "semantics": video_semantics,
         "plans": plans,
         "video_in": video_abs,
-        "video_out": output_abs,
+        "video_out": output_abs
     }

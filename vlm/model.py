@@ -40,6 +40,7 @@ class TimelineEvent:
     end_sec: float
     label: str                   # 如 "intro", "verse", "chorus", "drop"
     description: str = ""
+    extra: Dict[str, Any] = field(default_factory=dict)
 
 
 @dataclass

@@ -1,18 +1,52 @@
 [
   {
-    "id": "lofi_01",
-    "path": "../assets/music/lofi_01.mp3",
-    "style": "lofi",
-    "mood": "calm",
-    "energy": 0.3,
-    "bpm": 80
+    "id": "tense_chase_01",
+    "filepath": "assets/music/tense_chase.mp3",
+    "tags": ["紧张", "激烈", "快节奏", "危险", "追逐", "鼓点"],
+    "style": "action",
+    "duration": 180,
+    "key": "A Minor",
+    "bpm": 140,
+    "chorus_start": 45.0
   },
   {
-    "id": "edm_01",
-    "path": "../assets/music/edm_01.mp3",
-    "style": "edm",
-    "mood": "excited",
-    "energy": 0.8,
-    "bpm": 128
+    "id": "sad_piano_01",
+    "filepath": "assets/music/sad_piano.mp3",
+    "tags": ["忧伤", "悲伤", "孤独", "缓慢", "钢琴", "情感"],
+    "style": "emotional",
+    "duration": 150,
+    "key": "C Major",
+    "bpm": 70,
+    "chorus_start": 30.0
+  },
+  {
+    "id": "mystery_dark_01",
+    "filepath": "assets/music/mystery_dark.mp3",
+    "tags": ["神秘", "黑暗", "未知", "悬疑", "氛围", "深海"],
+    "style": "ambient",
+    "duration": 200,
+    "key": "D Minor",
+    "bpm": 90,
+    "chorus_start": 0.0
+  },
+  {
+    "id": "quiet_nature_01",
+    "filepath": "assets/music/quiet_nature.mp3",
+    "tags": ["宁静", "放松", "自然", "美好", "治愈", "lofi"],
+    "style": "lofi",
+    "duration": 120,
+    "key": "G Major",
+    "bpm": 85,
+    "chorus_start": 10.0
+  },
+  {
+    "id": "epic_orchestra_01",
+    "filepath": "assets/music/epic_orch.mp3",
+    "tags": ["壮观", "史诗", "宏大", "震撼", "管弦乐", "高潮"],
+    "style": "cinematic",
+    "duration": 240,
+    "key": "E Minor",
+    "bpm": 120,
+    "chorus_start": 60.0
   }
 ]
