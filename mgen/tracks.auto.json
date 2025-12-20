@@ -1,0 +1,7170 @@
+[
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "jazz"
+    ],
+    "valence": 0.272,
+    "arousal": 1.0,
+    "chorus_start": 12.83,
+    "filepath": "assets/music/Skrillex - SQUISHY CLIP.mp3",
+    "id": "skrillex_-_squishy_clip"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.311,
+    "arousal": 1.0,
+    "chorus_start": 52.46,
+    "filepath": "assets/music/Skrillex - REDLINE DASH.mp3",
+    "id": "skrillex_-_redline_dash"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "happy"
+    ],
+    "valence": 0.628,
+    "arousal": 0.949999988079071,
+    "chorus_start": 75.36,
+    "filepath": "assets/music/Said The Sky,FRND - Bittersweet Melody.mp3",
+    "id": "said_the_sky,frnd_-_bittersweet_melody"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.339,
+    "arousal": 1.0,
+    "chorus_start": 32.07,
+    "filepath": "assets/music/Skrillex - FRICKY VIP.mp3",
+    "id": "skrillex_-_fricky_vip"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "piano",
+    "tags": [
+      "piano",
+      "emotional",
+      "cinematic"
+    ],
+    "valence": 0.158,
+    "arousal": 0.4729999899864197,
+    "chorus_start": 70.51,
+    "filepath": "assets/music/未知歌手 - Fractured Creatures.mp3",
+    "id": "未知歌手_-_fractured_creatures"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "jazz",
+      "piano"
+    ],
+    "valence": 0.206,
+    "arousal": 0.9200000166893005,
+    "chorus_start": 89.32,
+    "filepath": "assets/music/PHONO RECORDS,MasterJ,JeZZAR - Lemon Drop Jello Shots.mp3",
+    "id": "phono_records,masterj,jezzar_-_lemon_drop_jello_shots"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "battle",
+      "jazz"
+    ],
+    "valence": 0.406,
+    "arousal": 1.0,
+    "chorus_start": 27.94,
+    "filepath": "assets/music/Mylta - KEY.mp3",
+    "id": "mylta_-_key"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.235,
+    "arousal": 1.0,
+    "chorus_start": 53.32,
+    "filepath": "assets/music/Crystal Skies,SOUNDR - Growing Pains.mp3",
+    "id": "crystal_skies,soundr_-_growing_pains"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Minor",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "pop",
+      "lofi"
+    ],
+    "valence": 0.257,
+    "arousal": 1.0,
+    "chorus_start": 77.85,
+    "filepath": "assets/music/KERO - Starshot.mp3",
+    "id": "kero_-_starshot"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.36,
+    "arousal": 1.0,
+    "chorus_start": 25.64,
+    "filepath": "assets/music/Skrillex,Sleepnet,Joker - TEARS LOST DROP.mp3",
+    "id": "skrillex,sleepnet,joker_-_tears_lost_drop"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.343,
+    "arousal": 0.800000011920929,
+    "chorus_start": 87.08,
+    "filepath": "assets/music/Au5,Psyuri - Paradigm.mp3",
+    "id": "au5,psyuri_-_paradigm"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.531,
+    "arousal": 1.0,
+    "chorus_start": 33.02,
+    "filepath": "assets/music/Daeya - Beloved Being.mp3",
+    "id": "daeya_-_beloved_being"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "jazz"
+    ],
+    "valence": 0.568,
+    "arousal": 1.0,
+    "chorus_start": 37.69,
+    "filepath": "assets/music/Aiobahn,phritz,やぎぬまかな - grayscale.mp3",
+    "id": "aiobahn,phritz,やぎぬまかな_-_grayscale"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.456,
+    "arousal": 1.0,
+    "chorus_start": 20.55,
+    "filepath": "assets/music/Skrillex - SLICKMAN.mp3",
+    "id": "skrillex_-_slickman"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "epic",
+    "tags": [
+      "epic",
+      "cinematic",
+      "lofi"
+    ],
+    "valence": 0.07,
+    "arousal": 1.0,
+    "chorus_start": 65.43,
+    "filepath": "assets/music/Ashrount - Radgrid.mp3",
+    "id": "ashrount_-_radgrid"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.337,
+    "arousal": 1.0,
+    "chorus_start": 89.63,
+    "filepath": "assets/music/Skybreak,Daeya,CHOMPO - Astral Blossom.mp3",
+    "id": "skybreak,daeya,chompo_-_astral_blossom"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Minor",
+    "style": "battle",
+    "tags": [
+      "battle",
+      "epic",
+      "action"
+    ],
+    "valence": 0.46,
+    "arousal": 1.0,
+    "chorus_start": 67.33,
+    "filepath": "assets/music/Somanylynx - reEntryint0.the.atm0sphere.mp3",
+    "id": "somanylynx_-_reentryint0.the.atm0sphere"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "happy"
+    ],
+    "valence": 0.659,
+    "arousal": 1.0,
+    "chorus_start": 65.92,
+    "filepath": "assets/music/Kero - Cosmic.mp3",
+    "id": "kero_-_cosmic"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "happy",
+      "jazz"
+    ],
+    "valence": 0.68,
+    "arousal": 0.5239999890327454,
+    "chorus_start": 89.85,
+    "filepath": "assets/music/phritz - everyone else.mp3",
+    "id": "phritz_-_everyone_else"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "emotional"
+    ],
+    "valence": 0.291,
+    "arousal": 0.7409999966621399,
+    "chorus_start": 26.56,
+    "filepath": "assets/music/AMIDY,Skybreak - Where We Begin.mp3",
+    "id": "amidy,skybreak_-_where_we_begin"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.277,
+    "arousal": 0.5600000023841858,
+    "chorus_start": 34.94,
+    "filepath": "assets/music/YellowCheese,维度坍缩,Hilarity Leap Records - Tomorrow.mp3",
+    "id": "yellowcheese,维度坍缩,hilarity_leap_records_-_tomorrow"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.691,
+    "arousal": 1.0,
+    "chorus_start": 59.73,
+    "filepath": "assets/music/PRXZM,Virtual Riot - How Do I Know.mp3",
+    "id": "prxzm,virtual_riot_-_how_do_i_know"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "epic",
+      "cinematic"
+    ],
+    "valence": 0.331,
+    "arousal": 1.0,
+    "chorus_start": 65.33,
+    "filepath": "assets/music/PoppoOVO,2088 RECORDS - D A R K N E S S.mp3",
+    "id": "poppoovo,2088_records_-_d_a_r_k_n_e_s_s"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "cinematic"
+    ],
+    "valence": 0.235,
+    "arousal": 0.9480000138282776,
+    "chorus_start": 64.74,
+    "filepath": "assets/music/Au5,Psyuri - Heat.mp3",
+    "id": "au5,psyuri_-_heat"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.314,
+    "arousal": 0.8230000138282776,
+    "chorus_start": 76.85,
+    "filepath": "assets/music/Excision,Wooli,HALIENE - Erase You.mp3",
+    "id": "excision,wooli,haliene_-_erase_you"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "piano",
+    "tags": [
+      "piano",
+      "melancholy",
+      "calm"
+    ],
+    "valence": 0.114,
+    "arousal": -0.45899999141693115,
+    "chorus_start": 52.69,
+    "filepath": "assets/music/phritz - 透水.mp3",
+    "id": "phritz_-_透水"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.621,
+    "arousal": 1.0,
+    "chorus_start": 80.02,
+    "filepath": "assets/music/Virtual Riot - Believe What You Want.mp3",
+    "id": "virtual_riot_-_believe_what_you_want"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.444,
+    "arousal": 1.0,
+    "chorus_start": 82.79,
+    "filepath": "assets/music/Virtual Riot - We're Not Alone (VIP).mp3",
+    "id": "virtual_riot_-_we're_not_alone_(vip)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.561,
+    "arousal": 1.0,
+    "chorus_start": 71.78,
+    "filepath": "assets/music/Infowler,project mtn.,Mizu - Vagabond.mp3",
+    "id": "infowler,project_mtn.,mizu_-_vagabond"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "melancholy",
+      "pop"
+    ],
+    "valence": 0.355,
+    "arousal": 0.6790000200271606,
+    "chorus_start": 81.73,
+    "filepath": "assets/music/Elemn - Hyperlight.mp3",
+    "id": "elemn_-_hyperlight"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.4,
+    "arousal": 0.7770000100135803,
+    "chorus_start": 88.81,
+    "filepath": "assets/music/Seven Lions,Vancouver Sleep Clinic,Au5 - Call On Me (feat. Vancouver Sleep Clinic) (Au5 Remix).mp3",
+    "id": "seven_lions,vancouver_sleep_clinic,au5_-_call_on_me_(feat._vancouver_sleep_clinic)_(au5_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "action",
+      "pop"
+    ],
+    "valence": 0.387,
+    "arousal": 0.9929999709129333,
+    "chorus_start": 24.91,
+    "filepath": "assets/music/SaMZIng - A Short Story.mp3",
+    "id": "samzing_-_a_short_story"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.356,
+    "arousal": 0.9229999780654907,
+    "chorus_start": 32.21,
+    "filepath": "assets/music/emyalc - 春海.mp3",
+    "id": "emyalc_-_春海"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "happy"
+    ],
+    "valence": 0.432,
+    "arousal": 1.0,
+    "chorus_start": 64.78,
+    "filepath": "assets/music/MitiS,SOUNDR,Au5 - Homesick (feat. SOUNDR) (Au5 Remix).mp3",
+    "id": "mitis,soundr,au5_-_homesick_(feat._soundr)_(au5_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Minor",
+    "style": "piano",
+    "tags": [
+      "piano",
+      "melancholy",
+      "emotional"
+    ],
+    "valence": -0.186,
+    "arousal": 0.15800000727176666,
+    "chorus_start": 71.84,
+    "filepath": "assets/music/Nit,Quartzone - hollow (feat. Quartzone).mp3",
+    "id": "nit,quartzone_-_hollow_(feat._quartzone)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "epic"
+    ],
+    "valence": 0.19,
+    "arousal": 1.0,
+    "chorus_start": 63.27,
+    "filepath": "assets/music/Virtual Riot - Different World.mp3",
+    "id": "virtual_riot_-_different_world"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.161,
+    "arousal": 0.9399999976158142,
+    "chorus_start": 23.66,
+    "filepath": "assets/music/Syrlvia,2088 RECORDS - N E U R O M A N C E R.mp3",
+    "id": "syrlvia,2088_records_-_n_e_u_r_o_m_a_n_c_e_r"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "piano",
+    "tags": [
+      "piano",
+      "jazz",
+      "melancholy"
+    ],
+    "valence": 0.304,
+    "arousal": 0.18299999833106995,
+    "chorus_start": 86.06,
+    "filepath": "assets/music/phritz - 源流をたどって.mp3",
+    "id": "phritz_-_源流をたどって"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "epic"
+    ],
+    "valence": 0.543,
+    "arousal": 1.0,
+    "chorus_start": 65.57,
+    "filepath": "assets/music/TSAR,Wooden - BUBBLE DRAGON.mp3",
+    "id": "tsar,wooden_-_bubble_dragon"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "battle",
+      "dance"
+    ],
+    "valence": 0.213,
+    "arousal": 1.0,
+    "chorus_start": 79.61,
+    "filepath": "assets/music/six dimensions flip.mp3",
+    "id": "six_dimensions_flip"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.577,
+    "arousal": 1.0,
+    "chorus_start": 89.63,
+    "filepath": "assets/music/Crystal Skies,Micah Martin,Skybreak - We Got It (Skybreak Remix) (1).mp3",
+    "id": "crystal_skies,micah_martin,skybreak_-_we_got_it_(skybreak_remix)_(1)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.415,
+    "arousal": 1.0,
+    "chorus_start": 19.22,
+    "filepath": "assets/music/Skrillex - MOSQUITOTOUILLE.mp3",
+    "id": "skrillex_-_mosquitotouille"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "cinematic",
+      "lofi"
+    ],
+    "valence": 0.321,
+    "arousal": 1.0,
+    "chorus_start": 54.88,
+    "filepath": "assets/music/Skrillex,Space Laces - RECOVERY.mp3",
+    "id": "skrillex,space_laces_-_recovery"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "happy"
+    ],
+    "valence": 0.586,
+    "arousal": 1.0,
+    "chorus_start": 71.89,
+    "filepath": "assets/music/PLEEG,Moav - Famous.mp3",
+    "id": "pleeg,moav_-_famous"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "pop",
+      "battle"
+    ],
+    "valence": 0.143,
+    "arousal": 1.0,
+    "chorus_start": 24.99,
+    "filepath": "assets/music/Skybreak,Nytrix - Our Moving Picture (Cloudsight Remix).mp3",
+    "id": "skybreak,nytrix_-_our_moving_picture_(cloudsight_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "cinematic"
+    ],
+    "valence": 0.373,
+    "arousal": 1.0,
+    "chorus_start": 41.86,
+    "filepath": "assets/music/Skrillex,swedm,Badriia - G2G.mp3",
+    "id": "skrillex,swedm,badriia_-_g2g"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.54,
+    "arousal": 1.0,
+    "chorus_start": 40.77,
+    "filepath": "assets/music/Porter Robinson - Cheerleader.mp3",
+    "id": "porter_robinson_-_cheerleader"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "melancholy",
+    "tags": [
+      "melancholy",
+      "lofi",
+      "pop"
+    ],
+    "valence": 0.292,
+    "arousal": 0.9409999847412109,
+    "chorus_start": 85.28,
+    "filepath": "assets/music/PHONO RECORDS,Aurora Sky - Neverland.mp3",
+    "id": "phono_records,aurora_sky_-_neverland"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.535,
+    "arousal": 0.9789999723434448,
+    "chorus_start": 34.31,
+    "filepath": "assets/music/Spaceport Records,Bob Hou - I Found It.mp3",
+    "id": "spaceport_records,bob_hou_-_i_found_it"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "happy"
+    ],
+    "valence": 0.596,
+    "arousal": 1.0,
+    "chorus_start": 34.69,
+    "filepath": "assets/music/SEBii - STFU...ur done.mp3",
+    "id": "sebii_-_stfu...ur_done"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "epic"
+    ],
+    "valence": 0.681,
+    "arousal": 1.0,
+    "chorus_start": 66.24,
+    "filepath": "assets/music/Similar Outskirts - Sky Warrior.mp3",
+    "id": "similar_outskirts_-_sky_warrior"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.46,
+    "arousal": 1.0,
+    "chorus_start": 82.75,
+    "filepath": "assets/music/Tribbec,2088 RECORDS - I D E A L I Z A T I O N.mp3",
+    "id": "tribbec,2088_records_-_i_d_e_a_l_i_z_a_t_i_o_n"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "piano",
+    "tags": [
+      "piano",
+      "lofi",
+      "pop"
+    ],
+    "valence": 0.335,
+    "arousal": 0.9319999814033508,
+    "chorus_start": 58.78,
+    "filepath": "assets/music/JVKE,Chime - Golden Hour (Chime Remix).mp3",
+    "id": "jvke,chime_-_golden_hour_(chime_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "cinematic"
+    ],
+    "valence": 0.41,
+    "arousal": 1.0,
+    "chorus_start": 82.49,
+    "filepath": "assets/music/NAZAAR,Dani King,Ace Aura - I'll Be Waiting.mp3",
+    "id": "nazaar,dani_king,ace_aura_-_i'll_be_waiting"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.41,
+    "arousal": 0.5600000023841858,
+    "chorus_start": 84.89,
+    "filepath": "assets/music/MitiS,HALIENE,Abandoned - Another Day.mp3",
+    "id": "mitis,haliene,abandoned_-_another_day"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.35,
+    "arousal": 0.7049999833106995,
+    "chorus_start": 85.33,
+    "filepath": "assets/music/AritxOnly,S–pray,YARVII - 那从前（AritxOnly Remix）.mp3",
+    "id": "aritxonly,s–pray,yarvii_-_那从前（aritxonly_remix）"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "piano"
+    ],
+    "valence": 0.576,
+    "arousal": 0.8090000152587891,
+    "chorus_start": 81.28,
+    "filepath": "assets/music/aethoro,Moon Jelly - Unravelling.mp3",
+    "id": "aethoro,moon_jelly_-_unravelling"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.471,
+    "arousal": 1.0,
+    "chorus_start": 62.13,
+    "filepath": "assets/music/Eccentric - Harajuku Riddim.mp3",
+    "id": "eccentric_-_harajuku_riddim"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "melancholy",
+      "emotional"
+    ],
+    "valence": -0.088,
+    "arousal": 0.5789999961853027,
+    "chorus_start": 89.5,
+    "filepath": "assets/music/Aurora Sky,2088 RECORDS - S T A R F A L L.mp3",
+    "id": "aurora_sky,2088_records_-_s_t_a_r_f_a_l_l"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.576,
+    "arousal": 0.9300000071525574,
+    "chorus_start": 84.02,
+    "filepath": "assets/music/Chime - Bloom.mp3",
+    "id": "chime_-_bloom"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.392,
+    "arousal": 1.0,
+    "chorus_start": 12.84,
+    "filepath": "assets/music/Skrillex,LH4L - ULTRA INTRO.mp3",
+    "id": "skrillex,lh4l_-_ultra_intro"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.38,
+    "arousal": 0.8149999976158142,
+    "chorus_start": 87.83,
+    "filepath": "assets/music/AIKA,Vally.exe - Dear Me (feat. vally.exe).mp3",
+    "id": "aika,vally.exe_-_dear_me_(feat._vally.exe)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "emotional"
+    ],
+    "valence": 0.497,
+    "arousal": 0.8949999809265137,
+    "chorus_start": 77.32,
+    "filepath": "assets/music/acaer,AIKA,Airuei - If.mp3",
+    "id": "acaer,aika,airuei_-_if"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "battle"
+    ],
+    "valence": 0.517,
+    "arousal": 1.0,
+    "chorus_start": 83.51,
+    "filepath": "assets/music/LONGMAN - spiral.mp3",
+    "id": "longman_-_spiral"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "lofi",
+      "piano"
+    ],
+    "valence": -0.032,
+    "arousal": 1.0,
+    "chorus_start": 88.7,
+    "filepath": "assets/music/WEch Blackey,Calm Sounds,Natural Structure - Vitality.mp3",
+    "id": "wech_blackey,calm_sounds,natural_structure_-_vitality"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "happy"
+    ],
+    "valence": 0.436,
+    "arousal": 1.0,
+    "chorus_start": 87.65,
+    "filepath": "assets/music/AritxOnly,EricInk - 空の箱（AritxOnly  EricInk Remix）.mp3",
+    "id": "aritxonly,ericink_-_空の箱（aritxonly__ericink_remix）"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Minor",
+    "style": "battle",
+    "tags": [
+      "battle",
+      "epic",
+      "action"
+    ],
+    "valence": 0.306,
+    "arousal": 1.0,
+    "chorus_start": 11.39,
+    "filepath": "assets/music/celtix - Simulated Reality.mp3",
+    "id": "celtix_-_simulated_reality"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.477,
+    "arousal": 0.7940000295639038,
+    "chorus_start": 18.55,
+    "filepath": "assets/music/Infowler - Spirit VIP.mp3",
+    "id": "infowler_-_spirit_vip"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "epic"
+    ],
+    "valence": 0.195,
+    "arousal": 1.0,
+    "chorus_start": 76.04,
+    "filepath": "assets/music/Barely Alive,Virtual Riot - Basement Dwellers.mp3",
+    "id": "barely_alive,virtual_riot_-_basement_dwellers"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "piano",
+      "dance"
+    ],
+    "valence": 0.25,
+    "arousal": 0.8320000171661377,
+    "chorus_start": 23.27,
+    "filepath": "assets/music/Layzzz - City Without U.mp3",
+    "id": "layzzz_-_city_without_u"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "happy",
+      "lofi"
+    ],
+    "valence": 0.65,
+    "arousal": 0.7300000190734863,
+    "chorus_start": 68.22,
+    "filepath": "assets/music/PHONO RECORDS,HPEIRTAZ,Layzzz - lit up from the nadir within.mp3",
+    "id": "phono_records,hpeirtaz,layzzz_-_lit_up_from_the_nadir_within"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.475,
+    "arousal": 0.968999981880188,
+    "chorus_start": 71.52,
+    "filepath": "assets/music/Aice room - Aoharu.mp3",
+    "id": "aice_room_-_aoharu"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "cinematic"
+    ],
+    "valence": 0.348,
+    "arousal": 1.0,
+    "chorus_start": 45.26,
+    "filepath": "assets/music/Skrillex,Boys Noize,Dylan Brady - ZEET NOISE.mp3",
+    "id": "skrillex,boys_noize,dylan_brady_-_zeet_noise"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "epic",
+    "tags": [
+      "epic",
+      "cinematic",
+      "action"
+    ],
+    "valence": 0.019,
+    "arousal": 1.0,
+    "chorus_start": 64.89,
+    "filepath": "assets/music/Endark,2088 RECORDS - 川 蜀 道.mp3",
+    "id": "endark,2088_records_-_川_蜀_道"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "battle",
+      "epic"
+    ],
+    "valence": 0.018,
+    "arousal": 1.0,
+    "chorus_start": 80.92,
+    "filepath": "assets/music/Crystal Skies - Event Horizon.mp3",
+    "id": "crystal_skies_-_event_horizon"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "cinematic"
+    ],
+    "valence": 0.329,
+    "arousal": 1.0,
+    "chorus_start": 62.43,
+    "filepath": "assets/music/Jai Wolf,MYRNE - (I Dread The Day He Takes You To) Paris [feat. MYRNE].mp3",
+    "id": "jai_wolf,myrne_-_(i_dread_the_day_he_takes_you_to)_paris_[feat._myrne]"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "piano",
+    "tags": [
+      "piano",
+      "cinematic",
+      "emotional"
+    ],
+    "valence": -0.008,
+    "arousal": 0.7580000162124634,
+    "chorus_start": 73.96,
+    "filepath": "assets/music/Derpcat - Haven.mp3",
+    "id": "derpcat_-_haven"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.486,
+    "arousal": 1.0,
+    "chorus_start": 74.41,
+    "filepath": "assets/music/modus. - Say It With Me.mp3",
+    "id": "modus._-_say_it_with_me"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "epic",
+    "tags": [
+      "epic",
+      "pop",
+      "battle"
+    ],
+    "valence": 0.288,
+    "arousal": 1.0,
+    "chorus_start": 87.63,
+    "filepath": "assets/music/Skybreak,Teminite - Accelerate.mp3",
+    "id": "skybreak,teminite_-_accelerate"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "cinematic",
+      "lofi"
+    ],
+    "valence": 0.361,
+    "arousal": 0.8669999837875366,
+    "chorus_start": 68.54,
+    "filepath": "assets/music/Spaceport Records,Future Flight,Layzzz - KEEP U IN MY SPACE.mp3",
+    "id": "spaceport_records,future_flight,layzzz_-_keep_u_in_my_space"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.425,
+    "arousal": 1.0,
+    "chorus_start": 78.39,
+    "filepath": "assets/music/Kotori,Moon Jelly - Eden (feat. Moon Jelly).mp3",
+    "id": "kotori,moon_jelly_-_eden_(feat._moon_jelly)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "melancholy",
+      "emotional"
+    ],
+    "valence": 0.202,
+    "arousal": 0.6570000052452087,
+    "chorus_start": 38.51,
+    "filepath": "assets/music/Nurko,Cruel Youth - Too Long.mp3",
+    "id": "nurko,cruel_youth_-_too_long"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "happy"
+    ],
+    "valence": 0.562,
+    "arousal": 1.0,
+    "chorus_start": 77.48,
+    "filepath": "assets/music/Blanke,RUNN - Lights Out.mp3",
+    "id": "blanke,runn_-_lights_out"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.568,
+    "arousal": 0.9290000200271606,
+    "chorus_start": 65.62,
+    "filepath": "assets/music/Dabin,Nokio,Afinity - Photographs (feat. nokio) [Afinity Remix].mp3",
+    "id": "dabin,nokio,afinity_-_photographs_(feat._nokio)_[afinity_remix]"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.55,
+    "arousal": 1.0,
+    "chorus_start": 36.96,
+    "filepath": "assets/music/Bobawhale - mooncake.mp3",
+    "id": "bobawhale_-_mooncake"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "battle",
+      "dance"
+    ],
+    "valence": 0.412,
+    "arousal": 1.0,
+    "chorus_start": 46.83,
+    "filepath": "assets/music/Skrillex,Wuki - BIGGY BAP.mp3",
+    "id": "skrillex,wuki_-_biggy_bap"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "happy"
+    ],
+    "valence": 0.392,
+    "arousal": 1.0,
+    "chorus_start": 55.3,
+    "filepath": "assets/music/Aurora Sky,unfoldingskies - Nutshell Princess.mp3",
+    "id": "aurora_sky,unfoldingskies_-_nutshell_princess"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "battle",
+    "tags": [
+      "battle",
+      "pop",
+      "cinematic"
+    ],
+    "valence": 0.398,
+    "arousal": 1.0,
+    "chorus_start": 25.25,
+    "filepath": "assets/music/Skrillex,Majestic - DNB TING.mp3",
+    "id": "skrillex,majestic_-_dnb_ting"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.268,
+    "arousal": 1.0,
+    "chorus_start": 30.03,
+    "filepath": "assets/music/Skrillex,Dylan Brady - BOOSTER.mp3",
+    "id": "skrillex,dylan_brady_-_booster"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "happy"
+    ],
+    "valence": 0.689,
+    "arousal": 0.9409999847412109,
+    "chorus_start": 79.7,
+    "filepath": "assets/music/Au5,Emme - Future Without You.mp3",
+    "id": "au5,emme_-_future_without_you"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.417,
+    "arousal": 1.0,
+    "chorus_start": 18.42,
+    "filepath": "assets/music/Trivecta,Rico & Miella - Open Road (feat. Rico & Miella).mp3",
+    "id": "trivecta,rico_&_miella_-_open_road_(feat._rico_&_miella)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "jazz"
+    ],
+    "valence": 0.462,
+    "arousal": 0.7149999737739563,
+    "chorus_start": 81.09,
+    "filepath": "assets/music/Said The Sky,Parachute,Will Anderson - Emotion Sickness.mp3",
+    "id": "said_the_sky,parachute,will_anderson_-_emotion_sickness"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.345,
+    "arousal": 0.8610000014305115,
+    "chorus_start": 44.82,
+    "filepath": "assets/music/PHONO RECORDS,HZLNTTSS,Mestie - untitled(1).mp3",
+    "id": "phono_records,hzlnttss,mestie_-_untitled(1)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "battle",
+    "tags": [
+      "battle",
+      "epic",
+      "cinematic"
+    ],
+    "valence": 0.064,
+    "arousal": 1.0,
+    "chorus_start": 70.45,
+    "filepath": "assets/music/Vastive - Bite Back.mp3",
+    "id": "vastive_-_bite_back"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "battle",
+      "epic"
+    ],
+    "valence": 0.383,
+    "arousal": 1.0,
+    "chorus_start": 66.26,
+    "filepath": "assets/music/Virtual Riot - SIMULATION VIP.mp3",
+    "id": "virtual_riot_-_simulation_vip"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "epic"
+    ],
+    "valence": 0.32,
+    "arousal": 1.0,
+    "chorus_start": 30.31,
+    "filepath": "assets/music/Skrillex - SKRILLEX IS DEAD.mp3",
+    "id": "skrillex_-_skrillex_is_dead"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "epic",
+    "tags": [
+      "epic",
+      "action",
+      "cinematic"
+    ],
+    "valence": 0.274,
+    "arousal": 1.0,
+    "chorus_start": 58.6,
+    "filepath": "assets/music/Mameyudoufu,CHOMPO - Ancient Tech.mp3",
+    "id": "mameyudoufu,chompo_-_ancient_tech"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "jazz"
+    ],
+    "valence": 0.56,
+    "arousal": 1.0,
+    "chorus_start": 62.33,
+    "filepath": "assets/music/V还没火,Mestie - Shoulders.mp3",
+    "id": "v还没火,mestie_-_shoulders"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "cinematic"
+    ],
+    "valence": 0.232,
+    "arousal": 1.0,
+    "chorus_start": 54.88,
+    "filepath": "assets/music/Virtual Riot - Need  Get.mp3",
+    "id": "virtual_riot_-_need__get"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "piano"
+    ],
+    "valence": 0.45,
+    "arousal": 0.609000027179718,
+    "chorus_start": 81.62,
+    "filepath": "assets/music/SkyGate,phritz - Blossom (Similar Outskirts Remix).mp3",
+    "id": "skygate,phritz_-_blossom_(similar_outskirts_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.363,
+    "arousal": 0.7879999876022339,
+    "chorus_start": 1.53,
+    "filepath": "assets/music/San Holo - TINY FLOWERS.mp3",
+    "id": "san_holo_-_tiny_flowers"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.381,
+    "arousal": 1.0,
+    "chorus_start": 60.83,
+    "filepath": "assets/music/Skrillex,Bgirl,PARISI - KORABU (feat. Varg2, Whitearmor, Eurohead, jamesiamesjames).mp3",
+    "id": "skrillex,bgirl,parisi_-_korabu_(feat._varg2,_whitearmor,_eurohead,_jamesiamesjames)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "piano"
+    ],
+    "valence": 0.43,
+    "arousal": 1.0,
+    "chorus_start": 83.42,
+    "filepath": "assets/music/EricInk,datanotfound - Mirror（EricInk  COCA remix）.mp3",
+    "id": "ericink,datanotfound_-_mirror（ericink__coca_remix）"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "piano"
+    ],
+    "valence": 0.204,
+    "arousal": 1.0,
+    "chorus_start": 49.02,
+    "filepath": "assets/music/Skybreak - Cryolite.mp3",
+    "id": "skybreak_-_cryolite"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.469,
+    "arousal": 0.906000018119812,
+    "chorus_start": 75.26,
+    "filepath": "assets/music/Skybreak,DNAKM - Soul Shards (feat. DNAKM).mp3",
+    "id": "skybreak,dnakm_-_soul_shards_(feat._dnakm)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "emotional"
+    ],
+    "valence": 0.305,
+    "arousal": 0.8040000200271606,
+    "chorus_start": 66.04,
+    "filepath": "assets/music/Skybreak,Mizu - Aurora.mp3",
+    "id": "skybreak,mizu_-_aurora"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "happy"
+    ],
+    "valence": 0.558,
+    "arousal": 0.9240000247955322,
+    "chorus_start": 81.4,
+    "filepath": "assets/music/Dabin,Nokio - Photographs (feat. nokio).mp3",
+    "id": "dabin,nokio_-_photographs_(feat._nokio)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "piano"
+    ],
+    "valence": 0.463,
+    "arousal": 1.0,
+    "chorus_start": 40.47,
+    "filepath": "assets/music/Vylet Pony - Potion Seller.mp3",
+    "id": "vylet_pony_-_potion_seller"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "cinematic"
+    ],
+    "valence": 0.198,
+    "arousal": 1.0,
+    "chorus_start": 79.06,
+    "filepath": "assets/music/Skybreak - dullscythe (Skybreak Flip).mp3",
+    "id": "skybreak_-_dullscythe_(skybreak_flip)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.536,
+    "arousal": 1.0,
+    "chorus_start": 87.48,
+    "filepath": "assets/music/未知歌手 - FCK GRAVITY & CONSTANT MODERATO(MASHUP).mp3.mp3",
+    "id": "未知歌手_-_fck_gravity_&_constant_moderato(mashup).mp3"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.231,
+    "arousal": 0.9599999785423279,
+    "chorus_start": 81.13,
+    "filepath": "assets/music/Skybreak - Waterfall.mp3",
+    "id": "skybreak_-_waterfall"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "dance",
+      "cinematic"
+    ],
+    "valence": 0.533,
+    "arousal": 1.0,
+    "chorus_start": 68.6,
+    "filepath": "assets/music/Virtual Riot - Reconnect.mp3",
+    "id": "virtual_riot_-_reconnect"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "piano",
+    "tags": [
+      "piano",
+      "melancholy",
+      "lofi"
+    ],
+    "valence": 0.008,
+    "arousal": 0.25200000405311584,
+    "chorus_start": 80.51,
+    "filepath": "assets/music/EricInk - Ceann.mp3",
+    "id": "ericink_-_ceann"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "action",
+      "dance"
+    ],
+    "valence": 0.14,
+    "arousal": 1.0,
+    "chorus_start": 81.11,
+    "filepath": "assets/music/Soundnix - Six Dimensions.mp3",
+    "id": "soundnix_-_six_dimensions"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.405,
+    "arousal": 1.0,
+    "chorus_start": 87.66,
+    "filepath": "assets/music/Skrillex - ANDY.mp3",
+    "id": "skrillex_-_andy"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.578,
+    "arousal": 0.9929999709129333,
+    "chorus_start": 87.07,
+    "filepath": "assets/music/PHONO RECORDS,Mestie,Windwan - Sundown.mp3",
+    "id": "phono_records,mestie,windwan_-_sundown"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.572,
+    "arousal": 1.0,
+    "chorus_start": 80.86,
+    "filepath": "assets/music/Mameyudoufu,紫崎雪 - リバーブレーション (feat. 紫崎 雪).mp3",
+    "id": "mameyudoufu,紫崎雪_-_リバーブレーション_(feat._紫崎_雪)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "epic",
+    "tags": [
+      "epic",
+      "lofi",
+      "cinematic"
+    ],
+    "valence": 0.209,
+    "arousal": 1.0,
+    "chorus_start": 32.3,
+    "filepath": "assets/music/Exteria - INTERCELL_LAUNCH_1.0.mp3",
+    "id": "exteria_-_intercell_launch_1.0"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.368,
+    "arousal": 0.9139999747276306,
+    "chorus_start": 78.03,
+    "filepath": "assets/music/KERO,DNAKM - Alive.mp3",
+    "id": "kero,dnakm_-_alive"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.482,
+    "arousal": 1.0,
+    "chorus_start": 10.71,
+    "filepath": "assets/music/PLEEG - Illusion.mp3",
+    "id": "pleeg_-_illusion"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "happy"
+    ],
+    "valence": 0.791,
+    "arousal": 1.0,
+    "chorus_start": 25.06,
+    "filepath": "assets/music/安雪璃,早濑优香（CV小敢）,黑馆晴奈（CVMACE） - 准备出发！.mp3",
+    "id": "安雪璃,早濑优香（cv小敢）,黑馆晴奈（cvmace）_-_准备出发！"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "battle",
+      "epic"
+    ],
+    "valence": 0.404,
+    "arousal": 1.0,
+    "chorus_start": 76.86,
+    "filepath": "assets/music/simulation vip flip.mp3",
+    "id": "simulation_vip_flip"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.388,
+    "arousal": 1.0,
+    "chorus_start": 36.01,
+    "filepath": "assets/music/CNHKSS,2088 RECORDS - 月.mp3",
+    "id": "cnhkss,2088_records_-_月"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "cinematic"
+    ],
+    "valence": 0.279,
+    "arousal": 1.0,
+    "chorus_start": 56.94,
+    "filepath": "assets/music/Virtual Riot - Scorched Earth.mp3",
+    "id": "virtual_riot_-_scorched_earth"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "melancholy",
+      "lofi"
+    ],
+    "valence": 0.435,
+    "arousal": 0.2939999997615814,
+    "chorus_start": 89.9,
+    "filepath": "assets/music/feel free and alive. (AritxOnly DJ Set Intro).mp3",
+    "id": "feel_free_and_alive._(aritxonly_dj_set_intro)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "epic"
+    ],
+    "valence": 0.12,
+    "arousal": 1.0,
+    "chorus_start": 17.65,
+    "filepath": "assets/music/Duality,SILVER SKIES - Rushdown (Discography Mashup).mp3",
+    "id": "duality,silver_skies_-_rushdown_(discography_mashup)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "happy"
+    ],
+    "valence": 0.48,
+    "arousal": 1.0,
+    "chorus_start": 76.02,
+    "filepath": "assets/music/Bobawhale,Noveci,Freezi ツ - Live It Up.mp3",
+    "id": "bobawhale,noveci,freezi_ツ_-_live_it_up"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "action",
+      "pop"
+    ],
+    "valence": 0.365,
+    "arousal": 0.8059999942779541,
+    "chorus_start": 46.43,
+    "filepath": "assets/music/Chime - Starstorm.mp3",
+    "id": "chime_-_starstorm"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "piano",
+      "lofi"
+    ],
+    "valence": 0.455,
+    "arousal": 0.984000027179718,
+    "chorus_start": 52.14,
+    "filepath": "assets/music/Skybreak,aethoro,Mizu - Journey's End.mp3",
+    "id": "skybreak,aethoro,mizu_-_journey's_end"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "dance",
+    "tags": [
+      "dance",
+      "pop",
+      "cinematic"
+    ],
+    "valence": 0.283,
+    "arousal": 1.0,
+    "chorus_start": 60.45,
+    "filepath": "assets/music/Skybreak,CURE97 - AQUASHIFT (Kaval Remix).mp3",
+    "id": "skybreak,cure97_-_aquashift_(kaval_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "piano"
+    ],
+    "valence": 0.301,
+    "arousal": 0.7559999823570251,
+    "chorus_start": 84.61,
+    "filepath": "assets/music/Virtual Riot - Lunar.mp3",
+    "id": "virtual_riot_-_lunar"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.348,
+    "arousal": 0.9070000052452087,
+    "chorus_start": 87.87,
+    "filepath": "assets/music/SLANDER,Said The Sky,JT Roach - Potions (Au5 Remix).mp3",
+    "id": "slander,said_the_sky,jt_roach_-_potions_(au5_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "battle",
+      "epic"
+    ],
+    "valence": 0.516,
+    "arousal": 1.0,
+    "chorus_start": 76.82,
+    "filepath": "assets/music/Skrillex,HAWAII SLIM - SPITFIRE.mp3",
+    "id": "skrillex,hawaii_slim_-_spitfire"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "upbeat"
+    ],
+    "valence": 0.669,
+    "arousal": 1.0,
+    "chorus_start": 37.95,
+    "filepath": "assets/music/headspace flip.mp3",
+    "id": "headspace_flip"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "cinematic",
+      "epic"
+    ],
+    "valence": -0.12,
+    "arousal": 1.0,
+    "chorus_start": 7.98,
+    "filepath": "assets/music/Agente.001 - Spectral Artillery.mp3",
+    "id": "agente.001_-_spectral_artillery"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "cinematic"
+    ],
+    "valence": -0.04,
+    "arousal": 0.871999979019165,
+    "chorus_start": 67.54,
+    "filepath": "assets/music/Paper Skies - Cosmos.mp3",
+    "id": "paper_skies_-_cosmos"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.374,
+    "arousal": 1.0,
+    "chorus_start": 58.94,
+    "filepath": "assets/music/Skrillex,G Jones - DRUIDS.mp3",
+    "id": "skrillex,g_jones_-_druids"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "emotional"
+    ],
+    "valence": 0.317,
+    "arousal": 0.6259999871253967,
+    "chorus_start": 64.05,
+    "filepath": "assets/music/AritxOnly - Relieving.mp3",
+    "id": "aritxonly_-_relieving"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.385,
+    "arousal": 0.8510000109672546,
+    "chorus_start": 84.86,
+    "filepath": "assets/music/Jason Ross,Trivecta,RBBTS - From Ashes To Love.mp3",
+    "id": "jason_ross,trivecta,rbbts_-_from_ashes_to_love"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.419,
+    "arousal": 1.0,
+    "chorus_start": 88.82,
+    "filepath": "assets/music/Pixel Terror,Chime,Teminite - Sleepless.mp3",
+    "id": "pixel_terror,chime,teminite_-_sleepless"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.065,
+    "arousal": 1.0,
+    "chorus_start": 41.43,
+    "filepath": "assets/music/One True God,Rezz,Virtual Riot - Give in to you.mp3",
+    "id": "one_true_god,rezz,virtual_riot_-_give_in_to_you"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "emotional"
+    ],
+    "valence": 0.185,
+    "arousal": 0.9509999752044678,
+    "chorus_start": 84.36,
+    "filepath": "assets/music/Au5,Derpcat,HA!L - Paradise.mp3",
+    "id": "au5,derpcat,ha!l_-_paradise"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "epic"
+    ],
+    "valence": 0.314,
+    "arousal": 1.0,
+    "chorus_start": 80.03,
+    "filepath": "assets/music/Skybreak,LúTHIEN,Sharks - Out of Frame.mp3",
+    "id": "skybreak,lúthien,sharks_-_out_of_frame"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "emotional"
+    ],
+    "valence": 0.498,
+    "arousal": 0.9629999995231628,
+    "chorus_start": 87.14,
+    "filepath": "assets/music/Bumpÿ,William Black - Lie (Bumpÿ Remix).mp3",
+    "id": "bumpÿ,william_black_-_lie_(bumpÿ_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.476,
+    "arousal": 1.0,
+    "chorus_start": 48.16,
+    "filepath": "assets/music/Quartzone - Fly Me to the Moon.mp3",
+    "id": "quartzone_-_fly_me_to_the_moon"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.463,
+    "arousal": 1.0,
+    "chorus_start": 82.05,
+    "filepath": "assets/music/Virtual Riot,Modestep,Frank Zummo - This Could Be Us (feat. FRANK ZUMMO).mp3",
+    "id": "virtual_riot,modestep,frank_zummo_-_this_could_be_us_(feat._frank_zummo)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "battle",
+      "lofi"
+    ],
+    "valence": 0.318,
+    "arousal": 1.0,
+    "chorus_start": 75.39,
+    "filepath": "assets/music/Sharks - Maze Of Affection.mp3",
+    "id": "sharks_-_maze_of_affection"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "epic"
+    ],
+    "valence": 0.504,
+    "arousal": 1.0,
+    "chorus_start": 50.2,
+    "filepath": "assets/music/Porter Robinson - Knock Yourself Out XD.mp3",
+    "id": "porter_robinson_-_knock_yourself_out_xd"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.338,
+    "arousal": 0.9350000023841858,
+    "chorus_start": 84.27,
+    "filepath": "assets/music/Aurora Sky,Lions In The Sky - Connections.mp3",
+    "id": "aurora_sky,lions_in_the_sky_-_connections"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "battle",
+    "tags": [
+      "battle",
+      "epic",
+      "cinematic"
+    ],
+    "valence": 0.245,
+    "arousal": 1.0,
+    "chorus_start": 77.19,
+    "filepath": "assets/music/NormalM - HiTECK HEIST.mp3",
+    "id": "normalm_-_hiteck_heist"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "emotional",
+      "cinematic"
+    ],
+    "valence": 0.173,
+    "arousal": 0.5720000267028809,
+    "chorus_start": 59.63,
+    "filepath": "assets/music/Nurko,Ryland James - On Purpose.mp3",
+    "id": "nurko,ryland_james_-_on_purpose"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "piano"
+    ],
+    "valence": 0.389,
+    "arousal": 1.0,
+    "chorus_start": 89.62,
+    "filepath": "assets/music/Ace Aura,Skybreak - Speedrun.mp3",
+    "id": "ace_aura,skybreak_-_speedrun"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "jazz",
+      "dance"
+    ],
+    "valence": 0.501,
+    "arousal": 1.0,
+    "chorus_start": 85.48,
+    "filepath": "assets/music/Skybreak,Ehallz,ALLEYCVT - Into The Light (feat. ALLEYCVT) (driftcat Remix).mp3",
+    "id": "skybreak,ehallz,alleycvt_-_into_the_light_(feat._alleycvt)_(driftcat_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "epic",
+      "battle"
+    ],
+    "valence": 0.096,
+    "arousal": 1.0,
+    "chorus_start": 48.15,
+    "filepath": "assets/music/Chime,The Wind Elementals - Hyperbeam.mp3",
+    "id": "chime,the_wind_elementals_-_hyperbeam"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.684,
+    "arousal": 1.0,
+    "chorus_start": 88.02,
+    "filepath": "assets/music/Ray Volpe,Virtual Riot - WHAT'S UP.mp3",
+    "id": "ray_volpe,virtual_riot_-_what's_up"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.368,
+    "arousal": 1.0,
+    "chorus_start": 20.84,
+    "filepath": "assets/music/Nejvex,Kero - Sapphire Reef.mp3",
+    "id": "nejvex,kero_-_sapphire_reef"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "jazz",
+      "dance"
+    ],
+    "valence": 0.626,
+    "arousal": 1.0,
+    "chorus_start": 66.23,
+    "filepath": "assets/music/DJ DIESEL,Virtual Riot,Shaquille O'Neal - Damage.mp3",
+    "id": "dj_diesel,virtual_riot,shaquille_o'neal_-_damage"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.427,
+    "arousal": 1.0,
+    "chorus_start": 81.21,
+    "filepath": "assets/music/Au5,Evoke,modus. - Dragonfly (feat. Evoke) (modus. Remix).mp3",
+    "id": "au5,evoke,modus._-_dragonfly_(feat._evoke)_(modus._remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.383,
+    "arousal": 1.0,
+    "chorus_start": 82.69,
+    "filepath": "assets/music/Grey,Virtual Riot - RAVEN.mp3",
+    "id": "grey,virtual_riot_-_raven"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "cinematic"
+    ],
+    "valence": 0.405,
+    "arousal": 0.9919999837875366,
+    "chorus_start": 74.12,
+    "filepath": "assets/music/Midway,Luma - Setting Sun.mp3",
+    "id": "midway,luma_-_setting_sun"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "jazz",
+      "dance"
+    ],
+    "valence": 0.363,
+    "arousal": 1.0,
+    "chorus_start": 71.62,
+    "filepath": "assets/music/Eccentric,Miss Lina - Remember.mp3",
+    "id": "eccentric,miss_lina_-_remember"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "epic",
+      "action"
+    ],
+    "valence": 0.299,
+    "arousal": 1.0,
+    "chorus_start": 74.41,
+    "filepath": "assets/music/modus.,Vital Mode - Colour Ringtone.mp3",
+    "id": "modus.,vital_mode_-_colour_ringtone"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.442,
+    "arousal": 1.0,
+    "chorus_start": 71.22,
+    "filepath": "assets/music/Crystal Skies,KnownAsNat - Farewell (feat. KnownAsNat).mp3",
+    "id": "crystal_skies,knownasnat_-_farewell_(feat._knownasnat)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.525,
+    "arousal": 1.0,
+    "chorus_start": 60.95,
+    "filepath": "assets/music/Flux Pavilion,BullySongs - Ironheart feat. BullySongs (Polar Youth Remix).mp3",
+    "id": "flux_pavilion,bullysongs_-_ironheart_feat._bullysongs_(polar_youth_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "cinematic",
+      "epic"
+    ],
+    "valence": 0.033,
+    "arousal": 1.0,
+    "chorus_start": 82.23,
+    "filepath": "assets/music/Modus - Spectra.mp3",
+    "id": "modus_-_spectra"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "piano"
+    ],
+    "valence": 0.425,
+    "arousal": 1.0,
+    "chorus_start": 77.24,
+    "filepath": "assets/music/Kaval - Starlight.mp3",
+    "id": "kaval_-_starlight"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "cinematic"
+    ],
+    "valence": 0.227,
+    "arousal": 0.7879999876022339,
+    "chorus_start": 74.75,
+    "filepath": "assets/music/Lucas,Kyu Vinphone,AritxOnly - Equator.mp3",
+    "id": "lucas,kyu_vinphone,aritxonly_-_equator"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.251,
+    "arousal": 0.7369999885559082,
+    "chorus_start": 62.46,
+    "filepath": "assets/music/Au5,Tasha Baxter - Stargate (VIP).mp3",
+    "id": "au5,tasha_baxter_-_stargate_(vip)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Minor",
+    "style": "epic",
+    "tags": [
+      "epic",
+      "pop",
+      "lofi"
+    ],
+    "valence": 0.112,
+    "arousal": 1.0,
+    "chorus_start": 49.91,
+    "filepath": "assets/music/ProjectG - Regain.mp3",
+    "id": "projectg_-_regain"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "battle"
+    ],
+    "valence": 0.46,
+    "arousal": 1.0,
+    "chorus_start": 72.05,
+    "filepath": "assets/music/underscores - Everybody's dead! (Virtual Riot Version).mp3",
+    "id": "underscores_-_everybody's_dead!_(virtual_riot_version)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "cinematic"
+    ],
+    "valence": 0.117,
+    "arousal": 1.0,
+    "chorus_start": 28.85,
+    "filepath": "assets/music/Skrillex,Jónsi - LOOK AT YOU.mp3",
+    "id": "skrillex,jónsi_-_look_at_you"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "happy"
+    ],
+    "valence": 0.509,
+    "arousal": 1.0,
+    "chorus_start": 87.34,
+    "filepath": "assets/music/Porter Robinson - Something Comforting.mp3",
+    "id": "porter_robinson_-_something_comforting"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.17,
+    "arousal": 0.9210000038146973,
+    "chorus_start": 64.04,
+    "filepath": "assets/music/Syrlvia - watercolours.mp3",
+    "id": "syrlvia_-_watercolours"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "happy"
+    ],
+    "valence": 0.39,
+    "arousal": 1.0,
+    "chorus_start": 65.16,
+    "filepath": "assets/music/Infowler,Sofuu,SaMZIng - Reverie.mp3",
+    "id": "infowler,sofuu,samzing_-_reverie"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "battle",
+      "pop"
+    ],
+    "valence": 0.157,
+    "arousal": 1.0,
+    "chorus_start": 89.61,
+    "filepath": "assets/music/Laitmus - Stalaktit.mp3",
+    "id": "laitmus_-_stalaktit"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "jazz",
+      "lofi"
+    ],
+    "valence": 0.444,
+    "arousal": 1.0,
+    "chorus_start": 76.42,
+    "filepath": "assets/music/Dk澄,Mestie - Dandelion.mp3",
+    "id": "dk澄,mestie_-_dandelion"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "epic"
+    ],
+    "valence": 0.404,
+    "arousal": 1.0,
+    "chorus_start": 72.02,
+    "filepath": "assets/music/Chime,Sekai - From Atoms To Pixels.mp3",
+    "id": "chime,sekai_-_from_atoms_to_pixels"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "epic",
+      "lofi"
+    ],
+    "valence": 0.129,
+    "arousal": 0.9509999752044678,
+    "chorus_start": 75.64,
+    "filepath": "assets/music/Shaw_Tyan,TRANICI,Endark - 两极碰撞.mp3",
+    "id": "shaw_tyan,tranici,endark_-_两极碰撞"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "emotional"
+    ],
+    "valence": 0.362,
+    "arousal": 1.0,
+    "chorus_start": 38.33,
+    "filepath": "assets/music/Skybreak - Goodbye.mp3",
+    "id": "skybreak_-_goodbye"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.588,
+    "arousal": 1.0,
+    "chorus_start": 61.91,
+    "filepath": "assets/music/Skybreak,modus.,Miss Lina - Visionary (feat. Miss Lina) (Similar Outskirts Remix).mp3",
+    "id": "skybreak,modus.,miss_lina_-_visionary_(feat._miss_lina)_(similar_outskirts_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.451,
+    "arousal": 1.0,
+    "chorus_start": 82.01,
+    "filepath": "assets/music/Mameyudoufu,藍月なくる - One Step Closer.mp3",
+    "id": "mameyudoufu,藍月なくる_-_one_step_closer"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.366,
+    "arousal": 1.0,
+    "chorus_start": 80.66,
+    "filepath": "assets/music/Virtual Riot - Stealing Fire.mp3",
+    "id": "virtual_riot_-_stealing_fire"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "epic",
+      "lofi"
+    ],
+    "valence": 0.011,
+    "arousal": 1.0,
+    "chorus_start": 31.91,
+    "filepath": "assets/music/Virtual Riot - Dino Killer.mp3",
+    "id": "virtual_riot_-_dino_killer"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "melancholy",
+      "sad"
+    ],
+    "valence": 0.204,
+    "arousal": 0.17100000381469727,
+    "chorus_start": 75.42,
+    "filepath": "assets/music/Laitmus,2088 RECORDS - 白 雪 歌.mp3",
+    "id": "laitmus,2088_records_-_白_雪_歌"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.67,
+    "arousal": 1.0,
+    "chorus_start": 15.15,
+    "filepath": "assets/music/Bangler - Aoharu Party.mp3",
+    "id": "bangler_-_aoharu_party"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "piano"
+    ],
+    "valence": 0.379,
+    "arousal": 0.8140000104904175,
+    "chorus_start": 67.73,
+    "filepath": "assets/music/Infowler,Sofuu,SaMZIng - Stardust.mp3",
+    "id": "infowler,sofuu,samzing_-_stardust"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.585,
+    "arousal": 1.0,
+    "chorus_start": 33.87,
+    "filepath": "assets/music/Skybreak,Essenger - Mothman.mp3",
+    "id": "skybreak,essenger_-_mothman"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.743,
+    "arousal": 0.9800000190734863,
+    "chorus_start": 52.44,
+    "filepath": "assets/music/Never Let Me Go(E key Live Edit').mp3",
+    "id": "never_let_me_go(e_key_live_edit')"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "piano",
+    "tags": [
+      "piano",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.094,
+    "arousal": 0.49799999594688416,
+    "chorus_start": 75.43,
+    "filepath": "assets/music/Dyrox,Layzzz,Aurora Sky - our painted sky.mp3",
+    "id": "dyrox,layzzz,aurora_sky_-_our_painted_sky"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.394,
+    "arousal": 0.9070000052452087,
+    "chorus_start": 42.03,
+    "filepath": "assets/music/Chime,Skybreak,DNAKM - Beyond The Peak.mp3",
+    "id": "chime,skybreak,dnakm_-_beyond_the_peak"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "battle",
+      "epic"
+    ],
+    "valence": 0.368,
+    "arousal": 1.0,
+    "chorus_start": 24.62,
+    "filepath": "assets/music/RIOT,Tom Morello,Knife Party - Battle Sirens (RIOT Remix).mp3",
+    "id": "riot,tom_morello,knife_party_-_battle_sirens_(riot_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "cinematic"
+    ],
+    "valence": 0.413,
+    "arousal": 0.9150000214576721,
+    "chorus_start": 80.03,
+    "filepath": "assets/music/Oliverse,Skybreak - Parachute (Skybreak Remix).mp3",
+    "id": "oliverse,skybreak_-_parachute_(skybreak_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.202,
+    "arousal": 1.0,
+    "chorus_start": 35.57,
+    "filepath": "assets/music/Virtual Riot - VROOM.mp3",
+    "id": "virtual_riot_-_vroom"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "battle",
+      "epic"
+    ],
+    "valence": 0.519,
+    "arousal": 1.0,
+    "chorus_start": 68.44,
+    "filepath": "assets/music/Disciple,Rushdown - We Don't Play (Rushdown Remix).mp3",
+    "id": "disciple,rushdown_-_we_don't_play_(rushdown_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "melancholy",
+      "pop"
+    ],
+    "valence": 0.322,
+    "arousal": 0.8339999914169312,
+    "chorus_start": 50.08,
+    "filepath": "assets/music/Singto Conley,Moon Jelly - Nagi.mp3",
+    "id": "singto_conley,moon_jelly_-_nagi"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.385,
+    "arousal": 1.0,
+    "chorus_start": 88.06,
+    "filepath": "assets/music/MitiS,Crystal Skies,gavn! - Stay.mp3",
+    "id": "mitis,crystal_skies,gavn!_-_stay"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "melancholy",
+      "lofi"
+    ],
+    "valence": 0.545,
+    "arousal": 0.3479999899864197,
+    "chorus_start": 89.9,
+    "filepath": "assets/music/feeling alive. SET Mashup.mp3",
+    "id": "feeling_alive._set_mashup"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.516,
+    "arousal": 1.0,
+    "chorus_start": 6.03,
+    "filepath": "assets/music/Skrillex,Zacari,Starrah - MOMENTUM (feat. Ilykimchi).mp3",
+    "id": "skrillex,zacari,starrah_-_momentum_(feat._ilykimchi)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "epic",
+    "tags": [
+      "epic",
+      "cinematic",
+      "lofi"
+    ],
+    "valence": 0.33,
+    "arousal": 1.0,
+    "chorus_start": 59.0,
+    "filepath": "assets/music/ReeK - Introduction - Farewell to Reality (From Atoms to Code).mp3",
+    "id": "reek_-_introduction_-_farewell_to_reality_(from_atoms_to_code)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "melancholy",
+    "tags": [
+      "melancholy",
+      "emotional",
+      "lofi"
+    ],
+    "valence": -0.096,
+    "arousal": -0.14399999380111694,
+    "chorus_start": 82.31,
+    "filepath": "assets/music/CNHKSS,Shaw_Tyan - 后冰期.mp3",
+    "id": "cnhkss,shaw_tyan_-_后冰期"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.576,
+    "arousal": 1.0,
+    "chorus_start": 63.48,
+    "filepath": "assets/music/Eccentric,Marcix - Real Time.mp3",
+    "id": "eccentric,marcix_-_real_time"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.526,
+    "arousal": 1.0,
+    "chorus_start": 28.15,
+    "filepath": "assets/music/Skrillex,Virtual Riot,Nakeesha - MIRCHI TEST.mp3",
+    "id": "skrillex,virtual_riot,nakeesha_-_mirchi_test"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "cinematic"
+    ],
+    "valence": 0.459,
+    "arousal": 1.0,
+    "chorus_start": 43.0,
+    "filepath": "assets/music/Chime,Nytrix - Runaway.mp3",
+    "id": "chime,nytrix_-_runaway"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.402,
+    "arousal": 1.0,
+    "chorus_start": 87.49,
+    "filepath": "assets/music/Endark - Rainbow Dance.mp3",
+    "id": "endark_-_rainbow_dance"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "battle",
+      "pop"
+    ],
+    "valence": 0.489,
+    "arousal": 1.0,
+    "chorus_start": 35.62,
+    "filepath": "assets/music/Mameyudoufu - Remember This One It's Out Now.mp3",
+    "id": "mameyudoufu_-_remember_this_one_it's_out_now"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.522,
+    "arousal": 1.0,
+    "chorus_start": 30.09,
+    "filepath": "assets/music/Dion Timmer,Chime - Defeatist.mp3",
+    "id": "dion_timmer,chime_-_defeatist"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.435,
+    "arousal": 1.0,
+    "chorus_start": 56.62,
+    "filepath": "assets/music/Dabin,Skybreak - Smoke Signals (Dabin & Skybreak VIP Remix).mp3",
+    "id": "dabin,skybreak_-_smoke_signals_(dabin_&_skybreak_vip_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "piano",
+      "pop"
+    ],
+    "valence": 0.488,
+    "arousal": 0.7440000176429749,
+    "chorus_start": 58.19,
+    "filepath": "assets/music/EricInk - our painted sky.(EricInk Reimagined).mp3",
+    "id": "ericink_-_our_painted_sky.(ericink_reimagined)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "cinematic"
+    ],
+    "valence": 0.33,
+    "arousal": 1.0,
+    "chorus_start": 83.61,
+    "filepath": "assets/music/Chime,KERO,CHOMPO - Liquid Data.mp3",
+    "id": "chime,kero,chompo_-_liquid_data"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "epic"
+    ],
+    "valence": 0.522,
+    "arousal": 1.0,
+    "chorus_start": 67.91,
+    "filepath": "assets/music/DNAKM,KERO - Maybe I.mp3",
+    "id": "dnakm,kero_-_maybe_i"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "battle",
+      "lofi"
+    ],
+    "valence": 0.442,
+    "arousal": 1.0,
+    "chorus_start": 44.75,
+    "filepath": "assets/music/Quartzone,KERO - Ancient Palace.mp3",
+    "id": "quartzone,kero_-_ancient_palace"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "epic"
+    ],
+    "valence": 0.395,
+    "arousal": 1.0,
+    "chorus_start": 86.24,
+    "filepath": "assets/music/Porter Robinson,Madeon - Beings.mp3",
+    "id": "porter_robinson,madeon_-_beings"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "emotional"
+    ],
+    "valence": 0.353,
+    "arousal": 0.8970000147819519,
+    "chorus_start": 32.28,
+    "filepath": "assets/music/Porter Robinson - Blossom.mp3",
+    "id": "porter_robinson_-_blossom"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.443,
+    "arousal": 1.0,
+    "chorus_start": 64.8,
+    "filepath": "assets/music/Mameyudoufu - Everyday Things.mp3",
+    "id": "mameyudoufu_-_everyday_things"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "piano"
+    ],
+    "valence": 0.492,
+    "arousal": 0.7450000047683716,
+    "chorus_start": 83.22,
+    "filepath": "assets/music/AritxOnly,Cris.Q,Natural Structure - Pure Emotions.mp3",
+    "id": "aritxonly,cris.q,natural_structure_-_pure_emotions"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.331,
+    "arousal": 1.0,
+    "chorus_start": 38.92,
+    "filepath": "assets/music/Sharks - Shiver.mp3",
+    "id": "sharks_-_shiver"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "piano",
+    "tags": [
+      "piano",
+      "pop",
+      "jazz"
+    ],
+    "valence": 0.315,
+    "arousal": 0.49799999594688416,
+    "chorus_start": 30.03,
+    "filepath": "assets/music/PHONO RECORDS,gko - 镜.mp3",
+    "id": "phono_records,gko_-_镜"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Minor",
+    "style": "dance",
+    "tags": [
+      "dance",
+      "pop",
+      "cinematic"
+    ],
+    "valence": 0.316,
+    "arousal": 1.0,
+    "chorus_start": 89.67,
+    "filepath": "assets/music/Horrible Kid,2088 RECORDS - 觀 天 者.mp3",
+    "id": "horrible_kid,2088_records_-_觀_天_者"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.449,
+    "arousal": 0.8949999809265137,
+    "chorus_start": 79.24,
+    "filepath": "assets/music/Bumpy,JerScO - you&i.mp3",
+    "id": "bumpy,jersco_-_you&i"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "battle"
+    ],
+    "valence": 0.459,
+    "arousal": 1.0,
+    "chorus_start": 73.38,
+    "filepath": "assets/music/Virtual Riot - Don't Need You.mp3",
+    "id": "virtual_riot_-_don't_need_you"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.626,
+    "arousal": 1.0,
+    "chorus_start": 62.44,
+    "filepath": "assets/music/Similar Outskirts - Headspace.mp3",
+    "id": "similar_outskirts_-_headspace"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "cinematic",
+      "dance"
+    ],
+    "valence": 0.23,
+    "arousal": 0.8029999732971191,
+    "chorus_start": 83.66,
+    "filepath": "assets/music/Yam,BetaOri,Shaw_Tyan - 迷岸.mp3",
+    "id": "yam,betaori,shaw_tyan_-_迷岸"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "battle"
+    ],
+    "valence": 0.313,
+    "arousal": 1.0,
+    "chorus_start": 62.79,
+    "filepath": "assets/music/Virtual Riot - Star Destroyer.mp3",
+    "id": "virtual_riot_-_star_destroyer"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "happy"
+    ],
+    "valence": 0.558,
+    "arousal": 0.9139999747276306,
+    "chorus_start": 36.98,
+    "filepath": "assets/music/Paper Skies,Ehallz,Beatcore - Back Together.mp3",
+    "id": "paper_skies,ehallz,beatcore_-_back_together"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.553,
+    "arousal": 1.0,
+    "chorus_start": 73.75,
+    "filepath": "assets/music/Skrillex - VOLTAGE.mp3",
+    "id": "skrillex_-_voltage"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.507,
+    "arousal": 1.0,
+    "chorus_start": 60.57,
+    "filepath": "assets/music/acloudyskye - Daze.mp3",
+    "id": "acloudyskye_-_daze"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "emotional"
+    ],
+    "valence": 0.249,
+    "arousal": 0.902999997138977,
+    "chorus_start": 88.84,
+    "filepath": "assets/music/Au5,Skybreak,Olivver the Kid - Catharsis.mp3",
+    "id": "au5,skybreak,olivver_the_kid_-_catharsis"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "piano",
+      "melancholy"
+    ],
+    "valence": 0.121,
+    "arousal": 1.0,
+    "chorus_start": 38.38,
+    "filepath": "assets/music/Wooden,Salty Salt - HYPER MEMORIES.mp3",
+    "id": "wooden,salty_salt_-_hyper_memories"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "cinematic",
+      "epic"
+    ],
+    "valence": 0.334,
+    "arousal": 1.0,
+    "chorus_start": 19.85,
+    "filepath": "assets/music/Chime,The Wind Elementals - Constellate.mp3",
+    "id": "chime,the_wind_elementals_-_constellate"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "melancholy"
+    ],
+    "valence": 0.205,
+    "arousal": 0.6460000276565552,
+    "chorus_start": 41.62,
+    "filepath": "assets/music/Laura Brehm,Au5,Evoke - Empty Space.mp3",
+    "id": "laura_brehm,au5,evoke_-_empty_space"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "melancholy",
+    "tags": [
+      "melancholy",
+      "lofi",
+      "emotional"
+    ],
+    "valence": 0.216,
+    "arousal": -0.17800000309944153,
+    "chorus_start": 68.01,
+    "filepath": "assets/music/UIL,Soaring Records - I don't remember.mp3",
+    "id": "uil,soaring_records_-_i_don't_remember"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.389,
+    "arousal": 0.8379999995231628,
+    "chorus_start": 64.82,
+    "filepath": "assets/music/Ookay,Chime - Soul.mp3",
+    "id": "ookay,chime_-_soul"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "melancholy"
+    ],
+    "valence": 0.161,
+    "arousal": 0.8040000200271606,
+    "chorus_start": 86.68,
+    "filepath": "assets/music/Skybreak - Seraphim (Angels & Demons II).mp3",
+    "id": "skybreak_-_seraphim_(angels_&_demons_ii)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "happy"
+    ],
+    "valence": 0.435,
+    "arousal": 1.0,
+    "chorus_start": 70.91,
+    "filepath": "assets/music/Mameyudoufu,nayuta - TOMORROW NEVER KNOWS.mp3",
+    "id": "mameyudoufu,nayuta_-_tomorrow_never_knows"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.402,
+    "arousal": 1.0,
+    "chorus_start": 26.43,
+    "filepath": "assets/music/Skrillex,swedm - BABY ROYAL.mp3",
+    "id": "skrillex,swedm_-_baby_royal"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.323,
+    "arousal": 1.0,
+    "chorus_start": 28.5,
+    "filepath": "assets/music/CloudNone,Skybreak - Feeling Free.mp3",
+    "id": "cloudnone,skybreak_-_feeling_free"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.475,
+    "arousal": 0.9850000143051147,
+    "chorus_start": 64.87,
+    "filepath": "assets/music/Au5,Porter Robinson - Cheerleader (Au5 Flip).mp3",
+    "id": "au5,porter_robinson_-_cheerleader_(au5_flip)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "battle"
+    ],
+    "valence": 0.494,
+    "arousal": 1.0,
+    "chorus_start": 39.15,
+    "filepath": "assets/music/Bob Hou,KITSUNE,Sakura Records Official-樱花记录 - When The Light Flows.mp3",
+    "id": "bob_hou,kitsune,sakura_records_official-樱花记录_-_when_the_light_flows"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "cinematic",
+      "pop"
+    ],
+    "valence": 0.104,
+    "arousal": 0.9549999833106995,
+    "chorus_start": 39.81,
+    "filepath": "assets/music/Kaval - Colour Bagarre.mp3",
+    "id": "kaval_-_colour_bagarre"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "cinematic",
+      "lofi"
+    ],
+    "valence": 0.061,
+    "arousal": 1.0,
+    "chorus_start": 38.09,
+    "filepath": "assets/music/Vylet Pony - The Queen is Back.mp3",
+    "id": "vylet_pony_-_the_queen_is_back"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "piano"
+    ],
+    "valence": 0.524,
+    "arousal": 1.0,
+    "chorus_start": 89.73,
+    "filepath": "assets/music/TSAR,Bobawhale - WARP DRIVE.mp3",
+    "id": "tsar,bobawhale_-_warp_drive"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "piano",
+    "tags": [
+      "piano",
+      "cinematic",
+      "pop"
+    ],
+    "valence": -0.004,
+    "arousal": 0.6809999942779541,
+    "chorus_start": 25.65,
+    "filepath": "assets/music/ROY KNOX - Memory Box.mp3",
+    "id": "roy_knox_-_memory_box"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.494,
+    "arousal": 0.9160000085830688,
+    "chorus_start": 51.71,
+    "filepath": "assets/music/Trivecta,Casey Cook - Alaska.mp3",
+    "id": "trivecta,casey_cook_-_alaska"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "cinematic",
+      "epic"
+    ],
+    "valence": 0.22,
+    "arousal": 1.0,
+    "chorus_start": 41.86,
+    "filepath": "assets/music/Cloudier - Set Free.mp3",
+    "id": "cloudier_-_set_free"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.577,
+    "arousal": 1.0,
+    "chorus_start": 89.63,
+    "filepath": "assets/music/Crystal Skies,Micah Martin,Skybreak - We Got It (Skybreak Remix).mp3",
+    "id": "crystal_skies,micah_martin,skybreak_-_we_got_it_(skybreak_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "pop",
+      "epic"
+    ],
+    "valence": 0.274,
+    "arousal": 1.0,
+    "chorus_start": 71.24,
+    "filepath": "assets/music/Dr. Ozi,Chime,Trinergy - Motion.mp3",
+    "id": "dr._ozi,chime,trinergy_-_motion"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "piano",
+      "jazz"
+    ],
+    "valence": 0.094,
+    "arousal": 0.7639999985694885,
+    "chorus_start": 71.53,
+    "filepath": "assets/music/AritxOnly,EricInk - forgot. (AritxOnly redefined).mp3",
+    "id": "aritxonly,ericink_-_forgot._(aritxonly_redefined)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.234,
+    "arousal": 1.0,
+    "chorus_start": 60.91,
+    "filepath": "assets/music/Chime - Micrology.mp3",
+    "id": "chime_-_micrology"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.717,
+    "arousal": 1.0,
+    "chorus_start": 74.21,
+    "filepath": "assets/music/Winamp Boys - We.mp3",
+    "id": "winamp_boys_-_we"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.342,
+    "arousal": 0.6460000276565552,
+    "chorus_start": 85.74,
+    "filepath": "assets/music/Lunar(E key Live Edit).mp3",
+    "id": "lunar(e_key_live_edit)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "melancholy",
+      "emotional"
+    ],
+    "valence": 0.325,
+    "arousal": 0.8379999995231628,
+    "chorus_start": 76.85,
+    "filepath": "assets/music/Crystal Skies,Mazare,Luma - Hear Me Now (feat. Luma).mp3",
+    "id": "crystal_skies,mazare,luma_-_hear_me_now_(feat._luma)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "piano"
+    ],
+    "valence": 0.375,
+    "arousal": 0.9679999947547913,
+    "chorus_start": 42.57,
+    "filepath": "assets/music/Neddie - Run Away.mp3",
+    "id": "neddie_-_run_away"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Minor",
+    "style": "battle",
+    "tags": [
+      "battle",
+      "epic",
+      "cinematic"
+    ],
+    "valence": 0.302,
+    "arousal": 0.9390000104904175,
+    "chorus_start": 82.08,
+    "filepath": "assets/music/Papa Khan - Diary of a poor kid.mp3",
+    "id": "papa_khan_-_diary_of_a_poor_kid"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.503,
+    "arousal": 0.9110000133514404,
+    "chorus_start": 15.03,
+    "filepath": "assets/music/PHONO RECORDS,Mestie,The Big Blind - Don't Wanna Slowdown.mp3",
+    "id": "phono_records,mestie,the_big_blind_-_don't_wanna_slowdown"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "sad",
+    "tags": [
+      "sad",
+      "piano",
+      "pop"
+    ],
+    "valence": -0.184,
+    "arousal": -0.44699999690055847,
+    "chorus_start": 51.01,
+    "filepath": "assets/music/EricInk - Wind That Bypasses My Soul.mp3",
+    "id": "ericink_-_wind_that_bypasses_my_soul"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "cinematic"
+    ],
+    "valence": 0.348,
+    "arousal": 1.0,
+    "chorus_start": 87.77,
+    "filepath": "assets/music/Chime,The Living Proof - The Takeover.mp3",
+    "id": "chime,the_living_proof_-_the_takeover"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.642,
+    "arousal": 0.9330000281333923,
+    "chorus_start": 83.64,
+    "filepath": "assets/music/Daeya - Starship Express.mp3",
+    "id": "daeya_-_starship_express"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "jazz"
+    ],
+    "valence": 0.203,
+    "arousal": 0.9390000104904175,
+    "chorus_start": 63.16,
+    "filepath": "assets/music/Chime - Phosphor.mp3",
+    "id": "chime_-_phosphor"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.512,
+    "arousal": 1.0,
+    "chorus_start": 72.95,
+    "filepath": "assets/music/Convexity,Christian Hayward - Telnet.mp3",
+    "id": "convexity,christian_hayward_-_telnet"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.498,
+    "arousal": 1.0,
+    "chorus_start": 74.14,
+    "filepath": "assets/music/Chime,Au5,Lomaximus - Wait For Me (Au5 & Lomaximus Remix).mp3",
+    "id": "chime,au5,lomaximus_-_wait_for_me_(au5_&_lomaximus_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.502,
+    "arousal": 0.9359999895095825,
+    "chorus_start": 82.54,
+    "filepath": "assets/music/Dabin,William Black,Try to Find Me - Ready (Ray Volpe Remix).mp3",
+    "id": "dabin,william_black,try_to_find_me_-_ready_(ray_volpe_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.791,
+    "arousal": 1.0,
+    "chorus_start": 57.62,
+    "filepath": "assets/music/Still Kids,PRXZM - One By One.mp3",
+    "id": "still_kids,prxzm_-_one_by_one"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.379,
+    "arousal": 1.0,
+    "chorus_start": 24.45,
+    "filepath": "assets/music/Skrillex - THINGS I PROMISED.mp3",
+    "id": "skrillex_-_things_i_promised"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "emotional",
+      "dance"
+    ],
+    "valence": 0.341,
+    "arousal": 0.8989999890327454,
+    "chorus_start": 58.35,
+    "filepath": "assets/music/Chime - Sherwood (2022).mp3",
+    "id": "chime_-_sherwood_(2022)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.553,
+    "arousal": 1.0,
+    "chorus_start": 89.66,
+    "filepath": "assets/music/Au5,TruFeelz - Edge Of Your Heart.mp3",
+    "id": "au5,trufeelz_-_edge_of_your_heart"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "happy"
+    ],
+    "valence": 0.538,
+    "arousal": 1.0,
+    "chorus_start": 45.33,
+    "filepath": "assets/music/KERO - Neon Love Song.mp3",
+    "id": "kero_-_neon_love_song"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "jazz",
+      "lofi"
+    ],
+    "valence": 0.366,
+    "arousal": 1.0,
+    "chorus_start": 20.46,
+    "filepath": "assets/music/V还没火,Mestie,PHONO RECORDS - 靶向药物.mp3",
+    "id": "v还没火,mestie,phono_records_-_靶向药物"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "happy"
+    ],
+    "valence": 0.531,
+    "arousal": 0.9729999899864197,
+    "chorus_start": 51.64,
+    "filepath": "assets/music/Au5,Crystal Skies - Waiting.mp3",
+    "id": "au5,crystal_skies_-_waiting"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.589,
+    "arousal": 0.9819999933242798,
+    "chorus_start": 83.97,
+    "filepath": "assets/music/Virtual Riot,Danyka Nadeau - Time Stops (feat. Danyka Nadeau).mp3",
+    "id": "virtual_riot,danyka_nadeau_-_time_stops_(feat._danyka_nadeau)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "piano",
+    "tags": [
+      "piano",
+      "lofi",
+      "pop"
+    ],
+    "valence": 0.239,
+    "arousal": 1.0,
+    "chorus_start": 86.44,
+    "filepath": "assets/music/modus.,Convexity - Swing Futura.mp3",
+    "id": "modus.,convexity_-_swing_futura"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.421,
+    "arousal": 1.0,
+    "chorus_start": 80.04,
+    "filepath": "assets/music/Skrillex - JUNGUNDRA.mp3",
+    "id": "skrillex_-_jungundra"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.442,
+    "arousal": 1.0,
+    "chorus_start": 76.84,
+    "filepath": "assets/music/Virtual Riot,Angelika,Dani Demand - Back In Time (feat. Angelika) (Dani Demand Remix).mp3",
+    "id": "virtual_riot,angelika,dani_demand_-_back_in_time_(feat._angelika)_(dani_demand_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.412,
+    "arousal": 1.0,
+    "chorus_start": 73.19,
+    "filepath": "assets/music/Au5 - Cryptochrome.mp3",
+    "id": "au5_-_cryptochrome"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.216,
+    "arousal": 1.0,
+    "chorus_start": 40.47,
+    "filepath": "assets/music/Skrillex,Naisha - GULAB XX.mp3",
+    "id": "skrillex,naisha_-_gulab_xx"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.583,
+    "arousal": 1.0,
+    "chorus_start": 24.98,
+    "filepath": "assets/music/Virtual Riot - Nights On Fire (2024).mp3",
+    "id": "virtual_riot_-_nights_on_fire_(2024)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "piano",
+    "tags": [
+      "piano",
+      "pop",
+      "jazz"
+    ],
+    "valence": 0.282,
+    "arousal": 0.5440000295639038,
+    "chorus_start": 66.43,
+    "filepath": "assets/music/Virtual Riot - Black Sands (interlude).mp3",
+    "id": "virtual_riot_-_black_sands_(interlude)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.332,
+    "arousal": 0.9459999799728394,
+    "chorus_start": 87.15,
+    "filepath": "assets/music/acloudyskye,N33T - Nothing Else.mp3",
+    "id": "acloudyskye,n33t_-_nothing_else"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "cinematic"
+    ],
+    "valence": 0.236,
+    "arousal": 1.0,
+    "chorus_start": 23.33,
+    "filepath": "assets/music/Sharks - In My Eyes.mp3",
+    "id": "sharks_-_in_my_eyes"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "epic"
+    ],
+    "valence": 0.27,
+    "arousal": 1.0,
+    "chorus_start": 73.66,
+    "filepath": "assets/music/Skrillex - MORJA KAIJU VIP.mp3",
+    "id": "skrillex_-_morja_kaiju_vip"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "epic"
+    ],
+    "valence": 0.441,
+    "arousal": 1.0,
+    "chorus_start": 2.36,
+    "filepath": "assets/music/headspace live flip.mp3",
+    "id": "headspace_live_flip"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.691,
+    "arousal": 1.0,
+    "chorus_start": 79.65,
+    "filepath": "assets/music/Virtual Riot - Never Let Me Go.mp3",
+    "id": "virtual_riot_-_never_let_me_go"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "cinematic"
+    ],
+    "valence": 0.313,
+    "arousal": 1.0,
+    "chorus_start": 40.32,
+    "filepath": "assets/music/ReeK,Asatsumei,L4hee - Deity Mode.mp3",
+    "id": "reek,asatsumei,l4hee_-_deity_mode"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "epic",
+      "action"
+    ],
+    "valence": 0.349,
+    "arousal": 1.0,
+    "chorus_start": 61.33,
+    "filepath": "assets/music/Wooden,ICECORE - The Final Gates.mp3",
+    "id": "wooden,icecore_-_the_final_gates"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "happy"
+    ],
+    "valence": 0.461,
+    "arousal": 0.7760000228881836,
+    "chorus_start": 72.3,
+    "filepath": "assets/music/Seven Lions,Kerli - Worlds Apart.mp3",
+    "id": "seven_lions,kerli_-_worlds_apart"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "piano",
+    "tags": [
+      "piano",
+      "pop",
+      "jazz"
+    ],
+    "valence": 0.239,
+    "arousal": 0.42800000309944153,
+    "chorus_start": 46.1,
+    "filepath": "assets/music/PHONO RECORDS,Mestie - LOOKIN.mp3",
+    "id": "phono_records,mestie_-_lookin"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.443,
+    "arousal": 0.9150000214576721,
+    "chorus_start": 56.91,
+    "filepath": "assets/music/Infowler,Azuria Sky - Skydreamer.mp3",
+    "id": "infowler,azuria_sky_-_skydreamer"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "jazz",
+      "piano"
+    ],
+    "valence": 0.317,
+    "arousal": 1.0,
+    "chorus_start": 59.71,
+    "filepath": "assets/music/Virtual Riot - New Energy.mp3",
+    "id": "virtual_riot_-_new_energy"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "cinematic",
+      "lofi"
+    ],
+    "valence": 0.269,
+    "arousal": 1.0,
+    "chorus_start": 32.03,
+    "filepath": "assets/music/Skrillex,Virtual Riot,Nakeesha - WHILE YOU WERE SLEEPING VIP.mp3",
+    "id": "skrillex,virtual_riot,nakeesha_-_while_you_were_sleeping_vip"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.533,
+    "arousal": 1.0,
+    "chorus_start": 60.71,
+    "filepath": "assets/music/Said The Sky,TerryZhong钟天利,CVBZ - Glass House.mp3",
+    "id": "said_the_sky,terryzhong钟天利,cvbz_-_glass_house"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "piano",
+      "emotional"
+    ],
+    "valence": 0.145,
+    "arousal": 0.628000020980835,
+    "chorus_start": 64.02,
+    "filepath": "assets/music/AritxOnly,Tomorrow,EricInk - Storyboard.mp3",
+    "id": "aritxonly,tomorrow,ericink_-_storyboard"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "piano",
+    "tags": [
+      "piano",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.18,
+    "arousal": 0.5450000166893005,
+    "chorus_start": 86.78,
+    "filepath": "assets/music/Dabin,Noelle Johnson,phritz - Remember (phritz Remix).mp3",
+    "id": "dabin,noelle_johnson,phritz_-_remember_(phritz_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "emotional"
+    ],
+    "valence": 0.451,
+    "arousal": 0.9629999995231628,
+    "chorus_start": 80.04,
+    "filepath": "assets/music/Seven Lions,Wooli,Trivecta - Island.mp3",
+    "id": "seven_lions,wooli,trivecta_-_island"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.398,
+    "arousal": 0.8289999961853027,
+    "chorus_start": 46.27,
+    "filepath": "assets/music/Seven Lions,Said The Sky,ILLENIUM - Rush Over Me.mp3",
+    "id": "seven_lions,said_the_sky,illenium_-_rush_over_me"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "lofi",
+      "pop"
+    ],
+    "valence": 0.118,
+    "arousal": 1.0,
+    "chorus_start": 37.5,
+    "filepath": "assets/music/Aurora Sky - Aether.mp3",
+    "id": "aurora_sky_-_aether"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.787,
+    "arousal": 1.0,
+    "chorus_start": 83.17,
+    "filepath": "assets/music/Endark,星罗月兔 - 星罗月兔一曲（Endark remix, feat.Sepia）.mp3",
+    "id": "endark,星罗月兔_-_星罗月兔一曲（endark_remix,_feat.sepia）"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "happy"
+    ],
+    "valence": 0.452,
+    "arousal": 0.9860000014305115,
+    "chorus_start": 89.86,
+    "filepath": "assets/music/Dabin,Trella,Chime - Starbright (Chime Remix).mp3",
+    "id": "dabin,trella,chime_-_starbright_(chime_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.38,
+    "arousal": 1.0,
+    "chorus_start": 54.22,
+    "filepath": "assets/music/Kaval - Dream Odyssey.mp3",
+    "id": "kaval_-_dream_odyssey"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "emotional"
+    ],
+    "valence": 0.31,
+    "arousal": 0.6809999942779541,
+    "chorus_start": 89.85,
+    "filepath": "assets/music/ILLENIUM,Excision,HALIENE - In My Mind.mp3",
+    "id": "illenium,excision,haliene_-_in_my_mind"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "emotional"
+    ],
+    "valence": 0.477,
+    "arousal": 1.0,
+    "chorus_start": 14.97,
+    "filepath": "assets/music/Symbol IV Earth (Ecalims Bootleg) Full Ver.mp3",
+    "id": "symbol_iv_earth_(ecalims_bootleg)_full_ver"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "melancholy"
+    ],
+    "valence": 0.234,
+    "arousal": 1.0,
+    "chorus_start": 83.25,
+    "filepath": "assets/music/AritxOnly - our painted sky.(AritxOnly Remix).mp3",
+    "id": "aritxonly_-_our_painted_sky.(aritxonly_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "cinematic"
+    ],
+    "valence": 0.332,
+    "arousal": 1.0,
+    "chorus_start": 54.52,
+    "filepath": "assets/music/Crystal Skies,Luxtides - Other Side.mp3",
+    "id": "crystal_skies,luxtides_-_other_side"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.359,
+    "arousal": 1.0,
+    "chorus_start": 67.24,
+    "filepath": "assets/music/Barely Alive,Nyptane,XO ELIZA - Electric Lady (feat. XO ELIZA).mp3",
+    "id": "barely_alive,nyptane,xo_eliza_-_electric_lady_(feat._xo_eliza)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "piano",
+      "dance"
+    ],
+    "valence": 0.425,
+    "arousal": 0.8519999980926514,
+    "chorus_start": 11.4,
+    "filepath": "assets/music/aethoro - Tidechase.mp3",
+    "id": "aethoro_-_tidechase"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "cinematic",
+      "battle"
+    ],
+    "valence": 0.158,
+    "arousal": 1.0,
+    "chorus_start": 35.15,
+    "filepath": "assets/music/Virtual Riot - Impending (interlude).mp3",
+    "id": "virtual_riot_-_impending_(interlude)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.556,
+    "arousal": 1.0,
+    "chorus_start": 26.21,
+    "filepath": "assets/music/Mestie,情绪 - friday again.mp3",
+    "id": "mestie,情绪_-_friday_again"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "emotional"
+    ],
+    "valence": 0.234,
+    "arousal": 0.9700000286102295,
+    "chorus_start": 82.36,
+    "filepath": "assets/music/Au5,DNAKM - What You’ve Done.mp3",
+    "id": "au5,dnakm_-_what_you’ve_done"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "epic",
+      "battle"
+    ],
+    "valence": 0.146,
+    "arousal": 1.0,
+    "chorus_start": 77.99,
+    "filepath": "assets/music/Dazuko - Who am AI.mp3",
+    "id": "dazuko_-_who_am_ai"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Minor",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "dance",
+      "action"
+    ],
+    "valence": 0.129,
+    "arousal": 0.8870000243186951,
+    "chorus_start": 89.19,
+    "filepath": "assets/music/Au5,Crystal Skies - Cataclysm.mp3",
+    "id": "au5,crystal_skies_-_cataclysm"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Minor",
+    "style": "melancholy",
+    "tags": [
+      "melancholy",
+      "piano",
+      "lofi"
+    ],
+    "valence": 0.139,
+    "arousal": 1.0,
+    "chorus_start": 70.31,
+    "filepath": "assets/music/WEch Blackey - Metaverse.mp3",
+    "id": "wech_blackey_-_metaverse"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.531,
+    "arousal": 1.0,
+    "chorus_start": 89.43,
+    "filepath": "assets/music/Similar Outskirts - Hold On.mp3",
+    "id": "similar_outskirts_-_hold_on"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.57,
+    "arousal": 1.0,
+    "chorus_start": 80.41,
+    "filepath": "assets/music/Au5,Linney - Bridges.mp3",
+    "id": "au5,linney_-_bridges"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "battle"
+    ],
+    "valence": 0.491,
+    "arousal": 1.0,
+    "chorus_start": 24.81,
+    "filepath": "assets/music/SaMZIng,HJLL - Cloudwave.mp3",
+    "id": "samzing,hjll_-_cloudwave"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.383,
+    "arousal": 0.7919999957084656,
+    "chorus_start": 45.56,
+    "filepath": "assets/music/Crystal Skies,HALIENE - Stardust (with HALIENE).mp3",
+    "id": "crystal_skies,haliene_-_stardust_(with_haliene)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "epic"
+    ],
+    "valence": 0.457,
+    "arousal": 1.0,
+    "chorus_start": 65.61,
+    "filepath": "assets/music/Eccentric,Miss Lina - You're Enough.mp3",
+    "id": "eccentric,miss_lina_-_you're_enough"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "melancholy",
+      "action"
+    ],
+    "valence": 0.291,
+    "arousal": 1.0,
+    "chorus_start": 86.52,
+    "filepath": "assets/music/Seven Lions,Au5,Crystal Skies - Remember.mp3",
+    "id": "seven_lions,au5,crystal_skies_-_remember"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "happy"
+    ],
+    "valence": 0.375,
+    "arousal": 1.0,
+    "chorus_start": 62.44,
+    "filepath": "assets/music/Dabin,Mokita,Skybreak - Drown (Skybreak, N33T Remix).mp3",
+    "id": "dabin,mokita,skybreak_-_drown_(skybreak,_n33t_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.654,
+    "arousal": 1.0,
+    "chorus_start": 86.24,
+    "filepath": "assets/music/AritxOnly - 花の塔（AritxOnly Remix）.mp3",
+    "id": "aritxonly_-_花の塔（aritxonly_remix）"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "jazz",
+      "dance"
+    ],
+    "valence": 0.356,
+    "arousal": 0.8650000095367432,
+    "chorus_start": 58.55,
+    "filepath": "assets/music/PHONO RECORDS,Anyar暗鸦 - Meow!!!.mp3",
+    "id": "phono_records,anyar暗鸦_-_meow!!!"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.516,
+    "arousal": 1.0,
+    "chorus_start": 50.28,
+    "filepath": "assets/music/Eccentric,Miss Lina - Can't Let You Go.mp3",
+    "id": "eccentric,miss_lina_-_can't_let_you_go"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "cinematic",
+      "dance"
+    ],
+    "valence": 0.299,
+    "arousal": 1.0,
+    "chorus_start": 81.34,
+    "filepath": "assets/music/Mazare,Skybreak - Icarus.mp3",
+    "id": "mazare,skybreak_-_icarus"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "melancholy",
+      "emotional"
+    ],
+    "valence": 0.259,
+    "arousal": 0.48500001430511475,
+    "chorus_start": 29.31,
+    "filepath": "assets/music/Virtual Riot,Raven Gray - Holding On To Smoke.mp3",
+    "id": "virtual_riot,raven_gray_-_holding_on_to_smoke"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "cinematic",
+      "lofi"
+    ],
+    "valence": 0.033,
+    "arousal": 0.7770000100135803,
+    "chorus_start": 41.67,
+    "filepath": "assets/music/ROY KNOX - Afraid To Love.mp3",
+    "id": "roy_knox_-_afraid_to_love"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "jazz",
+      "lofi"
+    ],
+    "valence": 0.718,
+    "arousal": 1.0,
+    "chorus_start": 78.62,
+    "filepath": "assets/music/8bite,Mestie - better off.mp3",
+    "id": "8bite,mestie_-_better_off"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "melancholy",
+      "emotional"
+    ],
+    "valence": 0.127,
+    "arousal": 0.5230000019073486,
+    "chorus_start": 84.42,
+    "filepath": "assets/music/Au5 - Divine.mp3",
+    "id": "au5_-_divine"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "piano"
+    ],
+    "valence": 0.46,
+    "arousal": 0.9010000228881836,
+    "chorus_start": 81.51,
+    "filepath": "assets/music/Endark,NEON RHYTHM - 醉梦.mp3",
+    "id": "endark,neon_rhythm_-_醉梦"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.56,
+    "arousal": 1.0,
+    "chorus_start": 80.02,
+    "filepath": "assets/music/Virtual Riot - Ridiculous.mp3",
+    "id": "virtual_riot_-_ridiculous"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "cinematic"
+    ],
+    "valence": 0.147,
+    "arousal": 0.8410000205039978,
+    "chorus_start": 73.82,
+    "filepath": "assets/music/AKUTO,A.way - Mirror Shard.mp3",
+    "id": "akuto,a.way_-_mirror_shard"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.351,
+    "arousal": 0.9589999914169312,
+    "chorus_start": 62.5,
+    "filepath": "assets/music/modus.,Miss Lina - Mirage.mp3",
+    "id": "modus.,miss_lina_-_mirage"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.186,
+    "arousal": -0.1340000033378601,
+    "chorus_start": 64.01,
+    "filepath": "assets/music/ILLENIUM,Emma Grace - Brave Soul.mp3",
+    "id": "illenium,emma_grace_-_brave_soul"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.173,
+    "arousal": 1.0,
+    "chorus_start": 49.32,
+    "filepath": "assets/music/7-60,,S–pray,YARVII - 那从前（7-60, Remix）.mp3",
+    "id": "7-60,,s–pray,yarvii_-_那从前（7-60,_remix）"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.378,
+    "arousal": 1.0,
+    "chorus_start": 41.64,
+    "filepath": "assets/music/PHONO RECORDS,Salty Salt,Mestie - Clock Chime.mp3",
+    "id": "phono_records,salty_salt,mestie_-_clock_chime"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "piano"
+    ],
+    "valence": 0.272,
+    "arousal": 0.8399999737739563,
+    "chorus_start": 75.32,
+    "filepath": "assets/music/Teminite,CADMIUM - When I Fall.mp3",
+    "id": "teminite,cadmium_-_when_i_fall"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Minor",
+    "style": "epic",
+    "tags": [
+      "epic",
+      "cinematic",
+      "action"
+    ],
+    "valence": 0.166,
+    "arousal": 1.0,
+    "chorus_start": 40.02,
+    "filepath": "assets/music/Sharks,Skybreak - Whirlpool.mp3",
+    "id": "sharks,skybreak_-_whirlpool"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "upbeat"
+    ],
+    "valence": 0.603,
+    "arousal": 0.9269999861717224,
+    "chorus_start": 85.01,
+    "filepath": "assets/music/Virtual Riot - Init.mp3",
+    "id": "virtual_riot_-_init"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "piano",
+    "tags": [
+      "piano",
+      "lofi",
+      "cinematic"
+    ],
+    "valence": 0.165,
+    "arousal": 0.6859999895095825,
+    "chorus_start": 85.23,
+    "filepath": "assets/music/Chime - Homeworld.mp3",
+    "id": "chime_-_homeworld"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "jazz"
+    ],
+    "valence": 0.294,
+    "arousal": 1.0,
+    "chorus_start": 72.16,
+    "filepath": "assets/music/Crystal Skies,RUNN - Hurts Sometimes (with RUNN).mp3",
+    "id": "crystal_skies,runn_-_hurts_sometimes_(with_runn)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.577,
+    "arousal": 1.0,
+    "chorus_start": 87.8,
+    "filepath": "assets/music/Softable,Moon Jelly - Tragic Show.mp3",
+    "id": "softable,moon_jelly_-_tragic_show"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.423,
+    "arousal": 0.8849999904632568,
+    "chorus_start": 46.69,
+    "filepath": "assets/music/Skrillex,swedm,LOAM - SEE YOU AGAIN VIP.mp3",
+    "id": "skrillex,swedm,loam_-_see_you_again_vip"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.409,
+    "arousal": 1.0,
+    "chorus_start": 67.23,
+    "filepath": "assets/music/Chime - Soda World.mp3",
+    "id": "chime_-_soda_world"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "cinematic",
+      "pop"
+    ],
+    "valence": 0.316,
+    "arousal": 0.8690000176429749,
+    "chorus_start": 54.45,
+    "filepath": "assets/music/SLANDER,Au5,shYbeast - Anywhere (feat. shYbeast, PLYA).mp3",
+    "id": "slander,au5,shybeast_-_anywhere_(feat._shybeast,_plya)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "emotional"
+    ],
+    "valence": 0.403,
+    "arousal": 0.6899999976158142,
+    "chorus_start": 76.92,
+    "filepath": "assets/music/Fractured Creatures.mp3",
+    "id": "fractured_creatures"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "happy"
+    ],
+    "valence": 0.508,
+    "arousal": 0.9679999947547913,
+    "chorus_start": 85.23,
+    "filepath": "assets/music/Said The Sky,ILLENIUM,Chelsea Cutler - Walk Me Home.mp3",
+    "id": "said_the_sky,illenium,chelsea_cutler_-_walk_me_home"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.554,
+    "arousal": 1.0,
+    "chorus_start": 65.23,
+    "filepath": "assets/music/Similar Outskirts - Two Sides.mp3",
+    "id": "similar_outskirts_-_two_sides"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "epic",
+      "dance"
+    ],
+    "valence": 0.425,
+    "arousal": 1.0,
+    "chorus_start": 51.93,
+    "filepath": "assets/music/Syrlvia,Endark,WEch Blackey - METEOR STORM.mp3",
+    "id": "syrlvia,endark,wech_blackey_-_meteor_storm"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "melancholy"
+    ],
+    "valence": 0.428,
+    "arousal": 0.15199999511241913,
+    "chorus_start": 76.87,
+    "filepath": "assets/music/aethoro,Vally.exe - Sketchbook (feat. vally.exe).mp3",
+    "id": "aethoro,vally.exe_-_sketchbook_(feat._vally.exe)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.559,
+    "arousal": 1.0,
+    "chorus_start": 75.61,
+    "filepath": "assets/music/N2V,柚子茶,析角 - 機 械 的 な 心 が.mp3",
+    "id": "n2v,柚子茶,析角_-_機_械_的_な_心_が"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "melancholy",
+      "pop"
+    ],
+    "valence": 0.182,
+    "arousal": 0.5090000033378601,
+    "chorus_start": 85.79,
+    "filepath": "assets/music/Settled Edge,Layzzz,Tribbec - 蓝移.mp3",
+    "id": "settled_edge,layzzz,tribbec_-_蓝移"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.391,
+    "arousal": 0.843999981880188,
+    "chorus_start": 25.65,
+    "filepath": "assets/music/Chime - Different.mp3",
+    "id": "chime_-_different"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "pop",
+      "lofi"
+    ],
+    "valence": 0.164,
+    "arousal": 1.0,
+    "chorus_start": 47.84,
+    "filepath": "assets/music/Skrillex,NJOMZA,swedm - SAY GOODBYE.mp3",
+    "id": "skrillex,njomza,swedm_-_say_goodbye"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "cinematic"
+    ],
+    "valence": 0.492,
+    "arousal": 1.0,
+    "chorus_start": 75.25,
+    "filepath": "assets/music/Pegboard Nerds,Seirén,Sophon - Superpower.mp3",
+    "id": "pegboard_nerds,seirén,sophon_-_superpower"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "dance",
+      "action"
+    ],
+    "valence": 0.491,
+    "arousal": 0.734000027179718,
+    "chorus_start": 80.22,
+    "filepath": "assets/music/KERO - Flora.mp3",
+    "id": "kero_-_flora"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "melancholy",
+      "cinematic"
+    ],
+    "valence": 0.28,
+    "arousal": 0.23600000143051147,
+    "chorus_start": 78.7,
+    "filepath": "assets/music/P_Mushroom - Salvation.mp3",
+    "id": "p_mushroom_-_salvation"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "battle",
+      "epic"
+    ],
+    "valence": 0.413,
+    "arousal": 1.0,
+    "chorus_start": 56.48,
+    "filepath": "assets/music/Sharks,Paper Skies,Skybreak - Trinite (Marcix Remix).mp3",
+    "id": "sharks,paper_skies,skybreak_-_trinite_(marcix_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "happy"
+    ],
+    "valence": 0.66,
+    "arousal": 1.0,
+    "chorus_start": 36.98,
+    "filepath": "assets/music/William Black,ILLENIUM,Alana Springsteen - My Own Advice.mp3",
+    "id": "william_black,illenium,alana_springsteen_-_my_own_advice"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "action",
+    "tags": [
+      "action",
+      "epic",
+      "dance"
+    ],
+    "valence": 0.394,
+    "arousal": 1.0,
+    "chorus_start": 68.9,
+    "filepath": "assets/music/MitiS,Crystal Skies - Youth.mp3",
+    "id": "mitis,crystal_skies_-_youth"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.695,
+    "arousal": 1.0,
+    "chorus_start": 80.34,
+    "filepath": "assets/music/Pegboard Nerds,Virtual Riot,Desirée Dawson - Talk About It (Virtual Riot Remix).mp3",
+    "id": "pegboard_nerds,virtual_riot,desirée_dawson_-_talk_about_it_(virtual_riot_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.518,
+    "arousal": 0.7879999876022339,
+    "chorus_start": 51.24,
+    "filepath": "assets/music/Crystal Skies,PRXZM - Moment With You (feat. PRXZM).mp3",
+    "id": "crystal_skies,prxzm_-_moment_with_you_(feat._prxzm)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "piano",
+    "tags": [
+      "piano",
+      "melancholy",
+      "cinematic"
+    ],
+    "valence": -0.241,
+    "arousal": 0.3880000114440918,
+    "chorus_start": 89.64,
+    "filepath": "assets/music/noen,Syrlvia - 粼.mp3",
+    "id": "noen,syrlvia_-_粼"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Minor",
+    "style": "battle",
+    "tags": [
+      "battle",
+      "lofi",
+      "pop"
+    ],
+    "valence": 0.518,
+    "arousal": 1.0,
+    "chorus_start": 74.69,
+    "filepath": "assets/music/Milky Knight,Endark,维度坍缩 - 引力透镜.mp3",
+    "id": "milky_knight,endark,维度坍缩_-_引力透镜"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "melancholy",
+      "emotional"
+    ],
+    "valence": 0.217,
+    "arousal": 0.6909999847412109,
+    "chorus_start": 50.18,
+    "filepath": "assets/music/S–pray,YARVII,Shaw_Tyan - 那从前.mp3",
+    "id": "s–pray,yarvii,shaw_tyan_-_那从前"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.536,
+    "arousal": 1.0,
+    "chorus_start": 45.16,
+    "filepath": "assets/music/Crystal Skies - Explosions.mp3",
+    "id": "crystal_skies_-_explosions"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "piano"
+    ],
+    "valence": 0.399,
+    "arousal": 1.0,
+    "chorus_start": 24.69,
+    "filepath": "assets/music/ChsVD,YellowCheese,2088 RECORDS - I N S I G N I F I C A N T - E X I S T E N E C E.mp3",
+    "id": "chsvd,yellowcheese,2088_records_-_i_n_s_i_g_n_i_f_i_c_a_n_t_-_e_x_i_s_t_e_n_e_c_e"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Minor",
+    "style": "melancholy",
+    "tags": [
+      "melancholy",
+      "lofi",
+      "cinematic"
+    ],
+    "valence": 0.052,
+    "arousal": 0.4740000069141388,
+    "chorus_start": 40.64,
+    "filepath": "assets/music/Shaw_Tyan,2088 RECORDS - 自 欺.mp3",
+    "id": "shaw_tyan,2088_records_-_自_欺"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "cinematic",
+      "pop"
+    ],
+    "valence": 0.01,
+    "arousal": 1.0,
+    "chorus_start": 62.79,
+    "filepath": "assets/music/RIOT - Overkill（赶尽杀绝）.mp3",
+    "id": "riot_-_overkill（赶尽杀绝）"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.545,
+    "arousal": 0.9850000143051147,
+    "chorus_start": 73.64,
+    "filepath": "assets/music/Au5,Emme - Another Way.mp3",
+    "id": "au5,emme_-_another_way"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "epic",
+      "cinematic"
+    ],
+    "valence": 0.253,
+    "arousal": 1.0,
+    "chorus_start": 53.25,
+    "filepath": "assets/music/MatChA,Dyrox,ΓИ7AL - B R E A T H E I N.mp3",
+    "id": "matcha,dyrox,γи7al_-_b_r_e_a_t_h_e_i_n"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.436,
+    "arousal": 1.0,
+    "chorus_start": 31.94,
+    "filepath": "assets/music/KERO - Cryolite (KERO Remix).mp3",
+    "id": "kero_-_cryolite_(kero_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "emotional"
+    ],
+    "valence": 0.236,
+    "arousal": 0.8830000162124634,
+    "chorus_start": 38.63,
+    "filepath": "assets/music/Seven Lions,SLANDER,Dabin - First Time (feat. Dylan Matthew).mp3",
+    "id": "seven_lions,slander,dabin_-_first_time_(feat._dylan_matthew)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "piano",
+      "cinematic"
+    ],
+    "valence": 0.09,
+    "arousal": 0.7699999809265137,
+    "chorus_start": 86.44,
+    "filepath": "assets/music/Virtual Riot,Modestep,Frank Zummo - This Could Be Us (VR Chill Remix).mp3",
+    "id": "virtual_riot,modestep,frank_zummo_-_this_could_be_us_(vr_chill_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "epic"
+    ],
+    "valence": 0.37,
+    "arousal": 1.0,
+    "chorus_start": 54.44,
+    "filepath": "assets/music/Herobust,ARMNHMR,Lights - Someone To Forget (BUSTED by Herobust).mp3",
+    "id": "herobust,armnhmr,lights_-_someone_to_forget_(busted_by_herobust)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "cinematic"
+    ],
+    "valence": 0.464,
+    "arousal": 1.0,
+    "chorus_start": 61.45,
+    "filepath": "assets/music/Skybreak,Ehallz,ALLEYCVT - Into The Light (feat. ALLEYCVT).mp3",
+    "id": "skybreak,ehallz,alleycvt_-_into_the_light_(feat._alleycvt)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "piano",
+      "melancholy"
+    ],
+    "valence": 0.341,
+    "arousal": 0.8130000233650208,
+    "chorus_start": 28.02,
+    "filepath": "assets/music/PHONO RECORDS,Mestie - Receding.mp3",
+    "id": "phono_records,mestie_-_receding"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "piano"
+    ],
+    "valence": 0.324,
+    "arousal": 0.890999972820282,
+    "chorus_start": 19.03,
+    "filepath": "assets/music/Porter Robinson - Look at the Sky.mp3",
+    "id": "porter_robinson_-_look_at_the_sky"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.355,
+    "arousal": 0.8500000238418579,
+    "chorus_start": 60.09,
+    "filepath": "assets/music/Frank Walker,Trivecta - Good in Goodbye.mp3",
+    "id": "frank_walker,trivecta_-_good_in_goodbye"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.38,
+    "arousal": 1.0,
+    "chorus_start": 74.76,
+    "filepath": "assets/music/Eliminate - f_ck you.mp3",
+    "id": "eliminate_-_f_ck_you"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "cinematic"
+    ],
+    "valence": 0.17,
+    "arousal": 1.0,
+    "chorus_start": 25.65,
+    "filepath": "assets/music/WEch Blackey - Star Chain.mp3",
+    "id": "wech_blackey_-_star_chain"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.444,
+    "arousal": 1.0,
+    "chorus_start": 82.79,
+    "filepath": "assets/music/Virtual Riot - We're Not Alone VIP.mp3",
+    "id": "virtual_riot_-_we're_not_alone_vip"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.507,
+    "arousal": 0.9509999752044678,
+    "chorus_start": 59.63,
+    "filepath": "assets/music/Au5; Tasha Baxter - Snowblind.mp3",
+    "id": "au5;_tasha_baxter_-_snowblind"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Minor",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.052,
+    "arousal": 0.8870000243186951,
+    "chorus_start": 76.82,
+    "filepath": "assets/music/Drazically - Pneumatic.mp3",
+    "id": "drazically_-_pneumatic"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "cinematic"
+    ],
+    "valence": 0.443,
+    "arousal": 1.0,
+    "chorus_start": 67.23,
+    "filepath": "assets/music/TSAR,OneCandy,张叶蕾 - 因为你(TSAR Remix).mp3",
+    "id": "tsar,onecandy,张叶蕾_-_因为你(tsar_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "piano"
+    ],
+    "valence": 0.372,
+    "arousal": 1.0,
+    "chorus_start": 34.76,
+    "filepath": "assets/music/Skybreak,Keepsake - Comet.mp3",
+    "id": "skybreak,keepsake_-_comet"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "cinematic"
+    ],
+    "valence": 0.174,
+    "arousal": 1.0,
+    "chorus_start": 76.82,
+    "filepath": "assets/music/Skybreak - Chroma.mp3",
+    "id": "skybreak_-_chroma"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "happy"
+    ],
+    "valence": 0.623,
+    "arousal": 1.0,
+    "chorus_start": 26.46,
+    "filepath": "assets/music/Pixel Terror,EMELINE - Chroma.mp3",
+    "id": "pixel_terror,emeline_-_chroma"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.627,
+    "arousal": 1.0,
+    "chorus_start": 45.25,
+    "filepath": "assets/music/SirensCeol - Never Leave.mp3",
+    "id": "sirensceol_-_never_leave"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.159,
+    "arousal": 0.828000009059906,
+    "chorus_start": 41.63,
+    "filepath": "assets/music/Tritonal,Au5,Dylan Matthew - Happy Where We Are.mp3",
+    "id": "tritonal,au5,dylan_matthew_-_happy_where_we_are"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.437,
+    "arousal": 1.0,
+    "chorus_start": 9.83,
+    "filepath": "assets/music/Porter Robinson - Russian Roulette.mp3",
+    "id": "porter_robinson_-_russian_roulette"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.509,
+    "arousal": 0.9480000138282776,
+    "chorus_start": 46.41,
+    "filepath": "assets/music/ILLENIUM,Skylar Grey - From the Ashes.mp3",
+    "id": "illenium,skylar_grey_-_from_the_ashes"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.546,
+    "arousal": 1.0,
+    "chorus_start": 40.04,
+    "filepath": "assets/music/Ray Volpe - Laserbeam.mp3",
+    "id": "ray_volpe_-_laserbeam"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.452,
+    "arousal": 1.0,
+    "chorus_start": 70.92,
+    "filepath": "assets/music/Eccentric,Miss Lina - Fall Apart.mp3",
+    "id": "eccentric,miss_lina_-_fall_apart"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "cinematic"
+    ],
+    "valence": 0.309,
+    "arousal": 1.0,
+    "chorus_start": 88.9,
+    "filepath": "assets/music/Dabin,Blanke,Lø Spirit - Night Bloom.mp3",
+    "id": "dabin,blanke,lø_spirit_-_night_bloom"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "dance",
+      "pop"
+    ],
+    "valence": 0.097,
+    "arousal": 0.9089999794960022,
+    "chorus_start": 67.23,
+    "filepath": "assets/music/noen,Crystal樱谷御野,2088 RECORDS - 鲸 落.mp3",
+    "id": "noen,crystal樱谷御野,2088_records_-_鲸_落"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "piano"
+    ],
+    "valence": 0.438,
+    "arousal": 0.9160000085830688,
+    "chorus_start": 80.98,
+    "filepath": "assets/music/Jiaye,Mestie - 地平线 (Mestie Remix).mp3",
+    "id": "jiaye,mestie_-_地平线_(mestie_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "melancholy",
+      "emotional"
+    ],
+    "valence": 0.365,
+    "arousal": 0.5860000252723694,
+    "chorus_start": 82.94,
+    "filepath": "assets/music/Skybreak; Sofuu; Bendel; N33T - Clearer Sky.mp3",
+    "id": "skybreak;_sofuu;_bendel;_n33t_-_clearer_sky"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "emotional"
+    ],
+    "valence": 0.221,
+    "arousal": 0.6980000138282776,
+    "chorus_start": 55.22,
+    "filepath": "assets/music/Codeko,Sarah De Warren - Violet Sky (feat. Sarah de Warren).mp3",
+    "id": "codeko,sarah_de_warren_-_violet_sky_(feat._sarah_de_warren)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "epic",
+      "action"
+    ],
+    "valence": 0.332,
+    "arousal": 1.0,
+    "chorus_start": 77.55,
+    "filepath": "assets/music/Au5,Chime - The Other Side.mp3",
+    "id": "au5,chime_-_the_other_side"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.269,
+    "arousal": 1.0,
+    "chorus_start": 82.43,
+    "filepath": "assets/music/Chime,Convexity - Liminal.mp3",
+    "id": "chime,convexity_-_liminal"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.368,
+    "arousal": 0.9769999980926514,
+    "chorus_start": 46.14,
+    "filepath": "assets/music/Danny Olson,David Frank - Firelight (Danny Olson & Skybreak VIP).mp3",
+    "id": "danny_olson,david_frank_-_firelight_(danny_olson_&_skybreak_vip)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "cinematic"
+    ],
+    "valence": 0.226,
+    "arousal": 0.9509999752044678,
+    "chorus_start": 85.39,
+    "filepath": "assets/music/ILLENIUM,Tori Kelly,Virtual Riot - Blame Myself (ILLENIUM and Virtual Riot Remix).mp3",
+    "id": "illenium,tori_kelly,virtual_riot_-_blame_myself_(illenium_and_virtual_riot_remix)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "melancholy",
+      "cinematic"
+    ],
+    "valence": 0.28,
+    "arousal": 0.23600000143051147,
+    "chorus_start": 78.7,
+    "filepath": "assets/music/PMogu - Salvation.mp3",
+    "id": "pmogu_-_salvation"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "emotional"
+    ],
+    "valence": 0.4,
+    "arousal": 1.0,
+    "chorus_start": 18.69,
+    "filepath": "assets/music/Crystal Skies,AMIDY - Nirvana.mp3",
+    "id": "crystal_skies,amidy_-_nirvana"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.429,
+    "arousal": 1.0,
+    "chorus_start": 78.29,
+    "filepath": "assets/music/Chime - Win & Lose.mp3",
+    "id": "chime_-_win_&_lose"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "cinematic",
+      "lofi"
+    ],
+    "valence": 0.282,
+    "arousal": 1.0,
+    "chorus_start": 67.72,
+    "filepath": "assets/music/Virtual Riot - Dream Logic.mp3",
+    "id": "virtual_riot_-_dream_logic"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "melancholy"
+    ],
+    "valence": 0.239,
+    "arousal": 0.9480000138282776,
+    "chorus_start": 25.64,
+    "filepath": "assets/music/Aurora Sky - Redeem.mp3",
+    "id": "aurora_sky_-_redeem"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Minor",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "lofi",
+      "epic"
+    ],
+    "valence": 0.024,
+    "arousal": 1.0,
+    "chorus_start": 81.64,
+    "filepath": "assets/music/Skybreak,Kaval - Moonglow.mp3",
+    "id": "skybreak,kaval_-_moonglow"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "dance",
+    "tags": [
+      "dance",
+      "pop",
+      "cinematic"
+    ],
+    "valence": -0.071,
+    "arousal": 0.7089999914169312,
+    "chorus_start": 42.44,
+    "filepath": "assets/music/noen - unweakness.mp3",
+    "id": "noen_-_unweakness"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "dance",
+      "lofi"
+    ],
+    "valence": 0.25,
+    "arousal": 1.0,
+    "chorus_start": 84.81,
+    "filepath": "assets/music/Criminal Code - Inverse Form VIP.mp3",
+    "id": "criminal_code_-_inverse_form_vip"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "melancholy",
+      "emotional"
+    ],
+    "valence": 0.292,
+    "arousal": 0.7089999914169312,
+    "chorus_start": 46.83,
+    "filepath": "assets/music/Afinity,ROY KNOX,Skyelle - With U.mp3",
+    "id": "afinity,roy_knox,skyelle_-_with_u"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.303,
+    "arousal": 1.0,
+    "chorus_start": 41.81,
+    "filepath": "assets/music/Au5 - Starflame.mp3",
+    "id": "au5_-_starflame"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "emotional"
+    ],
+    "valence": 0.341,
+    "arousal": 1.0,
+    "chorus_start": 88.38,
+    "filepath": "assets/music/Layzzz,2088 RECORDS - 無.mp3",
+    "id": "layzzz,2088_records_-_無"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "cinematic",
+      "dance"
+    ],
+    "valence": 0.107,
+    "arousal": 0.8740000128746033,
+    "chorus_start": 84.82,
+    "filepath": "assets/music/Paper Skies - Liquidist.mp3",
+    "id": "paper_skies_-_liquidist"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "upbeat"
+    ],
+    "valence": 0.283,
+    "arousal": 1.0,
+    "chorus_start": 11.63,
+    "filepath": "assets/music/Skrillex - HOLD ON.mp3",
+    "id": "skrillex_-_hold_on"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "action"
+    ],
+    "valence": 0.411,
+    "arousal": 1.0,
+    "chorus_start": 83.25,
+    "filepath": "assets/music/Bobawhale,PLUS+ - applecake.mp3",
+    "id": "bobawhale,plus+_-_applecake"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "cinematic"
+    ],
+    "valence": 0.436,
+    "arousal": 1.0,
+    "chorus_start": 56.01,
+    "filepath": "assets/music/Chime - Intermolecular Lullaby.mp3",
+    "id": "chime_-_intermolecular_lullaby"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "melancholy",
+    "tags": [
+      "melancholy",
+      "lofi",
+      "emotional"
+    ],
+    "valence": 0.134,
+    "arousal": 0.5210000276565552,
+    "chorus_start": 89.81,
+    "filepath": "assets/music/Virtual Riot - Embark.mp3",
+    "id": "virtual_riot_-_embark"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "dance"
+    ],
+    "valence": 0.525,
+    "arousal": 0.8949999809265137,
+    "chorus_start": 51.36,
+    "filepath": "assets/music/Helloworld,JT Roach,Blanke - Used to Losing You.mp3",
+    "id": "helloworld,jt_roach,blanke_-_used_to_losing_you"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "B Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "happy"
+    ],
+    "valence": 0.501,
+    "arousal": 1.0,
+    "chorus_start": 78.43,
+    "filepath": "assets/music/Dabin,Trella - Worlds Away.mp3",
+    "id": "dabin,trella_-_worlds_away"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Minor",
+    "style": "epic",
+    "tags": [
+      "epic",
+      "cinematic",
+      "pop"
+    ],
+    "valence": 0.045,
+    "arousal": 1.0,
+    "chorus_start": 45.5,
+    "filepath": "assets/music/Dani Demand,Skybreak - The Epic Octopus Song.mp3",
+    "id": "dani_demand,skybreak_-_the_epic_octopus_song"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "dance",
+      "pop"
+    ],
+    "valence": 0.208,
+    "arousal": 0.7990000247955322,
+    "chorus_start": 53.77,
+    "filepath": "assets/music/POIZON SOUNDS,2088 RECORDS,Wooden - G R A V I T Y.mp3",
+    "id": "poizon_sounds,2088_records,wooden_-_g_r_a_v_i_t_y"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.544,
+    "arousal": 1.0,
+    "chorus_start": 67.08,
+    "filepath": "assets/music/Au5,Danyka Nadeau - Summer Days.mp3",
+    "id": "au5,danyka_nadeau_-_summer_days"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.552,
+    "arousal": 0.824999988079071,
+    "chorus_start": 87.93,
+    "filepath": "assets/music/Seven Lions,Wooli,AMIDY - Shadows.mp3",
+    "id": "seven_lions,wooli,amidy_-_shadows"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "jazz"
+    ],
+    "valence": 0.581,
+    "arousal": 1.0,
+    "chorus_start": 89.06,
+    "filepath": "assets/music/phritz - look at the sky.mp3",
+    "id": "phritz_-_look_at_the_sky"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Minor",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "epic"
+    ],
+    "valence": 0.257,
+    "arousal": 1.0,
+    "chorus_start": 82.41,
+    "filepath": "assets/music/TSAR,Wooden - aura.mp3",
+    "id": "tsar,wooden_-_aura"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.453,
+    "arousal": 0.8230000138282776,
+    "chorus_start": 23.72,
+    "filepath": "assets/music/Skrillex,Team EZY - ANIMALS BEAT.mp3",
+    "id": "skrillex,team_ezy_-_animals_beat"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "emotional",
+      "pop"
+    ],
+    "valence": 0.292,
+    "arousal": 0.7250000238418579,
+    "chorus_start": 88.54,
+    "filepath": "assets/music/Au5,Diandra Faye - A Million Miles (feat. Diandra Faye).mp3",
+    "id": "au5,diandra_faye_-_a_million_miles_(feat._diandra_faye)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "cinematic",
+    "tags": [
+      "cinematic",
+      "epic",
+      "action"
+    ],
+    "valence": 0.1,
+    "arousal": 1.0,
+    "chorus_start": 27.48,
+    "filepath": "assets/music/Blanke,Au5 - Turmoil.mp3",
+    "id": "blanke,au5_-_turmoil"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.38,
+    "arousal": 1.0,
+    "chorus_start": 56.67,
+    "filepath": "assets/music/phritz - Somewhere Blue.mp3",
+    "id": "phritz_-_somewhere_blue"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Bb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "piano"
+    ],
+    "valence": 0.444,
+    "arousal": 1.0,
+    "chorus_start": 64.11,
+    "filepath": "assets/music/KERO,Mikesh!ft - Waiting.mp3",
+    "id": "kero,mikesh!ft_-_waiting"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Minor",
+    "style": "epic",
+    "tags": [
+      "epic",
+      "action",
+      "battle"
+    ],
+    "valence": 0.122,
+    "arousal": 1.0,
+    "chorus_start": 43.25,
+    "filepath": "assets/music/Skrillex - SAN DIEGO VIP.mp3",
+    "id": "skrillex_-_san_diego_vip"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "cinematic"
+    ],
+    "valence": 0.295,
+    "arousal": 1.0,
+    "chorus_start": 61.26,
+    "filepath": "assets/music/Paper Skies,Nytrix - Freefalling.mp3",
+    "id": "paper_skies,nytrix_-_freefalling"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.522,
+    "arousal": 1.0,
+    "chorus_start": 52.1,
+    "filepath": "assets/music/EricInk - I Really Want To Stay At Your House（EricInk remix）.mp3",
+    "id": "ericink_-_i_really_want_to_stay_at_your_house（ericink_remix）"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "happy"
+    ],
+    "valence": 0.452,
+    "arousal": 1.0,
+    "chorus_start": 21.93,
+    "filepath": "assets/music/Porter Robinson,Madeon - Shelter.mp3",
+    "id": "porter_robinson,madeon_-_shelter"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.464,
+    "arousal": 1.0,
+    "chorus_start": 57.63,
+    "filepath": "assets/music/Skybreak,SpaceYeti - Terminal.mp3",
+    "id": "skybreak,spaceyeti_-_terminal"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "piano",
+      "jazz"
+    ],
+    "valence": 0.445,
+    "arousal": 0.31200000643730164,
+    "chorus_start": 34.31,
+    "filepath": "assets/music/Razor Storm - Neko-Neko Days.mp3",
+    "id": "razor_storm_-_neko-neko_days"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "G Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "happy",
+      "dance"
+    ],
+    "valence": 0.653,
+    "arousal": 1.0,
+    "chorus_start": 61.96,
+    "filepath": "assets/music/Kaval,Full Mana - Insight.mp3",
+    "id": "kaval,full_mana_-_insight"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "emotional"
+    ],
+    "valence": 0.545,
+    "arousal": 0.8119999766349792,
+    "chorus_start": 36.83,
+    "filepath": "assets/music/Crystal Skies,Meggie York - Lifeline (feat. Meggie York).mp3",
+    "id": "crystal_skies,meggie_york_-_lifeline_(feat._meggie_york)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Ab Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "dance",
+      "cinematic"
+    ],
+    "valence": 0.393,
+    "arousal": 1.0,
+    "chorus_start": 68.64,
+    "filepath": "assets/music/Skybreak - CLOUDBUSTER.mp3",
+    "id": "skybreak_-_cloudbuster"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.5,
+    "arousal": 1.0,
+    "chorus_start": 54.08,
+    "filepath": "assets/music/Laitmus - Paper Thin（Alvin Princetine Bootleg）.mp3",
+    "id": "laitmus_-_paper_thin（alvin_princetine_bootleg）"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.169,
+    "arousal": 0.7279999852180481,
+    "chorus_start": 64.26,
+    "filepath": "assets/music/Dabin,Said The Sky,Clara Mae - In The End.mp3",
+    "id": "dabin,said_the_sky,clara_mae_-_in_the_end"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "lofi",
+    "tags": [
+      "lofi",
+      "epic",
+      "cinematic"
+    ],
+    "valence": 0.449,
+    "arousal": 1.0,
+    "chorus_start": 5.19,
+    "filepath": "assets/music/Skybreak,Nytrix - Our Moving Picture.mp3",
+    "id": "skybreak,nytrix_-_our_moving_picture"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "happy"
+    ],
+    "valence": 0.514,
+    "arousal": 0.8930000066757202,
+    "chorus_start": 65.96,
+    "filepath": "assets/music/LIGHT ACLOUD,Tsugumi Nagahara - Hakari.mp3",
+    "id": "light_acloud,tsugumi_nagahara_-_hakari"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "Eb Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "piano",
+      "lofi"
+    ],
+    "valence": 0.315,
+    "arousal": 1.0,
+    "chorus_start": 46.88,
+    "filepath": "assets/music/phritz - change my mind.mp3",
+    "id": "phritz_-_change_my_mind"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "A Minor",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.309,
+    "arousal": 0.8090000152587891,
+    "chorus_start": 61.4,
+    "filepath": "assets/music/Sharks - Out My Head (VIP).mp3",
+    "id": "sharks_-_out_my_head_(vip)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Minor",
+    "style": "piano",
+    "tags": [
+      "piano",
+      "pop",
+      "melancholy"
+    ],
+    "valence": 0.143,
+    "arousal": 0.041999999433755875,
+    "chorus_start": 89.64,
+    "filepath": "assets/music/AritxOnly - Prayer.mp3",
+    "id": "aritxonly_-_prayer"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "D Major",
+    "style": "dance",
+    "tags": [
+      "dance",
+      "pop",
+      "happy"
+    ],
+    "valence": 0.613,
+    "arousal": 1.0,
+    "chorus_start": 78.33,
+    "filepath": "assets/music/Skrillex,swedm - AZASU.mp3",
+    "id": "skrillex,swedm_-_azasu"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.738,
+    "arousal": 1.0,
+    "chorus_start": 61.46,
+    "filepath": "assets/music/Bob Hou,Layzzz - Travel Diary.mp3",
+    "id": "bob_hou,layzzz_-_travel_diary"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "F# Major",
+    "style": "pop",
+    "tags": [
+      "pop",
+      "lofi",
+      "dance"
+    ],
+    "valence": 0.614,
+    "arousal": 1.0,
+    "chorus_start": 73.35,
+    "filepath": "assets/music/Eccentric - Golden Hour.mp3",
+    "id": "eccentric_-_golden_hour"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "E Minor",
+    "style": "battle",
+    "tags": [
+      "battle",
+      "epic",
+      "pop"
+    ],
+    "valence": 0.37,
+    "arousal": 1.0,
+    "chorus_start": 56.79,
+    "filepath": "assets/music/KillKiss(Syrlvia).wav",
+    "id": "killkiss(syrlvia)"
+  },
+  {
+    "duration": 0.0,
+    "bpm": 0,
+    "key": "C Minor",
+    "style": "action",
+    "tags": [
+      "action",
+      "epic",
+      "lofi"
+    ],
+    "valence": 0.053,
+    "arousal": 0.6150000095367432,
+    "chorus_start": 1.67,
+    "filepath": "assets/music/NJU FUSION AUDIO TAG D#_MIN.wav",
+    "id": "nju_fusion_audio_tag_d#_min"
+  }
+]
