@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "tools": [
+    {
+      "uid": "struct.split",
+      "name": "SPLIT",
+      "desc": {
+        "userDesc": "在指定时间点将一个乐章切分为两个乐章（单位：秒）。",
+        "promptDesc": "当乐章内部语义/能量发生明显变化、导致单首音乐无法覆盖时，切分当前乐章。"
+      },
+      "cost": 0.05,
+      "input_schema": {
+        "type": "object",
+        "required": ["movement_index", "timestamp"],
+        "properties": {
+          "movement_index": { "type": "integer", "minimum": 0 },
+          "timestamp": {
+            "type": "number",
+            "minimum": 0.0,
+            "description": "相对于该 movement 起点的秒数"
+          },
+          "reason": { "type": "string" }
+        }
+      },
+      "output_schema": {
+        "type": "object",
+        "required": ["movements"],
+        "properties": {
+          "movements": { "type": "array", "items": { "type": "object" } },
+          "delta_steps": { "type": "integer" }
+        }
+      },
+      "tags": ["structure"]
+    },
+    {
+      "uid": "struct.merge",
+      "name": "MERGE",
+      "desc": {
+        "userDesc": "将第 i 个乐章与第 i+1 个乐章合并为一个更长的乐章。",
+        "promptDesc": "当片段过短导致配乐断裂感强时，合并相邻乐章以提升连贯性。"
+      },
+      "cost": 0.05,
+      "input_schema": {
+        "type": "object",
+        "required": ["movement_index"],
+        "properties": {
+          "movement_index": { "type": "integer", "minimum": 0 },
+          "reason": { "type": "string" }
+        }
+      },
+      "output_schema": {
+        "type": "object",
+        "required": ["movements"],
+        "properties": {
+          "movements": { "type": "array", "items": { "type": "object" } },
+          "delta_steps": { "type": "integer" }
+        }
+      },
+      "tags": ["structure"]
+    },
+    {
+      "uid": "retrieval.search",
+      "name": "SEARCH",
+      "desc": {
+        "userDesc": "按 query + 约束条件检索音乐库，返回候选列表（已排序）。",
+        "promptDesc": "执行标准 MRET 检索：输入 query 与约束（BPM/Key/时长/风格等），返回 top_k 候选。"
+      },
+      "cost": 0.0,
+      "input_schema": {
+        "type": "object",
+        "required": ["query"],
+        "properties": {
+          "query": { "type": "string" },
+          "constraints": {
+            "type": "object",
+            "properties": {
+              "bpm": {
+                "type": "object",
+                "properties": {
+                  "min": { "type": "number" },
+                  "max": { "type": "number" }
+                }
+              },
+              "key": { "type": "string", "description": "例如：C / Am / F#（可选）" },
+              "duration": {
+                "type": "object",
+                "properties": {
+                  "min": { "type": "number" },
+                  "max": { "type": "number" }
+                }
+              },
+              "genre": { "type": "array", "items": { "type": "string" } },
+              "exclude_tags": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          "top_k": { "type": "integer", "minimum": 1, "maximum": 50, "default": 10 }
+        }
+      },
+      "output_schema": {
+        "type": "object",
+        "required": ["candidates"],
+        "properties": {
+          "candidates": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["track_id", "score_sem"],
+              "properties": {
+                "track_id": { "type": "string" },
+                "score_sem": { "type": "number" },
+                "bpm": { "type": "number" },
+                "key": { "type": "string" },
+                "duration": { "type": "number" },
+                "tags": { "type": "array", "items": { "type": "string" } }
+              }
+            }
+          }
+        }
+      },
+      "tags": ["retrieval"]
+    },
+    {
+      "uid": "retrieval.requery",
+      "name": "REQUERY",
+      "desc": {
+        "userDesc": "改写上一次检索词（同义词/更具象的描述等）并重新检索。",
+        "promptDesc": "当语义匹配分低时，提出更好的 new_query 并复检（可选择保留原约束）。"
+      },
+      "cost": 0.1,
+      "input_schema": {
+        "type": "object",
+        "required": ["new_query"],
+        "properties": {
+          "new_query": { "type": "string" },
+          "keep_constraints": { "type": "boolean", "default": true },
+          "reason": { "type": "string" }
+        }
+      },
+      "output_schema": {
+        "type": "object",
+        "required": ["candidates"],
+        "properties": {
+          "candidates": { "type": "array", "items": { "type": "object" } }
+        }
+      },
+      "tags": ["retrieval", "healing"]
+    },
+    {
+      "uid": "retrieval.relax_constraint",
+      "name": "RELAX_CONSTRAINT",
+      "desc": {
+        "userDesc": "放宽某个约束字段（如 bpm/key/duration/genre），扩大候选集合。",
+        "promptDesc": "当好歌被严格 BPM/Key/时长等过滤掉时，放宽指定字段以增加可选项。"
+      },
+      "cost": 0.05,
+      "input_schema": {
+        "type": "object",
+        "required": ["field"],
+        "properties": {
+          "field": { "type": "string", "enum": ["bpm", "key", "duration", "genre"] },
+          "amount": { "type": "number", "description": "可选：数值型放宽幅度（如 bpm 扩大范围）" },
+          "reason": { "type": "string" }
+        }
+      },
+      "output_schema": {
+        "type": "object",
+        "required": ["constraints"],
+        "properties": {
+          "constraints": { "type": "object" }
+        }
+      },
+      "tags": ["retrieval", "healing"]
+    },
+    {
+      "uid": "edit.continue",
+      "name": "CONTINUE",
+      "desc": {
+        "userDesc": "延续上一首曲子，用它覆盖下一段乐章（不换歌）。",
+        "promptDesc": "当相邻乐章情绪/能量高度连续时，优先 CONTINUE，避免不必要的换歌。"
+      },
+      "cost": 0.0,
+      "input_schema": {
+        "type": "object",
+        "required": ["prev_track_id"],
+        "properties": {
+          "prev_track_id": { "type": "string" }
+        }
+      },
+      "output_schema": {
+        "type": "object",
+        "required": ["track_id"],
+        "properties": {
+          "track_id": { "type": "string" }
+        }
+      },
+      "tags": ["editing"]
+    },
+    {
+      "uid": "edit.trim",
+      "name": "TRIM",
+      "desc": {
+        "userDesc": "裁剪音频：从指定 start_time 开始截取 duration 秒（可选淡入淡出）。",
+        "promptDesc": "当整首歌过长或需要副歌/高潮段时，使用 TRIM 取合适片段以适配乐章时长。"
+      },
+      "cost": 0.02,
+      "input_schema": {
+        "type": "object",
+        "required": ["track_id", "start_time", "duration"],
+        "properties": {
+          "track_id": { "type": "string" },
+          "start_time": { "type": "number", "minimum": 0.0 },
+          "duration": { "type": "number", "minimum": 0.1 },
+          "fade_in": { "type": "number", "minimum": 0.0, "default": 0.05 },
+          "fade_out": { "type": "number", "minimum": 0.0, "default": 0.1 }
+        }
+      },
+      "output_schema": {
+        "type": "object",
+        "required": ["track_segment"],
+        "properties": {
+          "track_segment": { "type": "object" }
+        }
+      },
+      "tags": ["editing"]
+    },
+    {
+      "uid": "edit.shift_align",
+      "name": "SHIFT_ALIGN",
+      "desc": {
+        "userDesc": "调整音频起始偏移量以对齐音画高潮（offset>0 延后；offset<0 提前）。",
+        "promptDesc": "当音乐 drop/onset 与视觉高潮点存在小幅时间偏差时，使用 SHIFT_ALIGN 做微调对齐。"
+      },
+      "cost": 0.02,
+      "input_schema": {
+        "type": "object",
+        "required": ["offset"],
+        "properties": {
+          "offset": { "type": "number", "description": "正数=延后音频；负数=提前音频" },
+          "anchor": { "type": "string", "description": "可选：对齐目标说明（如 cut@11s）" }
+        }
+      },
+      "output_schema": {
+        "type": "object",
+        "required": ["offset"],
+        "properties": {
+          "offset": { "type": "number" }
+        }
+      },
+      "tags": ["editing"]
+    },
+    {
+      "uid": "gen.suno",
+      "name": "GENERATE_SUNO",
+      "desc": {
+        "userDesc": "兜底生成：调用外部生成器生成新音乐（高成本）。",
+        "promptDesc": "仅在检索与自愈失败且预算允许时使用；提供精确 prompt（可带时长/BPM/调性/风格）。"
+      },
+      "cost": 0.5,
+      "input_schema": {
+        "type": "object",
+        "required": ["prompt"],
+        "properties": {
+          "prompt": { "type": "string" },
+          "duration": { "type": "number", "minimum": 5.0 },
+          "style": { "type": "string" },
+          "bpm": { "type": "number" },
+          "key": { "type": "string" }
+        }
+      },
+      "output_schema": {
+        "type": "object",
+        "required": ["track_id"],
+        "properties": {
+          "track_id": { "type": "string" },
+          "metadata": { "type": "object" }
+        }
+      },
+      "tags": ["generation"]
+    },
+    {
+      "uid": "score.evaluate",
+      "name": "EVALUATE",
+      "desc": {
+        "userDesc": "确定性评估：计算候选音乐与当前乐章的 S_sem/S_harm/S_sync/S_flow 以及总分 J。",
+        "promptDesc": "对给定 track 与 movement 做可复现评分，返回四项子分与总分 J（含可选 debug）。"
+      },
+      "cost": 0.0,
+      "input_schema": {
+        "type": "object",
+        "required": ["movement", "track_id"],
+        "properties": {
+          "movement": { "type": "object" },
+          "track_id": { "type": "string" },
+          "prev_track_id": { "type": "string" },
+          "cut_points": { "type": "array", "items": { "type": "number" } },
+          "visual_energy": { "type": "array", "items": { "type": "number" } },
+          "weights": { "type": "object" }
+        }
+      },
+      "output_schema": {
+        "type": "object",
+        "required": ["S_sem", "S_harm", "S_sync", "S_flow", "J"],
+        "properties": {
+          "S_sem": { "type": "number" },
+          "S_harm": { "type": "number" },
+          "S_sync": { "type": "number" },
+          "S_flow": { "type": "number" },
+          "J": { "type": "number" },
+          "debug": { "type": "object" }
+        }
+      },
+      "tags": ["scoring"]
+    }
+  ]
+}

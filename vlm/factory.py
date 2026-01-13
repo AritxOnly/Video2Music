@@ -6,7 +6,7 @@ from .sample.interface import SampleVLMOutputInterface
 # from .openai.interface import OpenAIVLInterface
 # from .local.interface import LocalVLInterface
 
-VLMBuiltinName = Literal["qwen-web"]  # 后面有别的可以往里加
+VLMBuiltinName = Literal["qwen-web", "qwen-seg-web", "sample", ]  # 后面有别的可以往里加
 
 def get_vlm(name: VLMBuiltinName, **kwargs) -> VLMInterface:
     """
