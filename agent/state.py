@@ -2,6 +2,8 @@ from dataclasses import dataclass, field
 from typing import List, Dict, Optional, Any
 from enum import Enum
 
+from vsem.model import SegmentSemantics
+
 # 定义动作类型
 class ActionType(Enum):
     # Structural
@@ -37,7 +39,7 @@ class Movement:
     id: str
     start_time: float
     end_time: float
-    shots: List[Any]  # 关联的镜头列表 (引用 vlm/clip 的结果)
+    shots: List[SegmentSemantics] = field(default_factory=list)
     
     # 视觉特征缓存 (避免重复计算)
     visual_summary: str = ""
@@ -54,6 +56,9 @@ class AgentState:
     # 已做出的决策 (History)
     # Mapping: movement_index -> assigned_track (Track Object)
     assigned_tracks: Dict[int, Track] = field(default_factory=dict)
+    
+    # 全局感知上下文
+    global_semantics: Optional[Any] = None
     
     # 路径记录 (用于回溯 Debug)
     action_history: List[Dict[str, Any]] = field(default_factory=list) # [{'action': 'SEARCH', 'param': 'Sad', 'step_score': 0.8}]

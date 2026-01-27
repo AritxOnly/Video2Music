@@ -6,6 +6,7 @@ from .interface import (
 )
 from .library import JsonMusicLibrary
 from .simple_arranger import SimpleRuleArranger
+from .service import MusicService
 
 __all__ = [
     "MusicTrack",
@@ -15,6 +16,7 @@ __all__ = [
     "MusicArrangerInterface",
     "MusicGeneratorInterface",
     "JsonMusicLibrary",
+    "MusicService",
     "SimpleRuleArranger",
 ]
 

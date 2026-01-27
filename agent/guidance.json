@@ -1,0 +1,44 @@
+{
+  "SEM_LOW": {
+    "symptom": "Semantic match score is too low.",
+    "goal": "Find music that matches the visual description better.",
+    "action": "REQUERY(query=refined_keywords) or SEARCH(query=visual_summary).",
+    "anti_pattern": "Do not CONTINUE with the current mismatching track."
+  },
+  "FILTER_KILL": {
+    "symptom": "Good matches were filtered out by strict BPM/Key constraints.",
+    "goal": "Prioritize semantic match over harmonic match.",
+    "action": "RELAX_CONSTRAINT() first, then SEARCH.",
+    "anti_pattern": "Do not keep SEARCHing with the same strict constraints."
+  },
+  "HARM_BAD": {
+    "symptom": "The transition from the previous track sounds dissonant (Key clash).",
+    "goal": "Find a bridge track or a track in a compatible key.",
+    "action": "SEARCH(query, prev_track_key=...) to find a new track.",
+    "anti_pattern": "Avoid CONTINUE."
+  },
+  "SYNC_BAD": {
+    "symptom": "Music beats do not align with visual cuts.",
+    "goal": "Align onsets with cut points.",
+    "action": "Preferred: SHIFT_ALIGN(offset in [-0.5, 0.5]). Secondary: TRIM(start=chorus).",
+    "anti_pattern": "Large shifts (>2s) destroy the structure."
+  },
+  "TOO_LONG_VAR": {
+    "symptom": "Movement is too long (>30s) with high visual variance.",
+    "goal": "Break the movement into distinct emotional sections.",
+    "action": "SPLIT(timestamp=shot_boundary). Pick a timestamp from 'Reference Shots'.",
+    "anti_pattern": "Do not SEARCH for one song to cover distinct scenes."
+  },
+  "TOO_SHORT_FRAGMENT": {
+    "symptom": "Movement is too short (<5s).",
+    "goal": "Avoid fragmentation.",
+    "action": "MERGE() with the next movement.",
+    "anti_pattern": "Do not SEARCH for a 3-second clip."
+  },
+  "STALL": {
+    "symptom": "Repeated failures to improve score.",
+    "goal": "Force a breakthrough.",
+    "action": "GENERATE_SUNO(prompt) if budget allows, or drastic SPLIT.",
+    "anti_pattern": "Do not REQUERY the same thing."
+  }
+}

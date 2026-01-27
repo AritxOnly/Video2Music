@@ -5,9 +5,9 @@ import dotenv
 
 LLMBuiltinName = Literal["deepseek-v3", "deepseek-r1"]
 
-def get_vlm(name: LLMBuiltinName, **kwargs) -> LLMInterface:
+def get_llm(name: LLMBuiltinName, **kwargs) -> LLMInterface:
     """
-    统一创建 VLM 实例的工厂。
+    统一创建 LLM 实例的工厂。
     kwargs 直接传给对应实现的 __init__。
     """
     if name == "deepseek-v3":
