@@ -101,7 +101,14 @@ class FFmpegRenderer:
         # 执行
         try:
             # print(f"CMD: {cmd}") # Debug Use
-            subprocess.run(cmd, shell=True, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
+            p = subprocess.run(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+            if p.returncode != 0:
+                print(p.stdout[-4000:])  # 打印末尾，别爆屏
+                raise subprocess.CalledProcessError(p.returncode, cmd)
+            else:
+                # 可选：调试期也打印末尾几行，看有没有 atrim 警告
+                tail = p.stdout.strip().splitlines()[-20:]
+                print("\n".join(tail))
             print(f"[Renderer] Success! Saved to {output_path}")
         except subprocess.CalledProcessError as e:
             print(f"[Renderer] FFmpeg failed: {e}")

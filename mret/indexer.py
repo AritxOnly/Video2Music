@@ -64,12 +64,6 @@ class HybridIndexer:
         return embeds
 
     def scan_and_index(self):
-        existing = {}
-        # 如果你想保留旧数据，取消下面两行的注释。
-        # 这里为了确保数据格式正确，建议重新全量生成。
-        # if self.index_file.exists():
-        #     with open(self.index_file, 'r') as f: ...
-
         files = list(self.assets_dir.glob("**/*.mp3")) + list(self.assets_dir.glob("**/*.wav"))
         print(f">>> [Indexer] Processing {len(files)} files...")
         
@@ -83,41 +77,52 @@ class HybridIndexer:
                 meta['id'] = fpath.stem.replace(" ", "_").lower()
                 new_tracks.append(meta)
             except Exception as e:
-                # 打印前几个错误方便调试
+                # 遇到错误不中断，只打印
                 if i < 5: tqdm.write(f"Skip {fpath.name}: {e}")
                 pass
             
+            # 定期清理显存/内存
             if i % 25 == 0:
                 if self.device == "mps": torch.mps.empty_cache()
                 gc.collect()
 
         print(f">>> [Indexer] Saving {len(new_tracks)} tracks to JSON...")
-        # 写入文件
         with open(self.index_file, 'w', encoding='utf-8') as f:
             json.dump(new_tracks, f, ensure_ascii=False, indent=2)
         print(f">>> [Indexer] Done.")
 
     def _analyze_track(self, fpath: str) -> Dict[str, Any]:
         """
-        核心分析：Multi-Window CLAP + Physical Feature Fusion
+        核心分析：Multi-Window CLAP + Physical Feature Fusion (Duration, BPM, Key)
         """
-        # === 1. 音频读取 (Fallback Logic) ===
+        # === 1. 音频读取 & 时长计算 ===
         waveform = None
         sr = 48000
+        total_duration = 0.0
+
         try:
+            # torchaudio 加载
             waveform, original_sr = torchaudio.load(fpath, normalize=True)
+            
             if original_sr != 48000:
                 resampler = torchaudio.transforms.Resample(original_sr, 48000)
                 waveform = resampler(waveform)
+            
+            # [CRITICAL FIX] 截断前计算真实时长
+            total_duration = waveform.shape[1] / sr
+            
         except Exception:
             # Fallback to librosa
             y_np, _ = librosa.load(fpath, sr=48000) 
             waveform = torch.from_numpy(y_np)
             if waveform.dim() == 1: waveform = waveform.unsqueeze(0)
             
+            # [CRITICAL FIX] 截断前计算真实时长
+            total_duration = waveform.shape[1] / sr
+            
         if waveform.shape[0] > 1: waveform = waveform.mean(dim=0, keepdim=True)
         
-        # 截取前 90s
+        # 为了分析效率，截取前 90s (不影响 total_duration)
         max_frames = 90 * sr
         if waveform.shape[1] > max_frames: waveform = waveform[:, :max_frames]
         
@@ -134,11 +139,10 @@ class HybridIndexer:
         # B. 亮度 (Spectral Centroid)
         try:
             cent = librosa.feature.spectral_centroid(y=y_np, sr=sr)[0]
-            # brightness 可以不直接用，留作备用
         except: pass
         
         # C. 调性 (Key)
-        y_30s = y_np[:30*sr]
+        y_30s = y_np[:30*sr] # 取前30秒算调性足够了
         key_name = "Unknown"
         if len(y_30s) > 0:
             try:
@@ -147,6 +151,22 @@ class HybridIndexer:
             except: pass
         
         phys_valence_bias = 0.2 if "Major" in key_name else -0.2
+
+        # D. [新增] 节奏 (BPM)
+        bpm_val = 0.0
+        try:
+            # 计算 onset envelope
+            onset_env = librosa.onset.onset_strength(y=y_np, sr=sr)
+            # 计算 tempo
+            tempo = librosa.beat.beat_track(onset_envelope=onset_env, sr=sr)[0]
+            
+            # 兼容性处理：librosa 新旧版本返回值可能是 float 或 array
+            if np.ndim(tempo) == 0:
+                bpm_val = float(tempo)
+            else:
+                bpm_val = float(tempo[0]) if len(tempo) > 0 else 0.0
+        except Exception:
+            pass
 
         # === 3. 语义特征 (Multi-Window CLAP) ===
         windows = []
@@ -164,7 +184,6 @@ class HybridIndexer:
         with torch.no_grad():
             for w in windows:
                 audio_input = w.squeeze().numpy()
-                # [Fix Warning] 使用 audio= 而不是 audios=
                 inputs = self.processor(audio=audio_input, sampling_rate=48000, return_tensors="pt", padding=True).to(self.device)
                 emb = self.model.get_audio_features(**inputs)
                 window_embeds.append(emb / emb.norm(dim=-1, keepdim=True))
@@ -175,7 +194,6 @@ class HybridIndexer:
         avg_audio_embed = avg_audio_embed / avg_audio_embed.norm(dim=-1, keepdim=True)
 
         # === 4. 融合计算 ===
-        # [Fix Warning] 使用 .t() 而不是 .T
         sem_val = (avg_audio_embed @ self.text_embeds["val_pos"].t()).item() - (avg_audio_embed @ self.text_embeds["val_neg"].t()).item()
         sem_aro = (avg_audio_embed @ self.text_embeds["aro_high"].t()).item() - (avg_audio_embed @ self.text_embeds["aro_low"].t()).item()
         
@@ -195,14 +213,13 @@ class HybridIndexer:
         else:
             chorus_start = 0.0
 
-        # === 5. [Fix JSON Error] 强制类型转换 ===
+        # === 5. 返回结果 ===
         return {
-            "duration": 0.0,
-            "bpm": 0,
-            "key": str(key_name), # 确保是字符串
+            "duration": float(round(total_duration, 2)), # 真实时长
+            "bpm": int(round(bpm_val)),                  # [新增] BPM 取整
+            "key": str(key_name),
             "style": str(predicted_tags[0]),
             "tags": predicted_tags,
-            # 关键：强制转 Python float，否则 Numpy float32 会导致 JSON 报错
             "valence": float(round(final_valence, 3)),
             "arousal": float(round(final_arousal, 3)),
             "chorus_start": float(round(chorus_start, 2))

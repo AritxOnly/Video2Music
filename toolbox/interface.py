@@ -73,8 +73,6 @@ class Toolbox:
 
         try:
             data = self.impls[uid](args or {})
-            if not isinstance(data, dict):
-                return ToolResult(uid=uid, ok=False, data={}, error="Tool impl must return a dict")
             return ToolResult(uid=uid, ok=True, data=data)
         except Exception as e:
             return ToolResult(uid=uid, ok=False, data={}, error=str(e))

@@ -25,7 +25,8 @@ class MusicService:
                      query: str, 
                      visual_summary: str = "",
                      prev_track_key: Optional[str] = None, 
-                     strict_harmony: bool = True,          
+                     strict_harmony: bool = True,   
+                     forbidden_ids: List[str] = None,       
                      top_k: int = 5) -> Optional[Dict[str, Any]]:
         
         full_query = f"{query} {visual_summary}".strip()
@@ -37,8 +38,10 @@ class MusicService:
 
         # 2. 乐理过滤/重排 (The Filter/Reranker)
         filtered_candidates = []
+        forbidden_ids = forbidden_ids or []
         
         for cand in candidates:
+            if str(cand.get('id')) in forbidden_ids: continue
             cand_key = cand.get('key')
             level = harmonic_relation_level(prev_track_key, cand_key)
             cand["harmonic_level"] = level  # 0/1/2
@@ -106,10 +109,13 @@ class MusicService:
         }
 
     def _format_track(self, track_info: Dict, start_offset: float) -> Dict[str, Any]:
+        raw_dur = float(track_info.get("duration", 0.0))
+        final_dur = raw_dur if raw_dur > 10.0 else 180.0
+        
         return {
             "track_id": track_info["id"],
             "source": "library",
-            "duration": track_info.get("duration", 180.0),
+            "duration": final_dur,
             "play_start": start_offset,
             "play_duration": 0.0,
             "meta": {
@@ -118,12 +124,10 @@ class MusicService:
                 "bpm": track_info.get("bpm", 120),
                 "key": track_info.get("key", "C"),
                 "harm_score": 0.0,
-
                 "sem_score": track_info.get("sem_score", 0.0),
-
                 "sem_raw_cos": track_info.get("match_score", None),
                 "sem_components": track_info.get("sem_components", {}),
-
-                "filepath": track_info.get("filepath", "")
+                "filepath": track_info.get("filepath", ""),
+                "duration": track_info.get("duration", 180.0),
             }
         }

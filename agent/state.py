@@ -70,6 +70,9 @@ class AgentState:
     # Failure Tags (当前状态的“诊断书”)
     # e.g., {'SEM_LOW': True, 'SYNC_BAD': False}
     failure_tags: Dict[str, bool] = field(default_factory=dict)
+    
+    source_starts: Dict[int, float] = field(default_factory=dict)
+    track_cursors: Dict[str, float] = field(default_factory=dict)
 
     @property
     def is_terminal(self) -> bool:

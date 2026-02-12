@@ -78,6 +78,11 @@ class ActionGenerator:
             weights[ActionType.MERGE] *= 10.0
             weights[ActionType.CONTINUE] *= 2.0
             weights[ActionType.SEARCH] *= 0.1
+            
+        if tags.get("TRACK_OOB") or tags.get("TRACK_REMAIN_TOO_SHORT"):
+            weights[ActionType.CONTINUE] *= 0.0
+            weights[ActionType.SEARCH] *= 3.0
+            weights[ActionType.REQUERY] *= 2.0
 
         return weights
 

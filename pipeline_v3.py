@@ -36,6 +36,8 @@ from llm import get_llm
 from render.ffmpeg_renderer import FFmpegRenderer
 from clip import detect_shot_changes, cut_video, generate_timeline
 
+DISABLE_MACRO = True
+
 # === 辅助函数 ===
 def get_video_frame_data(video_path: str) -> tuple[float, float]:
     """获取视频FPS和总帧数"""
@@ -111,7 +113,7 @@ class Video2MusicAgent:
         # 你可以根据视频总时长调整 min_duration，比如总长300s，每段至少20s
         structured_movements = self.macro_planner.plan(raw_movements, min_duration=15.0)
         
-        if not structured_movements:
+        if not structured_movements or DISABLE_MACRO:
             print("[Error] Macro planning failed. Using raw movements.")
             structured_movements = raw_movements
 
@@ -131,6 +133,8 @@ class Video2MusicAgent:
         if not audio_plan:
             print("[Warning] No audio plan generated. Skipping render.")
             return
+        
+        print(f'Audio Plan >>> \n', audio_plan)
 
         self.renderer.render(video_path, audio_plan, output_abs)
         
